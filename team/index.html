@@ -1,0 +1,23 @@
+---
+layout: default
+title: Toulouse JUG - Les membres
+activeLink: team
+---
+
+<div class="row">
+	<div class="col-md-8">
+		<h1>Les membres du JUG</h1>
+		<ul>
+		{% for member in site.data.members %}
+
+			<li>
+			    <a name="{{ member.id }}" href="https://github.com/{{ member.github }}">
+			      {{ member.name }}
+			    </a>
+			</li>
+
+		{% endfor %}
+		</ul>
+	</div>
+	{% include right-part.html %}
+</div>

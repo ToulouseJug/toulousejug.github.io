@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="navheader">
+      <img src="{{site.baseurl}}images/toulousejug.png" alt="{{ page.title }}" />
+    </div>
+</div>
+
+<nav class="navbar navbar-inverse" role="navigation">  
+  <div class="container">
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+      	<li><img id="logo-jug" src="{{site.baseurl}}images/logo-jug.png" alt="{{ page.title }}" /></li>
+      	{% for menulink in site.data.menu-header-links %}
+      		{% if menulink.id == page.activeLink %}
+			<li class="active">
+			{% else %}
+			<li>
+			{% endif %}		
+      			<a href="{{ site.baseurl }}{{ menulink.link }}">{{ menulink.name }}</a>
+      		</li>
+		{% endfor %}
+      </ul>
+	  <ul class="nav nav-pills navbar-right">
+        <li>
+			<button type="button" class="btn btn-primary navbar-btn">Adhérer au JUG</button>
+		</li>
+      </ul>
+    </div>
+  </div>
+</nav>

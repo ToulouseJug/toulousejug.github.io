@@ -1,0 +1,29 @@
+body {
+	background-image:url("../images/fond-java.png");
+	background-position:75% 0%;
+	background-repeat:no-repeat;
+}
+
+.container img {
+	padding : 10px;
+}
+
+.navheader {
+	margin: 10px;
+	width: 100%;
+	left: 0;
+	right:0;
+}
+
+.navbar {
+	border-radius: 0;
+	border-width: 0 0 1px;
+}
+
+#logo-jug {
+	padding:0;
+	margin-top:7px;
+	margin-right:7px;
+	width:35px;
+	opacity: 0;
+}

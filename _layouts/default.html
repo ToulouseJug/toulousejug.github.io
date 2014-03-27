@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link href="{{site.baseurl}}css/bootstrap.min.css" rel="stylesheet">
+		<link href="{{site.baseurl}}css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    	
+    	{% include header.html %}
+
+	    <div id="content" class="container">
+	    	{{ content }}
+	    	<footer>
+        		<p>Toulouse JUG</p>
+     		</footer>
+	    </div>
+       
+        <script src="{{site.baseurl}}js/jquery-1.11.js"></script>
+    	<script src="{{site.baseurl}}js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$(window).scroll(function(){
+			    if($(this).scrollTop()>=120){
+			        $('.navbar').addClass('navbar-fixed-top');
+				    $('#logo-jug').stop().animate({opacity: 1.0}, 300);
+				    $('#content').css("padding-top", "70px");
+			    }
+			    else {
+			    	$('.navbar').removeClass('navbar-fixed-top');
+				    $('#logo-jug').stop().animate({opacity: 0.0}, 300);
+				    $('#content').css("padding-top", "0px");
+			    }
+			});
+		});
+	</script>
+    </body>
+</html>

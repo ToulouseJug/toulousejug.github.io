@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<p class="meta">le {{ page.date | date: "%d/%m/%Y"}} par {% include team-member-link.html id=page.author %}</p>
+
+<div class="post">
+{{ content }}
+</div>

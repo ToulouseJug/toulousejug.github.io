@@ -1,0 +1,6 @@
+name: Toulouse JUG
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+paginate: 5

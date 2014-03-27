@@ -1,0 +1,18 @@
+- id: accueil
+  name: Accueil
+  link:
+- id: about
+  name: A propos
+  link: about
+- id: team
+  name: Equipe
+  link: team
+- id: sponsors
+  name: Sponsors
+  link: sponsors
+- id: trombinoscope
+  name: Trombinoscope
+  link: trombinoscope
+- id: videos
+  name: Vidéos
+  link: videos

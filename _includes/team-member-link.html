@@ -1,0 +1,16 @@
+<!-- 
+	Genere un lien vers la description d'un membre.
+
+	@param id : identifiant du membre
+-->
+{% if include.id != '' %}
+
+	{% for member in site.data.members %}
+
+		{% if member.id == include.id %}
+			<a href="{{site.baseurl}}team#{{member.id}}">{{ member.name }}</a>
+		{% endif %}		
+
+	{% endfor %}
+
+{% endif %}
