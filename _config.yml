@@ -1,6 +1,8 @@
 name: Toulouse JUG
+description: Toulousains et passionnés des technos de la plateforme Java
 markdown: redcarpet
 pygments: true
 safe: true
 lsi: false
 paginate: 5
+url: http://toulousejug.github.io
