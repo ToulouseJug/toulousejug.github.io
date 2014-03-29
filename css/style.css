@@ -20,10 +20,10 @@ body {
 	border-width: 0 0 1px;
 }
 
-#logo-jug {
+#minilogo-jug {
 	padding:0;
-	margin-top:7px;
-	margin-right:7px;
+	margin-top:8px;
+	margin-right:10px;
 	width:35px;
 	opacity: 0;
 }
