@@ -30,11 +30,12 @@
           </li>
         {% endfor %}
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <button type="button" class="btn btn-primary navbar-btn" onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=60944&amp;code=11628&amp;color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;">Adhérer au JUG</button>
-        </li>
-      </ul>
+      <div class="btn-group navbar-right">
+        <a class="btn navbar-btn btn-default btn-google-plus" href="http://groups.google.com/group/toulouse-jug"><i class="fa fa-envelope"></i></a>
+        <a class="btn navbar-btn btn-default btn-twitter" href="https://twitter.com/toulousejug"><i class="fa fa-twitter"></i></a>
+        <a class="btn navbar-btn btn-default btn-github" href="https://github.com/toulousejug"><i class="fa fa-github"></i></a>
+        <a class="btn navbar-btn btn-warning" href="{{ site.baseurl }}feed"><i class="fa fa-rss"></i></a>
+      </div>
     </div>
   </div>
 </nav>
