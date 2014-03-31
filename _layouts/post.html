@@ -4,6 +4,15 @@ layout: default
 
 <div class="row">
 	<div class="col-md-8">
+		<ul class="pager">
+		  {% if page.previous != nil %}
+		  <li class="previous"><a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a></li>
+		  {% endif %}
+		  {% if page.next != nil %}
+		  <li class="next"><a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a></li>
+		  {% endif %}
+		</ul>
+
 		<h2>{{ page.title }}</h2>
 		<p class="meta">le {{ page.date | date: "%d/%m/%Y"}} par {% include team-member-link.html id=page.author %}</p>
 
