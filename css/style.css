@@ -27,3 +27,13 @@ body {
 	width:35px;
 	opacity: 0;
 }
+
+#sponsors {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sponsors li {
+	margin-bottom: 20px;
+}
