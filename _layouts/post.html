@@ -2,9 +2,14 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<p class="meta">le {{ page.date | date: "%d/%m/%Y"}} par {% include team-member-link.html id=page.author %}</p>
+<div class="row">
+	<div class="col-md-8">
+		<h2>{{ page.title }}</h2>
+		<p class="meta">le {{ page.date | date: "%d/%m/%Y"}} par {% include team-member-link.html id=page.author %}</p>
 
-<div class="post">
-{{ content }}
+		<div class="post">
+		{{ content }}
+		</div>
+	</div>
+	{% include right-part.html %}
 </div>
