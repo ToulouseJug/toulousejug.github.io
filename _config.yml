@@ -6,3 +6,4 @@ safe: true
 lsi: false
 paginate: 5
 url: http://toulousejug.github.io
+encoding: UTF-8
