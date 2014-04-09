@@ -7,6 +7,14 @@ activeLink: trombinoscope
 <div class="row">
 	<div class="col-md-8">
 		<h1>Trombinoscope</h1>
+		{% for member in site.data.members %}
+			<li>
+			    <a name="{{ member.id }}" href="https://github.com/{{ member.github }}">
+			      {{ member.name }}
+			    </a>
+			</li>
+
+		{% endfor %}
 	</div>
 	{% include right-part.html %}
 </div>

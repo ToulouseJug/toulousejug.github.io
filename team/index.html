@@ -6,17 +6,22 @@ activeLink: team
 
 <div class="row">
 	<div class="col-md-8">
-		<h1>Les membres du JUG</h1>
+		<h1>Équipe</h1>
+		Le bureau :
 		<ul>
-		{% for member in site.data.members %}
-
-			<li>
-			    <a name="{{ member.id }}" href="https://github.com/{{ member.github }}">
-			      {{ member.name }}
-			    </a>
-			</li>
-
-		{% endfor %}
+			<li> Baptiste Mathus – Président</li>
+			<li> Sylvain Wallez – Vice-président</li>
+			<li> Alexis Krier – Trésorier</li>
+			<li> Nicolas Zozol – Secrétaire</li>
+		</ul>
+		Les membres du CA :
+		<ul>
+			<li>Gaël Blondelle</li>
+			<li>Nicolas Deverge</li>
+			<li>Augustin Gjini</li>
+			<li>Leonardo Noleto</li>
+			<li>Michaël Pailloncy</li>
+			<li>Julien Vermillard</li>
 		</ul>
 	</div>
 	{% include right-part.html %}
