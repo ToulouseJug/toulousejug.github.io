@@ -7,7 +7,7 @@ comments: true
 ---
 <a href="http://www.jugevents.org/jugevents/event/36705" target="_blank"><strong><span style="color: #800000;">Réservez votre place sur le site </span><span style="color: #800000;">JugEvent</span><span style="color: #800000;"> !!</span></strong></a>
 <h2>News &amp; JQuizz</h2>
-<a href="http://toulousejug.org/wp-content/uploads/2011/04/quizz.jpg"><img class="alignleft size-full wp-image-31" title="quizz" src="http://toulousejug.org/wp-content/uploads/2011/04/quizz.jpg" alt="quizz" width="75" height="97" /></a>On vous propose une nouvelle rubrique ce mois-ci:
+<a href="http://toulousejug.org/wp-content/uploads/2011/04/quizz.jpg"><img class="size-full wp-image-31" title="quizz" src="http://toulousejug.org/wp-content/uploads/2011/04/quizz.jpg" alt="quizz" width="75" height="97" /></a>On vous propose une nouvelle rubrique ce mois-ci:
 <ul>
 	<li>Les <strong>news Java</strong> du mois qui nous ont marqué (ou qui vous ont marqué si  vous nous les envoyez sur la mailing list en mettant [news] dans le  sujet).</li>
 	<li>Un petit <strong>quizz </strong>pour vous réveiller.</li>
@@ -23,6 +23,6 @@ Retour d’expérience sur un projet dans le domaine de la restauration  collect
 
 On parlera aussi d’intégration continue avec Jenkins, de gestion de  la documentation technique, de conception émergente, de refactoring de  base de données etc...
 <h2>Apéro &amp; JUGathon</h2>
-<a href="http://toulousejug.org/wp-content/uploads/2011/04/chequier.jpg"><img class="alignleft size-thumbnail wp-image-32" title="chequier" src="http://toulousejug.org/wp-content/uploads/2011/04/chequier-150x150.jpg" alt="Apportez la cotisation" width="150" height="150" /></a>On finira la soirée autour d’un verre histoire de continuer nos discussions enflammées.
+<a href="http://toulousejug.org/wp-content/uploads/2011/04/chequier.jpg"><img class="size-thumbnail wp-image-32" title="chequier" src="http://toulousejug.org/wp-content/uploads/2011/04/chequier-150x150.jpg" alt="Apportez la cotisation" width="150" height="150" /></a>On finira la soirée autour d’un verre histoire de continuer nos discussions enflammées.
 Grande nouvelle, on a enfin eu le retour de la préfecture, donc l’association du JUG est enfin créée.
 N’oubliez pas votre chéquier, on sera là pour prendre recevoir vos <strong>cotisations de 20 euros</strong>.

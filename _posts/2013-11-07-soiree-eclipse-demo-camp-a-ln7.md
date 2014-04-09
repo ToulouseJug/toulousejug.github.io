@@ -6,7 +6,10 @@ author: gblondelle
 comments: true
 ---
 Le jeudi 28 Novembre à 17h30 à l'N7, avec la présence de Mike Milinkovich, Directeur Executif de la Fondation Eclipse.
-<p style="text-align: center;"> <img class="alignnone" alt="" src="http://mmilinkov.files.wordpress.com/2007/07/smileymike2.jpg" width="87" height="114" />      <img class="alignnone" alt="" src="http://wiki.eclipse.org/images/b/b7/Eclipse_DemoCamp_New.jpg" width="139" height="113" /></p>
+<p style="text-align: center;"> 
+	<img class="alignnone" alt="" src="http://mmilinkov.files.wordpress.com/2007/07/smileymike2.jpg" width="87" height="114" />      
+	<img class="alignnone" alt="" src="http://wiki.eclipse.org/images/b/b7/Eclipse_DemoCamp_New.jpg" width="139" height="113" />
+</p>
 Les démos camp Eclipse, c'est deux fois par an (en juin et en novembre) une série d'événement pour rencontrer la communauté Eclipse de votre région.
 
 Celui de Toulouse est co-organisé par le JUG et la fondation Eclipse et hébergé par l'N7.

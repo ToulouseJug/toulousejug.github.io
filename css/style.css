@@ -59,7 +59,23 @@ body {
 	margin-right: auto
 }
 
+/** necessaires pour reprise contenu ancien site : **/
 img.alignright {
 	display: inline;
     float: right;
+}
+img.alignnone {
+	display: inline;
+	float: none;
+}
+img.alignleft {
+	display: inline;
+    float: left;
+}
+img.alignleftblock {
+	display: block;
+    margin-left:0px;
+}
+.clear {
+	clear: both;
 }
