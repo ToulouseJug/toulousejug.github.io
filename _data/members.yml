@@ -1,3 +1,10 @@
-- name: Super Jugger
-  id: myid
-  github: mygithubid
+- name: Alexis Krier
+  id: akrier
+- name: Baptiste Mathus
+  id: baptiste
+  github: batmat
+- name: Gaël Blondel
+  id: gblondelle
+- name: Nicolas Zozol
+  id: nicorama
+  github: nicolas-zozol

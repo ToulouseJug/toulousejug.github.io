@@ -37,3 +37,29 @@ body {
 #sponsors li {
 	margin-bottom: 20px;
 }
+
+.previous a {
+	text-align: left;
+	max-width: 350px;
+}
+.next a {
+	text-align: right;
+	max-width: 350px;
+}
+
+.post img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.post iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+img.alignright {
+	display: inline;
+    float: right;
+}
