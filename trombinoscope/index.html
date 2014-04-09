@@ -7,14 +7,34 @@ activeLink: trombinoscope
 <div class="row">
 	<div class="col-md-8">
 		<h1>Trombinoscope</h1>
-		{% for member in site.data.members %}
-			<li>
-			    <a name="{{ member.id }}" href="https://github.com/{{ member.github }}">
-			      {{ member.name }}
-			    </a>
-			</li>
-
-		{% endfor %}
+		<table class="table">
+			<thead>
+				<tr>
+					<th style="vertical-align:middle; text-align:center;">Sa tête</th>
+					<th style="vertical-align:middle; text-align:center;">Qui</th>
+					<th style="vertical-align:middle; text-align:center;">Son chez lui</th>
+					<th style="vertical-align:middle; text-align:center;">Que fait-il</th>
+				</tr>
+			</thead>
+			<tbody>
+			{% for member in site.data.members %}
+				<tr name="{{ member.id }}">
+					<td style="vertical-align:middle; text-align:center;">
+						<img class="member-thumbnail-trombi" src="{{ member.img }}" />
+					</td>
+					<td style="vertical-align:middle; text-align:center;">
+						{{ member.name }}
+					</td>
+					<td style="vertical-align:middle; text-align:center;">
+						<a href="{{ member.link }}">{{ member.link }}</a>
+					</td>
+					<td style="vertical-align:middle; text-align:center;">
+						{{ member.description }}
+					</td>
+				</tr>
+			{% endfor %}
+			</tbody>
+		</table>
 	</div>
 	{% include right-part.html %}
 </div>

@@ -59,6 +59,11 @@ body {
 	margin-right: auto
 }
 
+.member-thumbnail-trombi {
+	max-width: 100px;
+	max-height: 100px;
+}
+
 /** necessaires pour reprise contenu ancien site : **/
 img.alignright {
 	display: inline;
