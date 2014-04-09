@@ -18,12 +18,12 @@ activeLink: trombinoscope
 			</thead>
 			<tbody>
 			{% for member in site.data.members %}
-				<tr name="{{ member.id }}">
+				<tr>
 					<td style="vertical-align:middle; text-align:center;">
 						<img class="member-thumbnail-trombi" src="{{ member.img }}" />
 					</td>
 					<td style="vertical-align:middle; text-align:center;">
-						{{ member.name }}
+						<a name="{{ member.id }}">{{ member.name }}</a>
 					</td>
 					<td style="vertical-align:middle; text-align:center;">
 						<a href="{{ member.link }}">{{ member.link }}</a>
