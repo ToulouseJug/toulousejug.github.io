@@ -5,7 +5,7 @@ date: 2012-01-28 18:05
 author: nicorama
 comments: true
 ---
-<p>Ce retour fait suite au gain d’une licence JRebel lors de la <a href="http://toulousejug.org/2011/11/22/retour-sur-la-soiree-play/">soirée du Toulouse JUG autour du Framework Play</a>.</p>
+<p>Ce retour fait suite au gain d’une licence JRebel lors de la <a href="{{site.baseurl}}2011/11/22/retour-sur-la-soiree-play.html">soirée du Toulouse JUG autour du Framework Play</a>.</p>
 <h3>Présentation rapide</h3>
 <p><a href="http://zeroturnaround.com/jrebel/">JRebel </a>est un outil proposé par la société ZeroTurnaround à destination des développeurs ayant pour but d’améliorer leur productivité. Pour cela, il fournit un système de prises en compte à chaud des modifications sans nécessiter le redéploiement de l’application ou le redémarrage du serveur.</p>
 <p>Il se présente sous la forme d’un plugin « java agent » à déclarer au niveau de la JVM du serveur d’application et d’un fichier de configuration « rebel.xml » à placer à la racine du répertoire contenant les fichiers « .class » pour chaque application et module du projet. A l’exécution, cet agent surveille les classpath indiqués dans le fichier « rebel.xml » puis agit sur le Class Loader en chargeant les nouvelles versions des classes (d’après ce que j’ai pu comprendre, il s’agit d’un monitoring des classpath en se basant sur les timestamp des fichiers .class pour détecter les modifications).</p>
