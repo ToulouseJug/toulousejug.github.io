@@ -12,7 +12,7 @@ activeLink: sponsors
 			{% for sponsor in site.data.sponsors %}
 		  	<a href="{{ sponsor.url }}" class="list-group-item" target="_blank">
 		    	<img src="{{ site.baseurl }}{{ sponsor.imgPath }}" alt="{{ sponsor.name }}" class="img-thumbnail">
-		    	<p class="list-group-item-text" >{{ sponsor.description }}</p>
+		    	<div class="list-group-item-text sponsor-description" >{{ sponsor.description }}</div>
 		  	</a>
 		  	{% endfor %}
 		</div>

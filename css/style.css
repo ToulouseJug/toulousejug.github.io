@@ -38,6 +38,11 @@ body {
 	margin-bottom: 20px;
 }
 
+.sponsor-description {
+	margin-top: 1em;
+	text-align:justify;
+}
+
 .previous a {
 	text-align: left;
 	max-width: 350px;
