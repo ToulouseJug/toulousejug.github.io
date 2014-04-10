@@ -5,7 +5,7 @@ date: 2011-03-05 12:42
 author: baptiste
 comments: true
 ---
-<a href="http://toulousejug.org/wp-content/uploads/2011/03/Logo_whatsnextparis22.png"><img class="alignright size-full wp-image-43" title="Logo_whatsnextparis2" src="http://toulousejug.org/wp-content/uploads/2011/03/Logo_whatsnextparis22.png" alt="" width="223" height="314" /></a>
+<a href="{{site.baseurl}}images/Logo_whatsnextparis22.png"><img class="alignright size-full wp-image-43" title="Logo_whatsnextparis2" src="{{site.baseurl}}images/Logo_whatsnextparis22.png" alt="" width="223" height="314" /></a>
 
 La nouvelle équipe du Toulouse JUG a le plaisir de vous annoncer son partenariat avec la conférence What's Next, organisée à Paris les 26&amp;27 mai 2011 au Grand Rex.
 <div>

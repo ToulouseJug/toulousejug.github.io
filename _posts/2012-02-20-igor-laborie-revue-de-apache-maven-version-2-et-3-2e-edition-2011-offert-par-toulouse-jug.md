@@ -6,7 +6,7 @@ author: nicorama
 comments: true
 ---
 <p><img class="alignleft" title="Apache Maven" src="http://www.pearson.fr/Resources/Titles/27440100487310/Images/27440100487310M.gif" alt="" width="152" height="188" /></p>
-<h2>Apache Maven, Version 2 et 3, 2e édition</h2>
+<h3>Apache Maven, Version 2 et 3, 2e édition</h3>
 <h3>Présentation rapide</h3>
 <p style="text-align: justify;">Ce livre est écrit par Nicolas de Loof (CloudBees) et Arnaud Héritier (eXo Platform), avec de nombreuses participations de la communauté francophone.</p>
 <p style="text-align: justify;">Pour rappel Arnaud était venu nous présenter <a href="  http://www.slideshare.net/aheritier/toulouse-jug-apache-maven-3x">Maven 3 lors de la session du 16 Mars 2011.</a> J'espère que l'on verra Nicolas bientôt sur Toulouse, par exemple pour nous présenter Cloudbees ?</p>

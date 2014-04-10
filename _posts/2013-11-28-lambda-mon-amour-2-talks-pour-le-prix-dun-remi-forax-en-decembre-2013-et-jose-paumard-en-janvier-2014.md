@@ -15,7 +15,7 @@ Nous avons donc trouvé important de planifier plusieurs sessions pour découvri
 	<li>Mardi 10 décembre 2013 : Rémi Forax nous expliquera "pourquoi les lambdas dans Java 8 sont ce qu'elles sont et pourquoi Java ne sera plus jamais le même".</li>
 	<li>Mercredi 15 janvier 2014 : José Paumard nous présentera le nouveau visage de l'API Collection</li>
 </ol>
-<h2 id="lambdaHistory">Lambdas, from the great closure war to Java 8, an unexpected journey, <em>par Rémi Forax</em></h2>
+<h3 id="lambdaHistory">Lambdas, from the great closure war to Java 8, an unexpected journey, <em>par Rémi Forax</em></h3>
 Rémi est professeur et travaille dans l'équipe qui implémente les lambdas dans le JDK. Il fait partie des deux Expert Groups de la <a href="http://jcp.org/en/jsr/detail?id=292">JSR 292, sur invokedynamic</a>, et de la <a href="http://jcp.org/en/jsr/detail?id=335">JSR 335 (sur les lambdas, donc)</a>.
 
 Abstract :
@@ -26,7 +26,7 @@ Puis je montrerai quelques exemples d'utilisation des lambdas
 pour illustrer la façon dont les lambdas impactent le design d'APIs.</p>
 <p style="padding-left: 30px;">Pour l'instant j'ai pas prévu de montrer de code assembleur, mais qui sait ?</p>
 <a href="http://www.jugevents.org/jugevents/event/show.html?id=52745">Inscrivez-vous rapidement sur JugEvents</a>, les places seront chères :-) !
-<h2 id="Collection">Java 8 : lambdas, Streams et Collectors, le nouveau visage de l'API Collection, <em>par José Paumard</em></h2>
+<h3 id="Collection">Java 8 : lambdas, Streams et Collectors, le nouveau visage de l'API Collection, <em>par José Paumard</em></h3>
 José est professeur, membre du Paris JUG et rompu aux plus grosses conférences. <a href="http://www.devoxx.be/dv13-jos-paumard.html?presId=3540">Son talk sur le sujet à Devoxx 2013</a>, il y a quelques semaines, a été parmi les mieux notés par l'assistance.
 
 Abstract :
