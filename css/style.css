@@ -4,6 +4,16 @@ body {
 	background-repeat:no-repeat;
 }
 
+footer {
+	border-top: 2px solid #dedede;
+	text-align:center;
+}
+
+footer .nav-pills > li {
+    float:none;
+    display:inline-block;
+}
+ 
 .container img {
 	padding : 10px;
 }

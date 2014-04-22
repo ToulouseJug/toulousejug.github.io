@@ -5,5 +5,10 @@ pygments: true
 safe: true
 lsi: false
 paginate: 5
-url: http://toulousejug.github.io
 encoding: UTF-8
+
+url: http://toulousejug.github.io
+linkGoogleGroup: http://groups.google.com/group/toulouse-jug
+linkTwitter: https://twitter.com/toulousejug
+linkGithub: https://github.com/toulousejug
+linkRSSFeeds: /feed
