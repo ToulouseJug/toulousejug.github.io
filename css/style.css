@@ -5,13 +5,19 @@ body {
 }
 
 footer {
-	border-top: 2px solid #dedede;
+	border-top: 1px solid #dedede;
+	margin-top: 30px;
 	text-align:center;
 }
 
 footer .nav-pills > li {
     float:none;
     display:inline-block;
+    margin: 10px;
+}
+
+footer p {
+	font-size: 10px;
 }
  
 .container img {
