@@ -4,9 +4,6 @@
 - id: about
   name: A propos
   link: about
-- id: team
-  name: Equipe
-  link: team
 - id: sponsors
   name: Sponsors
   link: sponsors
