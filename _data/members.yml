@@ -10,6 +10,11 @@
   id: baptiste
   img: https://avatars3.githubusercontent.com/u/223853?s=460
   link: http://batmat.net
+- name: Sylvain Wallez
+  id: swallez
+  img: http://0.gravatar.com/avatar/12a4c416e403079834291ac6d61461d7
+  link: http://bluxte.net/
+  description: "Développeur et architecte freelance, au boulot sur <a href='http://actoboard.com'>Actoboard</a>"
 - name: Nicolas Zozol
   id: nicorama
   img: http://toulousejug.org/wp-content/uploads/2011/09/gravatar.png
