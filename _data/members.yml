@@ -4,7 +4,7 @@
   link: http://www.gblondelle.com/
 - name: Alexis Krier
   id: akrier
-  img: http://toulousejug.org/wp-content/uploads/2012/09/moi_old.jpg
+  img: /images/alexis.jpg
   link: 
 - name: Baptiste Mathus
   id: baptiste
@@ -17,5 +17,6 @@
   description: "Développeur et architecte freelance, au boulot sur <a href='http://actoboard.com'>Actoboard</a>"
 - name: Nicolas Zozol
   id: nicorama
-  img: http://toulousejug.org/wp-content/uploads/2011/09/gravatar.png
+  img: /images/nicolas.jpg
   link: http://www.robusta.io/
+  description: "Formateur, Developpeur et monoBoss chez Robusta Code"
