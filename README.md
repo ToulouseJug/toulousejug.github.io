@@ -19,7 +19,38 @@ L'idéal est donc de suivre gentiment les [conseils d'installation](http://jekyl
         
         # se déplacer sur le site
         cd toulousejug.github.io/
-        jekyll serve 
+        # create a server, and regenerate _site for each modifications
+        jekyll serve --watch
         
         #et voila : http://localhost:4000/
         # classic Git pour modificer le site
+
+Fonctionnement basic
+-----
+
+Jekyll génère un répertoire nommé `_source` à partir des autres fichiers. Il ne faut donc pas chercher à modifier directement ce répertoire.
+
+_config.yml
+----
+
+C'est le fichier de configuration principal
+
+
+                name: Toulouse JUG
+                description: Toulousains et passionnés des technos de la plateforme Java
+                # dialect markdown
+                markdown: redcarpet
+                # seems deprecated
+                pygments: true
+                safe: true
+                lsi: false
+                paginate: 5
+                encoding: UTF-8
+
+                # needed for DNS redirection
+                baseurl: /
+                url: http://toulousejug.github.io
+                linkGoogleGroup: http://groups.google.com/group/toulouse-jug
+                linkTwitter: https://twitter.com/toulousejug
+                linkGithub: https://github.com/toulousejug
+                linkRSSFeeds: /feed
