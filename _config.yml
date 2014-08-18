@@ -7,6 +7,7 @@ lsi: false
 paginate: 5
 encoding: UTF-8
 
+baseurl: /
 url: http://toulousejug.github.io
 linkGoogleGroup: http://groups.google.com/group/toulouse-jug
 linkTwitter: https://twitter.com/toulousejug
