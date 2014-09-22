@@ -4,6 +4,11 @@ body {
 	background-repeat:no-repeat;
 }
 
+table, tr, th, td {
+	border: 1px solid;
+	padding: 0.3em;
+}
+
 footer {
 	border-top: 1px solid #dedede;
 	margin-top: 30px;
