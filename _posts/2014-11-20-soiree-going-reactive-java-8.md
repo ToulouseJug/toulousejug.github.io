@@ -8,9 +8,14 @@ comments: true
 
 Jeudi 20 novembre, nous organisons une nouvelle soirée sur la programmation réactive en Java 8, à partir de 18h30 à l'Epitech, au **40 boulevard de la Marquette**.
 
+<span style="color:darkred; font-weight:bold">Warning : </span>la conférence est en Anglais !
+
 **Going Reactive with Java 8**
 
-Java 8's lambdas make building Reactive applications a whole lot easier and cleaner. Through copious code examples this session will show you how to build event-driven, scalable, resilient, and responsive applications with Java 8, Play Framework and Akka. On the web side you will learn about using lambdas for async & non-blocking requests & WebSockets. You will also learn how the actor model in Akka pairs well with lambdas to create an event-driven foundation that provides concurrency, clustering and fault-tolerance.
+
+Les Lambdas de Java 8 facilitent la construction d'applications Réactives. A travers de nombreux exemples de code, cette session vous montrera comment construire des applications event-driven, scalables et résilientes avec Java 8, Play! Framework 2 et Akka. 
+
+Sur la partie web, vous apprendrez à utiliser les lambdas pour des requêtes asynchrones et non bloquantes, ainsi que les Websockets. Vous verrez comment les lambdas facilitent l'utilisation du modèle d'Actor avec Akka pour créer les fondations d'une application event-driven basée sur la concurrence, en cluster et fault-tolerant.
 
 Vous retrouverez donc les sujets suivants :
 
