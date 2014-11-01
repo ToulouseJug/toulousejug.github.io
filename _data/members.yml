@@ -2,6 +2,10 @@
   id: gblondelle
   img: http://www.gblondelle.com/blog/wp-content/uploads/2009/08/gael-blondelle-medium-bd-trans.png
   link: http://www.gblondelle.com/
+- name: Vincent Ferries
+  id: vferries
+  img: https://lh6.googleusercontent.com/-snRgNoQL9i8/TjG_0o0fmmI/AAAAAAAABqU/CmT75aHP_e8/w695-h693-no/Moi.png
+  link: http://blog.genigraph.fr/author/vferries/
 - name: Alexis Krier
   id: akrier
   img: /images/alexis.jpg
