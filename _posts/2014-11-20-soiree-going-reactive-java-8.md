@@ -6,7 +6,7 @@ author: vferries
 comments: true
 ---
 
-Jeudi 20 novembre, nous organisons une nouvelle soirée sur la programmation réactive en Java 8, à partir de 18h30 à l'Epitech, au **40 boulevard de la Marquette**.
+Jeudi 20 novembre, nous organisons une nouvelle soirée sur la programmation réactive en Java 8, à partir de 18h30 à l'Epitech, au **40 boulevard de la Marquette** ([Inscrivez vous](http://jugevents.org/jugevents/event/show.html?id=55010)).
 
 <span style="color:darkred; font-weight:bold">Warning : </span>la conférence est en Anglais !
 
