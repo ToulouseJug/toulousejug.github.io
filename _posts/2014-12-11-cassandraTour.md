@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jeudi 11 décembre 2014 - Soirée Cassandra et toulibre !
-date: 2014-11-01 17:30
+date: 2014-12-11 17:30
 author: akrier
 comments: true
 ---
