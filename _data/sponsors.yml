@@ -4,3 +4,14 @@
   description: 
      "<p>Objet Direct propose ses services en Conseil IT, en réalisation des projets en méthodologie Agile, en formation et accompagnement.</p><p>Notre expertise technique porte principalement sur les sujets suivants : <ul><li>l’architecture des SI (SOA, modernisation des SI, Cloud Computing, No SQL, …),</li><li>les RIA (GWT, Wicket, Jquery, HTML5 & CSS3, Responsive design, JSF,…),</li><li>Le développement spécifique sous framework Java (Spring, Hibernate, …),</li><li>le développement d’applications mobiles (Phonegap) & les applications Open Source (Hippo CMS, Konakart, Drupal… )</li></ul>"
 
+
+- name: Epitech
+  imgPath: images/sponsors/epitech.png
+  url: http://www.epitech.eu/
+  description: L'Epitech est une école d'informatique. Elle nous accueille gratuitement dans ses locaux depuis plusieurs années. Merci à elle !
+
+- name: Structure 101
+  imgPath: images/sponsors/structure101.png
+  url: http://structure101.com/
+  description: Structure101 est un outil d'analyse permettant d'organiser une base de code. Structure101 nous permet d'offrir une licence par soirée aux participants du JUG. Merci à eux !
+  
