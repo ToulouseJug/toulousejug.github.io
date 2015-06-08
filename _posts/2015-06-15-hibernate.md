@@ -8,7 +8,7 @@ comments: true
 
 Attention adresse différente: *Epitech Toulouse 14 rue Claire Pauilhac*
 
-**On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles? 50min**
+**On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard)50min**
 
 Vous voulez savoir ce que la persistance dans du NoSQL implique dans une architecture Java?
 
@@ -28,7 +28,7 @@ Parmi les défis relevés, on pourra y voir:
 
 Venez discuter et débattre.
 
-**Hibernate BoF 20mins**
+**Hibernate BoF 20mins (Emmanuel Bernard)**
 
 On prendra le reste du temps pour discuter des autres projets Hibernate:
 
@@ -42,11 +42,13 @@ On prendra le reste du temps pour discuter des autres projets Hibernate:
 
 On fera ~ 55 min pour la première présentation et ~ 20 mins pour la BoF si ça rentre pour vous.
 
-**Multitenancy avec CDI/JPA et Spring/Hibernate 30min**
+**Multitenancy avec CDI/JPA et Spring/Hibernate (Florian Beaufumé 30min)**
 
 Les applications multi-clients, par exemple en cloud, isolent souvent les données de leurs différents clients. Il existe plusieurs stratégies de mise en oeuvre dont la multitenancy qui permet à une unique instance applicative de servir dynamiquement des données isolées de clients différents. Nous allons présenter le principe de multitenancy, ses variantes et montrer deux implémentations Java, l'une à base de CDI et JPA, l'autre à base de Spring et Hibernate.
 
 Bio :
+
+Emmanuel Bernard : https://emmanuelbernard.com/bio/
 
 Florian Beaufumé est un architecte logiciel et spécialiste Java et web de 17 ans d'expérience. Il a créé sa société, Adeliosys, en 2007 et est depuis un consultant indépendant. Il a travaillé pour des grands comptes, des éditeurs de logiciels, des SSII et des startups dans les domaines tels que les banques, les assurances et l'aéronautique.
 
