@@ -6,7 +6,7 @@ author: akrier
 comments: true
 ---
 
-Attention adresse différente: *Epitech Toulouse 14 rue Claire Pauilhac*
+Attention adresse différente: *Epitech Toulouse 14 rue Claire Pauilhac* ([Inscrivez vous](http://jugevents.org/jugevents/event/show.html?id=56377)).
 
 **On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard)50min**
 
