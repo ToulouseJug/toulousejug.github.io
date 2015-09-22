@@ -6,7 +6,7 @@ author: akrier
 comments: true
 ---
 
-Adresse : *Epitech Toulouse 14 rue Claire Pauilhac* ([Inscrivez vous](http://www.meetup.com/fr/Toulouse-Java-User-Group/events/224974824)).
+Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l'Epitech a plusieurs sites) ([Inscrivez vous](http://www.meetup.com/fr/Toulouse-Java-User-Group/events/224974824)).
 
 **WebSocket avec Java EE 7(Florian Beaufumé)**
 
