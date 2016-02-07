@@ -1,3 +1,7 @@
+- name: Devoxx France
+  imgPath: images/devoxx2016.png
+  url: http://www.devoxx.fr
+
 - name: Objet Direct
   imgPath: images/sponsors/Viseo.png
   url: http://www.viseo.com/fr
