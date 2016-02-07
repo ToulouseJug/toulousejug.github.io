@@ -12,18 +12,25 @@ L'idéal est donc de suivre gentiment les [conseils d'installation](http://jekyl
 
         # ne pas oublier le sudo...
         sudo gem install jekyll
-        
+
         # cloner le site
         cd ~/mes-super-projets
         git clone https://github.com/ToulouseJug/toulousejug.github.io.git
-        
+
         # se déplacer sur le site
         cd toulousejug.github.io/
         # create a server, and regenerate _site for each modifications
         jekyll serve --watch
-        
+
         #et voila : http://localhost:4000/
         # classic Git pour modificer le site
+
+Utilisation avec Docker
+-----
+
+        docker run -it --rm --volume=$(pwd):/srv/jekyll -p 4000:4000 jekyll/jekyll jekyll s
+
+Voir [utilisation de l'image Docker](https://github.com/jekyll/docker).
 
 Fonctionnement basic
 -----

@@ -30,3 +30,8 @@
   img: /images/nicolas.jpg
   link: http://www.robusta.io/
   description: "Formateur, Developpeur et monoBoss chez Robusta Code"
+- name: Kevin Davin
+  id: davinkevin
+  img: http://2.gravatar.com/avatar/477389c44ffb21d82a4e05dd46f8aaa2
+  link: https://github.com/davinkevin
+  description: "Tech-Addict et développeur... entre autres ! ( @davinkevin sur Twitter )"
