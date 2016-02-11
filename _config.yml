@@ -1,9 +1,7 @@
 name: Toulouse JUG
 description: Toulousains et passionnés des technos de la plateforme Java
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-pygments: true
+markdown: kramdown
+highlighter: pygments
 safe: true
 lsi: false
 paginate: 5
