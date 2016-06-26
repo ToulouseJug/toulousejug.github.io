@@ -1,6 +1,7 @@
 - name: Devoxx France
-  imgPath: images/devoxx2016.png
+  imgPath: images/sponsors/devoxxfr.png
   url: http://www.devoxx.fr
+  description: La conférence pour les Développeurs Passionnés
 
 - name: Objet Direct
   imgPath: images/sponsors/Viseo.png
