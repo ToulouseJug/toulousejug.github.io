@@ -1,3 +1,9 @@
+- name: SigFox
+  imgPath: images/sponsors/sigfox.png
+  url: http://www.sigfox.com
+  description: 
+     ""
+
 - name: OpenAirlines
   imgPath: images/sponsors/openairlines.png
   url: http://openairlines.com
