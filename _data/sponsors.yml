@@ -1,3 +1,9 @@
+- name: OpenAirlines
+  imgPath: images/sponsors/openairlines.png
+  url: http://openairlines.com
+  description: 
+     ""
+
 - name: Devoxx France
   imgPath: images/sponsors/devoxxfr.png
   url: http://www.devoxx.fr
