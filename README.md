@@ -1,7 +1,8 @@
-toulousejug.github.io
+Toulouse JUG website
 =====================
 
-Toulouse JUG website
+Le site est installé à l'adresse [toulousejug.github.io](http://toulousejug.github.io), avec un lien DNS vers [http://www.toulousejug.org/](http://toulousejug.org)
+
 
 Intallation sous Ubuntu/Debian (sans Docker)
 ---
