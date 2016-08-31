@@ -3,6 +3,14 @@ toulousejug.github.io
 
 Toulouse JUG website
 
+Intallation sous Ubuntu/Debian (sans Docker)
+---
+
+Installer Ruby (avec des extensions dev)
+
+        sudo apt-get install ruby-dev
+        
+Puis suivre le guide MacOS
 
 Installation sous MacOS
 ---
