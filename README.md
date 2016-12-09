@@ -44,7 +44,7 @@ Voir [utilisation de l'image Docker](https://github.com/jekyll/docker).
 Installation sous Windows
 ---
 
-Comme souvent, l'installation de ce type sous Windows passer par un réel chemin de croix. 
+Comme souvent, l'installation de ce type de soft sous Windows passe par un réel chemin de croix. 
 L'installation est décrite [ici] (https://jekyllrb.com/docs/windows/#installation).
 
 
