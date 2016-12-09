@@ -31,8 +31,8 @@ L'idéal est donc de suivre gentiment les [conseils d'installation](http://jekyl
         # create a server, and regenerate _site for each modifications
         jekyll serve --watch
 
-        #et voila : http://localhost:4000/
-        # classic Git pour modificer le site
+        # et voila : http://localhost:4000/
+        # classic Git pour modifier le site
 
 Utilisation avec Docker
 -----
@@ -41,10 +41,19 @@ Utilisation avec Docker
 
 Voir [utilisation de l'image Docker](https://github.com/jekyll/docker).
 
+Installation sous Windows
+---
+
+Comme souvent, l'installation de ce type sous Windows passer par un réel chemin de croix. 
+L'installation est décrite [ici] (https://jekyllrb.com/docs/windows/#installation).
+
+
 Fonctionnement basic
 -----
 
-Jekyll génère un répertoire nommé `_source` à partir des autres fichiers. Il ne faut donc pas chercher à modifier directement ce répertoire.
+Jekyll génère ('jekyll build') un répertoire nommé `_source` (ou '_site') à partir des autres fichiers. Il ne faut donc pas chercher à modifier directement ce répertoire.
+Le site est accessible sur le port 4000 une fois le serveur lancé ('jekyll serve')
+
 
 _config.yml
 ----
