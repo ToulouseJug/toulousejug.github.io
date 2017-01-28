@@ -63,19 +63,33 @@ C'est le fichier de configuration principal
 
                 name: Toulouse JUG
                 description: Toulousains et passionnés des technos de la plateforme Java
-                # dialect markdown
-                markdown: redcarpet
-                # seems deprecated
-                pygments: true
+                markdown: kramdown
+                highlighter: rouge
                 safe: true
                 lsi: false
                 paginate: 5
                 encoding: UTF-8
-
-                # needed for DNS redirection
+                
                 baseurl: /
                 url: http://toulousejug.github.io
                 linkGoogleGroup: http://groups.google.com/group/toulouse-jug
                 linkTwitter: https://twitter.com/toulousejug
                 linkGithub: https://github.com/toulousejug
                 linkRSSFeeds: /feed
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
