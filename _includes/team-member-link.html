@@ -8,7 +8,7 @@
 	{% for member in site.data.members %}
 
 		{% if member.id == include.id %}
-			<a href="{{site.baseurl}}trombinoscope#{{member.id}}">{{ member.name }}</a>
+			<a href="{{site.baseurl}}/trombinoscope#{{member.id}}">{{ member.name }}</a>
 		{% endif %}		
 
 	{% endfor %}

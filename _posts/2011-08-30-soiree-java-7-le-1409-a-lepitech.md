@@ -5,7 +5,7 @@ date: 2011-08-30 12:30
 author: gblondelle
 comments: true
 ---
-<img class="image-a-la-une" src="{{site.baseurl}}images/java7.jpg"></img>
+<img class="image-a-la-une" src="{{site.baseurl}}/images/java7.jpg"></img>
 <p>Pour bien redémarrer, nous organisons un événement Java 7 le 14/09 à l’EPITECH à 18h30. Inscrivez-vous sur le site <a href="http://www.jugevents.org/jugevents/event/show.html?id=40972">JugEvent</a>!</p>
 
 <p>Nous aurons le plaisir d’accueillir un speaker international, <a href="http://terrencebarr.wordpress.com/about/">Terrence Barr</a>, Senior Technologist and Ambassador at Oracle.</p>

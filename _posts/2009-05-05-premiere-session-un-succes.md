@@ -7,7 +7,7 @@ comments: true
 ---
 Ce mardi a eu lieu la première session du JUG Toulouse. Beau succès au rendez-vous avec 70 participants :
 
-<a href="{{site.baseurl}}images/jug-premiere.png"><img class="alignleft size-medium wp-image-84" title="jug-premiere" src="{{site.baseurl}}images/jug-premiere-300x225.png" alt="" width="300" height="225" /></a>
+<a href="{{site.baseurl}}/images/jug-premiere.png"><img class="alignleft size-medium wp-image-84" title="jug-premiere" src="{{site.baseurl}}/images/jug-premiere-300x225.png" alt="" width="300" height="225" /></a>
 
 Merci à l'IUP ISI pour l'accueil. Merci aux speakers pour la qualité des présentations. Et merci aux participants d'être venus en nombre.
 

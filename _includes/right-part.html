@@ -1,6 +1,6 @@
 <div class="col-md-4 text-center">
 	
-	<img src="{{site.baseurl}}images/jug.png" alt="Java User Group" />
+	<img src="{{site.baseurl}}/images/jug.png" alt="Java User Group" />
 
 	{% include button-adherer-jug.html %}
 	
@@ -11,8 +11,8 @@
 
 	{% for sponsor in site.data.sponsors %}
 		<li>
-		    <a href="{{ sponsor.url }}" target="_blank">
-		      <img src="{{ site.baseurl }}{{ sponsor.imgPath }}" alt="{{ sponsor.name }}" class="img-thumbnail">
+		    <a href="{{ sponsor.url }}/" target="_blank">
+		      <img src="{{ site.baseurl }}/{{ sponsor.imgPath }}" alt="{{ sponsor.name }}" class="img-thumbnail">
 		    </a>
 		</li>
 	{% endfor %}
