@@ -11,7 +11,7 @@ Comme le dit Mark Reinhold, le "<em>Chief Architect of the Java Platform"</em>, 
 
 Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir sereinement toutes ces nouveautés.
 <ol>
-	<li>Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec <a href="{{site.baseurl}}2013/10/03/soiree-generics-et-lambda.html">Henri Tremblay qui nous a sensibilisé au cocktail spécial qu'allait être le mélange lambda/generics</a>.</li>
+	<li>Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec <a href="{{site.baseurl}}/2013/10/03/soiree-generics-et-lambda.html">Henri Tremblay qui nous a sensibilisé au cocktail spécial qu'allait être le mélange lambda/generics</a>.</li>
 	<li>Mardi 10 décembre 2013 : Rémi Forax nous expliquera "pourquoi les lambdas dans Java 8 sont ce qu'elles sont et pourquoi Java ne sera plus jamais le même".</li>
 	<li>Mercredi 15 janvier 2014 : José Paumard nous présentera le nouveau visage de l'API Collection</li>
 </ol>
