@@ -1,15 +1,15 @@
 - id: accueil
   name: Accueil
-  link:
+  link: /
 - id: about
   name: A propos
-  link: about
+  link: /about
 - id: sponsors
   name: Sponsors
-  link: sponsors
+  link: /sponsors
 - id: trombinoscope
   name: Trombinoscope
-  link: trombinoscope
+  link: /trombinoscope
 - id: videos
   name: Vidéos
-  link: videos
+  link: /videos
