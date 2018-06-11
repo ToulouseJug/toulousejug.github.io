@@ -32,6 +32,7 @@ Nous renouvelons l'expérience pizzas de la dernière fois. Si vous voulez avoir
 <div style="text-align: left;"></div>
 <div style="text-align: left;">Et pourtant, les lambda, aussi sexy soient-ils, vont venir ajouter à la complexité. Mélanger aux génériques, il s'agit d'un cocktail explosif.</div>
 <div style="text-align: left;"></div>
+
 <div style="text-align: left;">Cette session remet les compteurs à zéro. Elle vous donne les clés pour maîtriser les génériques, mais aussi leurs liens avec les lambda. Tout pour aborder ces derniers sereinement.</div>
 <div style="text-align: left;"></div>
 </div>
