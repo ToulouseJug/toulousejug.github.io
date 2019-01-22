@@ -1,0 +1,107 @@
+{{ define "main" }}
+{{ $posts := (where .Site.Pages.ByPublishDate "Dir" "post/").Reverse }}
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+          <h1>Articles</h1>
+          <ul class="nav sidenav">
+            {{ range first (sub (len $posts) 1) $posts }}
+            {{ $this_year := .Date.Year }}
+            {{ $this_month := .Date.Month }}
+
+            {{ if not .NextPage }}
+            <li><a href="#year_{{$this_year}}">{{$this_year}}</a>
+              <ul class="nav">
+                <li><a href="#month_{{$this_year}}_{{$this_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $this_month)) 1) }}</a></li>
+                {{ end }}
+                {{ if not .PrevPage }}
+              </ul>
+            </li>
+            {{ else }}
+
+            {{ $next_year := .PrevPage.Date.Year }}
+            {{ $next_month := .PrevPage.Date.Month }}
+
+            {{ if (ne $this_year $next_year) }}
+          </ul>
+          </li>
+          <li><a href="#year_{{$next_year}}">{{$next_year}}</a>
+            <ul class="nav">
+              <li><a href="#month_{{$next_year}}_{{$next_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $next_month)) 1) }}</a></li>
+              {{ else }}
+              {{ if (ne $this_month $next_month) }}
+              <li><a href="#month_{{$next_year}}_{{$next_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $next_month)) 1) }}</a></li>
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <div class="home">
+            {{ range first (sub (len $posts) 1) $posts }}
+            {{ $this_year := .Date.Year }}
+            {{ $this_month := .Date.Month }}
+
+            {{ if not .NextPage }}
+            <h1 id="year_{{$this_year}}">{{$this_year}}</h1>
+            <h2 id="month_{{$this_year}}_{{$this_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $this_month)) 1) }}</h2>
+            <ul>
+              {{ end }}
+
+              <ol class="breadcrumb">
+                <li><span>{{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $this_month)) 1) }} {{ .Date.Year }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+              </ol>
+              {{ if not .PrevPage }}
+            </ul>
+            {{ else }}
+
+            {{ $next_year := .PrevPage.Date.Year }}
+            {{ $next_month := .PrevPage.Date.Month }}
+
+            {{ if (ne $this_year $next_year) }}
+            </ul>
+            <h1 id="year_{{$next_year}}">{{$next_year}}</h1>
+            <h2 id="month_{{$next_year}}_{{$next_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $next_month)) 1) }}</h2>
+            <ul>
+              {{ else }}
+              {{ if (ne $this_month $next_month) }}
+            </ul>
+            <h2 id="month_{{$next_year}}_{{$next_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $next_month)) 1) }}</h2>
+            <ul>
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ range last 1 $posts }}
+              <ol class="breadcrumb">
+                <li><span>{{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" .Date.Month)) 1) }} {{ .Date.Year }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+              </ol>
+              {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="sponsors hidden-print" role="complementary">
+        <div id="sponsors">
+          <h1>Sponsors</h1>
+          <div style="text-align: center;">
+            {{ range where .Site.Data.sponsors.sponsor_data "annual" "eq" true }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

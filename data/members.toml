@@ -1,0 +1,92 @@
+[[member_data]]
+id = "gblondelle"
+firstname = "Gaël"
+lastname = "Blondelle"
+url = "https://accounts.eclipse.org/users/gblondelle"
+image = "/images/members/gblondelle.jpeg"
+description = "I contribute to the Eclipse ecosystem development in Europe, and I am the Conference chair of EclipseCon France"
+bureau = false
+
+[[member_data]]
+id = "davinkevin"
+firstname = "Kevin"
+lastname = "Davin"
+url = "https://github.com/davinkevin"
+image = "/images/members/kdavin.png"
+description = "Tech-Addict et développeur... entre autres ! ( @davinkevin sur Twitter )"
+bureau = false
+
+[[member_data]]
+id = "lionel"
+firstname = "Lionel"
+lastname = "Capdecomme"
+url = ""
+image = "/images/members/lionel.jpeg"
+description = ""
+bureau = false
+
+[[member_data]]
+id = "swallez"
+firstname = "Sylvain"
+lastname = "Wallez"
+url = "http://bluxte.net/"
+image = "/images/members/swallez.jpeg"
+description = "Développeur et architecte freelance"
+bureau = false
+
+[[member_data]]
+id = "mpailloncy"
+firstname = "Michaël"
+lastname = "Pailloncy"
+url = ""
+image = "/images/members/mpailloncy.png"
+description = "Forgeron Automatisateur @ OpenAirlines"
+bureau = false
+
+[[member_data]]
+id = "bmathus"
+firstname = "Baptiste"
+lastname = "Mathus"
+url = "http://batmat.net"
+image = "/images/members/bmathus.jpeg"
+description = ""
+bureau = true
+role = "Président"
+
+[[member_data]]
+id = "akrier"
+firstname = "Alexis"
+lastname = "Krier"
+url = ""
+image = "/images/members/alexis.jpg"
+description = "Trésorier du JUG, archi dev @Cirso"
+bureau = true
+role = "Trésorier"
+
+[[member_data]]
+id = "abos"
+firstname = "Arnaud"
+lastname = "Bos"
+url = "http://www.arnaudbos.com/"
+image = "/images/members/arnaud.jpg"
+description = "Software Developer"
+bureau = true
+role = "Secrétaire"
+
+[[member_data]]
+id = "vferries"
+firstname = "Vincent"
+lastname = "Ferries"
+url = "http://www.enveille.info"
+image = "/images/members/vferries.png"
+description = ""
+bureau = false
+
+[[member_data]]
+id = "jzanon"
+firstname = "Julien"
+lastname = "Zanon"
+url = "https://jzanon.github.io/gloseDeDev/"
+image = "/images/members/jzanon.jpg"
+description = "Senior Software Engineer - Freelance"
+bureau = false

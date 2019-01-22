@@ -1,0 +1,11 @@
+<p></p>
+<div style="text-align:center">
+  <img
+    src="/images/{{ if .Get "local" }}{{ .Page.File.BaseFileName }}/{{ end }}{{ .Get "src" }}"
+    title="{{ if .Get "title" }}{{ .Get "title" }}{{else}}{{ if .Get "alt" }}{{ .Get "alt" }}{{else}}{{ .Get "src" }}{{ end }}{{ end }}"
+    {{ if .Get "alt" }}alt="{{ .Get "alt" }}"{{ end }}
+    {{ if .Get "width" }}width="{{ .Get "width" }}"{{ end }}
+    {{ if .Get "height" }}height="{{ .Get "height" }}"{{ end }}
+    />
+</div>
+<br />

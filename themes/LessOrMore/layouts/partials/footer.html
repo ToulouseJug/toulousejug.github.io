@@ -1,0 +1,14 @@
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-{{ now.Year }} <code>{{ .Site.Author.name }}</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="/{{ "js/jquery.min.js" }}"></script>
+<script src="/{{ "js/bootstrap.min.js" }}"></script>
+<script src="/{{ "js/holder.min.js" }}"></script>
+<script src="/{{ "js/lessismore.js" }}"></script>
+<script src="/{{ "js/application.js" }}"></script>
+
+{{- partial "footer_custom.html" . }}

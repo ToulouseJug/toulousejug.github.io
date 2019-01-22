@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <article class="post-content">
+            {{ .Content }}
+
+            {{ range sort .Site.Data.members.member_data "lastname" }}
+            <h3>{{ .firstname }} {{ .lastname }}</h3>
+            <div style="float:left; margin-right:25px; margin-bottom:10px;">
+              <img src="{{ .image }}" alt="{{ .firstname }} {{ .lastname }}" height="100"/>
+            </div>
+            <div style="height: 100px;">
+              <a href="{{ .url }}">{{ .url }}</a><br/>
+              <span>{{ .description }}</span>
+            </div>
+            {{ end }}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

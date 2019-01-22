@@ -1,0 +1,16 @@
+{{ if not (eq .Page.Dir "post/") }}
+<div class="docs-header" id="content">
+  <div class="container">
+    {{ if .IsHome }}
+    <h2>{{ .Site.Params.tagline }}</h2>
+    {{ else }}
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+      <h2>{{ .Title }}</h2>
+      {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
