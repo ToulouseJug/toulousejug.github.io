@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Soirée du jeudi 13 décembre - Big Data et data mining – tour au zoo d’Hadoop</title>
+  <meta property="og:title" content="Soirée du jeudi 13 décembre - Big Data et data mining – tour au zoo d’Hadoop" />
+  <meta name="twitter:title" content="Soirée du jeudi 13 décembre - Big Data et data mining – tour au zoo …" />
+  <meta name="description" content="Après l&rsquo;institutionnelle introduction incluant la vie du JUG, les news et le Quiz, Nicolas Lalevée et François Royer nous parleront jeudi 13 décembre 2012 de la technologie NoSQL Hadoop.
+Pour les inscriptions, c&rsquo;est par là :-).
+Big Data et data mining – tour au zoo d’Hadoop. Hadoop est devenu un socle incontournable pour la fouille de données: ETL, distribution de tâches, collecte et aggrégation, on peut tout faire avec, ou presque.">
+  <meta property="og:description" content="Après l&rsquo;institutionnelle introduction incluant la vie du JUG, les news et le Quiz, Nicolas Lalevée et François Royer nous parleront jeudi 13 décembre 2012 de la technologie NoSQL Hadoop.
+Pour les inscriptions, c&rsquo;est par là :-).
+Big Data et data mining – tour au zoo d’Hadoop. Hadoop est devenu un socle incontournable pour la fouille de données: ETL, distribution de tâches, collecte et aggrégation, on peut tout faire avec, ou presque.">
+  <meta name="twitter:description" content="Après l&rsquo;institutionnelle introduction incluant la vie du JUG, les news et le Quiz, Nicolas Lalevée et François Royer nous parleront jeudi 13 décembre 2012 de la technologie NoSQL Hadoop.
+Pour …">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="keywords" content="Soirée du jeudi 13 décembre - Big Data et data mining – tour au zoo d’Hadoop,Toulouse JUG,Après l&rsquo;institutionnelle introduction incluant la vie du JUG, les news et le Quiz, Nicolas Lalevée et François Royer nous parleront jeudi 13 décembre 2012 de la technologie NoSQL Hadoop.
+Pour les inscriptions, c&rsquo;est par là :-).
+Big Data et data mining – tour au zoo d’Hadoop. Hadoop est devenu un socle incontournable pour la fouille de données: ETL, distribution de tâches, collecte et aggrégation, on peut tout faire avec, ou presque.">
+  <link href='http://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="http://www.toulousejug.org/post/2012-11-29-soiree-du-jeudi-13-decembre-big-data-et-data-mining-tour-au-zoo-hadoop/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="//post/2012-11-29-soiree-du-jeudi-13-decembre-big-data-et-data-mining-tour-au-zoo-hadoop/" />
+  <link rel="alternate" href="http://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/syntax.css" />
+
+  <script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="http://www.toulousejug.org/" class="navbar-brand">
+        <img src="http://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li>
+          <a title="Accueil" href="http://www.toulousejug.org/">Accueil</a>
+        </li>
+        
+        <li>
+          <a title="À propos" href="http://www.toulousejug.org/page/about/">À propos</a>
+        </li>
+        
+        <li>
+          <a title="Sponsors" href="http://www.toulousejug.org/page/sponsors/">Sponsors</a>
+        </li>
+        
+        <li>
+          <a title="Team" href="http://www.toulousejug.org/team/team/">Team</a>
+        </li>
+        
+        <li>
+          <a title="Évènements &amp; Vidéos" href="http://www.toulousejug.org/page/events/">Évènements &amp; Vidéos</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réseaux sociaux&nbsp;<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            <li>
+              <a href="https://www.meetup.com/Toulouse-Java-User-Group/" title="Meetup" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Meetup
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCTqj9i8UpCNXRMcPNuWhocQ" title="Youtube" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/toulousejug" title="Twitter" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="http://groups.google.com/group/toulouse-jug" title="Google Group" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Google Group
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/toulousejug" title="GitHub" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="index.xml" title="RSS" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                RSS
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    
+    
+
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-11" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Soirée du jeudi 13 décembre - Big Data et data mining – tour au zoo d’Hadoop</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            
+
+<p>Après l&rsquo;institutionnelle introduction incluant la vie du JUG, les news et le
+Quiz, Nicolas Lalevée et François Royer nous parleront jeudi 13 décembre 2012
+de la technologie NoSQL Hadoop.</p>
+
+<p>Pour les <a href="http://www.jugevents.org/jugevents/event/48294">inscriptions, c&rsquo;est par là</a> :-).</p>
+
+<h3 id="big-data-et-data-mining-tour-au-zoo-d-hadoop">Big Data et data mining – tour au zoo d’Hadoop.</h3>
+
+<p>Hadoop est devenu un socle incontournable pour la fouille de données: ETL,
+distribution de tâches, collecte et aggrégation, on peut tout faire avec, ou
+presque.</p>
+
+<p>Nous commencerons par présenter la technologie: l’algorithme MapReduce, son
+architecture, son déploiement, son utilisation via un eco-système de projets
+fourmillant autour.</p>
+
+<p>Puis nous entrerons dans un exemple concret d’utilisation : le calcul de
+statistiques web ala google analytics dans Scoop.it avec Hive. Nous verrons le
+cas d’utilisation, l’implémentation, l’utilisation, les problématiques de
+déploiement, de performance.</p>
+
+<p>Puis nous élargirons avec le data mining. Nous passerons en revue les différents
+algorithmes “MapReduce-able” et verrons pourquoi implémenter soi-même un join
+sous Hadoop n’est pas une très bonne idée. Des exemples en traitement du langage
+avec Python et Cascalog seront donnés.</p>
+
+<p><a href="http://www.jugevents.org/jugevents/event/48294">Pensez à vous inscrire sur le site de JugEvents (c&rsquo;est gratuit)</a>.</p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2019 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="http://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="http://www.toulousejug.org/js/holder.min.js"></script>
+<script src="http://www.toulousejug.org/js/lessismore.js"></script>
+<script src="http://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Lundi 15 juin 2015 - Soirée Hibernate  !</title>
+  <meta property="og:title" content="Lundi 15 juin 2015 - Soirée Hibernate  !" />
+  <meta name="twitter:title" content="Lundi 15 juin 2015 - Soirée Hibernate  !" />
+  <meta name="description" content="Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+On n&rsquo;est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard) 50min
+Vous voulez savoir ce que la persistance dans du NoSQL implique dans une architecture Java?
+Java est le fief de l&rsquo;Orienté Objet où les ORMs poussent comme des champignons. Est-ce que les ORMs apportent encore des bénéfices dans le monde du NoSQL et de la persistance polyglotte?">
+  <meta property="og:description" content="Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+On n&rsquo;est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard) 50min
+Vous voulez savoir ce que la persistance dans du NoSQL implique dans une architecture Java?
+Java est le fief de l&rsquo;Orienté Objet où les ORMs poussent comme des champignons. Est-ce que les ORMs apportent encore des bénéfices dans le monde du NoSQL et de la persistance polyglotte?">
+  <meta name="twitter:description" content="Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+On n&rsquo;est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard) 50min
+Vous voulez savoir …">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="keywords" content="Lundi 15 juin 2015 - Soirée Hibernate  !,Toulouse JUG,Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+On n&rsquo;est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard) 50min
+Vous voulez savoir ce que la persistance dans du NoSQL implique dans une architecture Java?
+Java est le fief de l&rsquo;Orienté Objet où les ORMs poussent comme des champignons. Est-ce que les ORMs apportent encore des bénéfices dans le monde du NoSQL et de la persistance polyglotte?">
+  <link href='http://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="http://www.toulousejug.org/post/2015-06-15-hibernate/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="//post/2015-06-15-hibernate/" />
+  <link rel="alternate" href="http://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/syntax.css" />
+
+  <script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="http://www.toulousejug.org/" class="navbar-brand">
+        <img src="http://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li>
+          <a title="Accueil" href="http://www.toulousejug.org/">Accueil</a>
+        </li>
+        
+        <li>
+          <a title="À propos" href="http://www.toulousejug.org/page/about/">À propos</a>
+        </li>
+        
+        <li>
+          <a title="Sponsors" href="http://www.toulousejug.org/page/sponsors/">Sponsors</a>
+        </li>
+        
+        <li>
+          <a title="Team" href="http://www.toulousejug.org/team/team/">Team</a>
+        </li>
+        
+        <li>
+          <a title="Évènements &amp; Vidéos" href="http://www.toulousejug.org/page/events/">Évènements &amp; Vidéos</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réseaux sociaux&nbsp;<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            <li>
+              <a href="https://www.meetup.com/Toulouse-Java-User-Group/" title="Meetup" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Meetup
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCTqj9i8UpCNXRMcPNuWhocQ" title="Youtube" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/toulousejug" title="Twitter" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="http://groups.google.com/group/toulouse-jug" title="Google Group" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Google Group
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/toulousejug" title="GitHub" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="index.xml" title="RSS" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                RSS
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    
+    
+
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-11" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Lundi 15 juin 2015 - Soirée Hibernate  !</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            
+
+<p>Attention adresse différente: <em>Epitech Toulouse 14 rue Claire Pauilhac</em>
+(<a href="http://jugevents.org/jugevents/event/show.html?id=56377">Inscrivez vous</a>).</p>
+
+<p><strong>On n&rsquo;est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard) 50min</strong></p>
+
+<p>Vous voulez savoir ce que la persistance dans du NoSQL implique dans une
+architecture Java?</p>
+
+<p>Java est le fief de l&rsquo;Orienté Objet où les ORMs poussent comme des champignons.
+Est-ce que les ORMs apportent encore des bénéfices dans le monde du NoSQL et de
+la persistance polyglotte? On discutera aussi le pourquoi et le comment du
+design de données dans le NoSQL.</p>
+
+<p>Comme dans l&rsquo;émission, <a href="http://www.france5.fr/emissions/on-n-est-pas-que-des-cobayes">On n&rsquo;est pas que des cobayes</a>,
+on tentera de faire cohabiter ORMs et NoSQL en y analysant le résultat.</p>
+
+<p>Parmi les défis relevés, on pourra y voir:</p>
+
+<ul>
+<li>Peut on survivre avec un seul produit NoSQL ?</li>
+<li>NoSQL implique-t-il des cauchemardas de duplications de données?</li>
+<li>JPA et NoSQL c&rsquo;est comme faire rentrer une pièce ronde dans un trou carré?</li>
+<li>Les ORMs ne peuvent pas abstraire proprement les modèles de données NoSQL?</li>
+<li>Les ORMs c&rsquo;est comme la nitro, ça booste les performances&hellip; ou pas?</li>
+<li>Abstraire les langages de requêtage NoSQL, c&rsquo;est trop difficile?.</li>
+<li>Sans l&rsquo;accès natif aux APIs NoSQL, point de salut?</li>
+<li>Les ORMs n&rsquo;apportent pas vraiment de valeur dans un monde NoSQL?</li>
+</ul>
+
+<p>Venez discuter et débattre.</p>
+
+<h3 id="hibernate-bof-20mins-emmanuel-bernard">Hibernate BoF 20mins (Emmanuel Bernard)</h3>
+
+<p>On prendra le reste du temps pour discuter des autres projets Hibernate:</p>
+
+<ul>
+<li>Qu’est-ce qu’Hibernate Search, quels sont les nouveautés?</li>
+<li>Qu’est-ce qui se passe du côté d’Hibernate ORM?</li>
+<li>Hibernate Validator, Bean Validation, quésako?</li>
+<li>[insérer votre question ici]?</li>
+</ul>
+
+<p>On fera ~ 55 min pour la première présentation et ~ 20 mins pour la BoF si ça rentre pour vous.</p>
+
+<h3 id="multitenancy-avec-cdi-jpa-et-spring-hibernate-florian-beaufumé-30min">Multitenancy avec CDI/JPA et Spring/Hibernate (Florian Beaufumé 30min)</h3>
+
+<p>Les applications multi-clients, par exemple en cloud, isolent souvent les données de leurs différents clients. Il existe plusieurs stratégies de mise en oeuvre dont la multitenancy qui permet à une unique instance applicative de servir dynamiquement des données isolées de clients différents. Nous allons présenter le principe de multitenancy, ses variantes et montrer deux implémentations Java, l&rsquo;une à base de CDI et JPA, l&rsquo;autre à base de Spring et Hibernate.</p>
+
+<p>Bio :</p>
+
+<p>Emmanuel Bernard : <a href="https://emmanuelbernard.com/bio/">https://emmanuelbernard.com/bio/</a></p>
+
+<p>Florian Beaufumé est un architecte logiciel et spécialiste Java et web de 17 ans
+d&rsquo;expérience. Il a créé sa société, Adeliosys, en 2007 et est depuis un
+consultant indépendant. Il a travaillé pour des grands comptes, des éditeurs de
+logiciels, des SSII et des startups dans les domaines tels que les banques, les
+assurances et l&rsquo;aéronautique.</p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2019 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="http://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="http://www.toulousejug.org/js/holder.min.js"></script>
+<script src="http://www.toulousejug.org/js/lessismore.js"></script>
+<script src="http://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>

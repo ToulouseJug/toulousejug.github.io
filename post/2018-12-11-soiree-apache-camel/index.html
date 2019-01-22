@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Soirée Apache Camel</title>
+  <meta property="og:title" content="Soirée Apache Camel" />
+  <meta name="twitter:title" content="Soirée Apache Camel" />
+  <meta name="description" content="On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
+Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&rsquo;un SI est un besoin récurrent et pas nouveau.
+Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
+Dans un premier temps, nous retournerons aux basiques : Les EIPs.
+Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.">
+  <meta property="og:description" content="On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
+Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&rsquo;un SI est un besoin récurrent et pas nouveau.
+Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
+Dans un premier temps, nous retournerons aux basiques : Les EIPs.
+Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.">
+  <meta name="twitter:description" content="On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
+Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou …">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="keywords" content="Soirée Apache Camel,Toulouse JUG,On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
+Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&rsquo;un SI est un besoin récurrent et pas nouveau.
+Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
+Dans un premier temps, nous retournerons aux basiques : Les EIPs.
+Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.">
+  <link href='http://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="http://www.toulousejug.org/post/2018-12-11-soiree-apache-camel/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="//post/2018-12-11-soiree-apache-camel/" />
+  <link rel="alternate" href="http://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/syntax.css" />
+
+  <script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="http://www.toulousejug.org/" class="navbar-brand">
+        <img src="http://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li>
+          <a title="Accueil" href="http://www.toulousejug.org/">Accueil</a>
+        </li>
+        
+        <li>
+          <a title="À propos" href="http://www.toulousejug.org/page/about/">À propos</a>
+        </li>
+        
+        <li>
+          <a title="Sponsors" href="http://www.toulousejug.org/page/sponsors/">Sponsors</a>
+        </li>
+        
+        <li>
+          <a title="Team" href="http://www.toulousejug.org/team/team/">Team</a>
+        </li>
+        
+        <li>
+          <a title="Évènements &amp; Vidéos" href="http://www.toulousejug.org/page/events/">Évènements &amp; Vidéos</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réseaux sociaux&nbsp;<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            <li>
+              <a href="https://www.meetup.com/Toulouse-Java-User-Group/" title="Meetup" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Meetup
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCTqj9i8UpCNXRMcPNuWhocQ" title="Youtube" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/toulousejug" title="Twitter" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="http://groups.google.com/group/toulouse-jug" title="Google Group" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Google Group
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/toulousejug" title="GitHub" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="index.xml" title="RSS" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                RSS
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    
+    
+
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-11" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Soirée Apache Camel</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            
+
+<p>On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :</p>
+
+<h3 id="apache-camel-par-emmanuel-vinel-hahahugoshortcode-0xc000b7aa00-1-hbhb">Apache Camel - par Emmanuel Vinel (<a href="https://twitter.com/EmmanuelVinel" title="EmmanuelVinel" target="_blank">@EmmanuelVinel</a>)</h3>
+
+<p>Interconnecter des applications , des services tiers ou des processus au sein
+d&rsquo;un SI est un besoin récurrent et pas nouveau.<br />
+Dans cette présentation, nous allons aborder une solution possible le framework
+<a href="http://camel.apache.org/">Apache Camel</a>.</p>
+
+<p>Dans un premier temps, nous retournerons aux basiques : Les EIPs.</p>
+
+<p>Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un
+processus plus complexe.</p>
+
+<p>Nous terminerons par quelques mots sur l&rsquo;architecture micro-services et apache Camel.</p>
+
+<p>Vidéo : 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/k5SC7bmGQlU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+<p>Référence CfP: <a href="https://github.com/ToulouseJug/call-for-paper/issues/15">https://github.com/ToulouseJug/call-for-paper/issues/15</a></p>
+
+<h3 id="outils-pour-le-développement-de-projet-d-intégration-apache-camel-red-hat-fuse-du-profil-technique-au-profil-business-par-aurélien-pupier-hahahugoshortcode-0xc000b7aa00-3-hbhb">Outils pour le développement de Projet d&rsquo;intégration Apache Camel/Red Hat Fuse : du profil technique au profil business - par Aurélien Pupier (<a href="https://twitter.com/apupier" title="apupier" target="_blank">@apupier</a>)</h3>
+
+<p>Nous verrons l&rsquo;ensemble des outils de développement existant pour développer des
+projets d&rsquo;intégration basé sur <a href="http://camel.apache.org/">Apache Camel</a>.</p>
+
+<p>Nous verrons comment ces différents outils adressent des profils variés et
+comment ils interopérent pour mener à bien le développement du projet.</p>
+
+<p>Vidéo : 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/VNUMBxWgiWg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2019 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="http://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="http://www.toulousejug.org/js/holder.min.js"></script>
+<script src="http://www.toulousejug.org/js/lessismore.js"></script>
+<script src="http://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>

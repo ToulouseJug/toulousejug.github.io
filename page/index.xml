@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Toulouse JUG</title>
+    <link>http://www.toulousejug.org/page/</link>
+    <description>Recent content in Pages on Toulouse JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://www.toulousejug.org/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment devenir sponsor du ToulouseJUG ?</title>
+      <link>http://www.toulousejug.org/page/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/page/sponsors/</guid>
+      <description>Termes de la convention de Sponsoring Cette convention consiste à fixer les engagements de chacun des deux parties dans le cadre d’un plan de sponsor annuel qui couvre la fin de l’année en cours à partir de la date de signature.
+Engagements : Article 1 Le Toulouse JUG s’engage à
+ Mettre le logo du Sponsor sur :  la page des sponsors du site http://toulousejug.org/ le projecteur au début des conférences et à la fin des conférences les emails annonçant les présentations  Limiter le nombre de sponsors annuels à 5 afin de privilégier l’exposition de ces sponsors.</description>
+    </item>
+    
+    <item>
+      <title>À propos du JUG</title>
+      <link>http://www.toulousejug.org/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/page/about/</guid>
+      <description>Le Toulouse JUG est un groupe d’utilisateurs Java ayant pour but de réunir des acteurs (professionnels, communautés open source, institutions, étudiants, enseignants…) afin d’échanger des idées et de discuter des avancées technologiques de la plateforme Java.
+Nous nous rencontrons une fois par mois. Les réunions sont gratuites, ouvertes à tous et consistent le plus souvent en une présentation technique, une démonstration d’un produit, ou une table ronde. Après la rencontre, nous nous retrouvons généralement pour discuter autour d’un verre et d’un mini-buffet.</description>
+    </item>
+    
+    <item>
+      <title>À venir &amp; À revoir</title>
+      <link>http://www.toulousejug.org/page/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/page/events/</guid>
+      <description>Évènements Les évènements passés sont répertoriés sur la page d&amp;rsquo;accueil de ce site.
+Les évènements à venir sont organisés via Meetup.
+Les vidéos Tous (ou presque) les évènements organisés par le JUG sont enregistrés.
+Retrouvez toutes les vidéos des précédentes soirées sur Youtube.</description>
+    </item>
+    
+  </channel>
+</rss>

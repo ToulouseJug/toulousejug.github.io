@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Lambda mon amour - 2 talks pour le prix d&#39;un ! Rémi Forax en décembre 2013 et José Paumard en janvier 2014</title>
+  <meta property="og:title" content="Lambda mon amour - 2 talks pour le prix d&#39;un ! Rémi Forax en décembre 2013 et José Paumard en janvier 2014" />
+  <meta name="twitter:title" content="Lambda mon amour - 2 talks pour le prix d&#39;un ! Rémi Forax en décembre …" />
+  <meta name="description" content="Comme vous le savez sûrement, Java 8 arrive d&rsquo;ici quelques semaines, normalement fin mars 2014.
+Comme le dit Mark Reinhold, le &ldquo;Chief Architect of the Java Platform&rdquo;, les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &ndash; plus encore que les generics.
+Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir sereinement toutes ces nouveautés.
+ Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec Henri Tremblay qui nous a sensibilisé au cocktail spécial qu&rsquo;allait être le mélange lambda/generics.">
+  <meta property="og:description" content="Comme vous le savez sûrement, Java 8 arrive d&rsquo;ici quelques semaines, normalement fin mars 2014.
+Comme le dit Mark Reinhold, le &ldquo;Chief Architect of the Java Platform&rdquo;, les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &ndash; plus encore que les generics.
+Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir sereinement toutes ces nouveautés.
+ Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec Henri Tremblay qui nous a sensibilisé au cocktail spécial qu&rsquo;allait être le mélange lambda/generics.">
+  <meta name="twitter:description" content="Comme vous le savez sûrement, Java 8 arrive d&rsquo;ici quelques semaines, normalement fin mars 2014.
+Comme le dit Mark Reinhold, le &ldquo;Chief Architect of the Java Platform&rdquo;, les lambdas …">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="keywords" content="Lambda mon amour - 2 talks pour le prix d&#39;un ! Rémi Forax en décembre 2013 et José Paumard en janvier 2014,Toulouse JUG,Comme vous le savez sûrement, Java 8 arrive d&rsquo;ici quelques semaines, normalement fin mars 2014.
+Comme le dit Mark Reinhold, le &ldquo;Chief Architect of the Java Platform&rdquo;, les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &ndash; plus encore que les generics.
+Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir sereinement toutes ces nouveautés.
+ Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec Henri Tremblay qui nous a sensibilisé au cocktail spécial qu&rsquo;allait être le mélange lambda/generics.">
+  <link href='http://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="http://www.toulousejug.org/post/2013-11-28-lambda-mon-amour-2-talks-pour-le-prix-dun-remi-forax-en-decembre-2013-et-jose-paumard-en-janvier-2014/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="//post/2013-11-28-lambda-mon-amour-2-talks-pour-le-prix-dun-remi-forax-en-decembre-2013-et-jose-paumard-en-janvier-2014/" />
+  <link rel="alternate" href="http://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/syntax.css" />
+
+  <script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="http://www.toulousejug.org/" class="navbar-brand">
+        <img src="http://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li>
+          <a title="Accueil" href="http://www.toulousejug.org/">Accueil</a>
+        </li>
+        
+        <li>
+          <a title="À propos" href="http://www.toulousejug.org/page/about/">À propos</a>
+        </li>
+        
+        <li>
+          <a title="Sponsors" href="http://www.toulousejug.org/page/sponsors/">Sponsors</a>
+        </li>
+        
+        <li>
+          <a title="Team" href="http://www.toulousejug.org/team/team/">Team</a>
+        </li>
+        
+        <li>
+          <a title="Évènements &amp; Vidéos" href="http://www.toulousejug.org/page/events/">Évènements &amp; Vidéos</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réseaux sociaux&nbsp;<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            <li>
+              <a href="https://www.meetup.com/Toulouse-Java-User-Group/" title="Meetup" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Meetup
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCTqj9i8UpCNXRMcPNuWhocQ" title="Youtube" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/toulousejug" title="Twitter" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="http://groups.google.com/group/toulouse-jug" title="Google Group" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Google Group
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/toulousejug" title="GitHub" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="index.xml" title="RSS" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                RSS
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    
+    
+
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-11" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Lambda mon amour - 2 talks pour le prix d&#39;un ! Rémi Forax en décembre 2013 et José Paumard en janvier 2014</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            
+
+<p>Comme vous le savez sûrement, <a href="http://openjdk.java.net/projects/jdk8/">Java 8 arrive d&rsquo;ici quelques semaines, normalement fin mars 2014</a>.</p>
+
+<p>Comme le dit Mark Reinhold, le &ldquo;<em>Chief Architect of the Java Platform</em>&rdquo;,
+<a href="https://blogs.oracle.com/java/entry/the_javaone_2013_technical_keynote">les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &ndash; plus encore que les generics</a>.</p>
+
+<p>Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir
+sereinement toutes ces nouveautés.</p>
+
+<ul>
+<li>Octobre 2013 : La première de la série a déjà eu lieu il y a quelques
+semaines, avec <a href="http://www.toulousejug.org/post/2013-10-03-soiree-generics-et-lambda/">Henri Tremblay qui nous a sensibilisé au cocktail spécial qu&rsquo;allait être le mélange lambda/generics</a>.</li>
+<li>Mardi 10 décembre 2013 : Rémi Forax nous expliquera &ldquo;pourquoi les lambdas dans
+Java 8 sont ce qu&rsquo;elles sont et pourquoi Java ne sera plus jamais le même&rdquo;.</li>
+<li>Mercredi 15 janvier 2014 : José Paumard nous présentera le nouveau visage de
+l&rsquo;API Collection</li>
+</ul>
+
+<h3 id="lambdas-from-the-great-closure-war-to-java-8-an-unexpected-journey-par-rémi-forax">Lambdas, from the great closure war to Java 8, an unexpected journey, par <strong>Rémi Forax</strong></h3>
+
+<p>Rémi est professeur et travaille dans l&rsquo;équipe qui implémente les lambdas dans
+le JDK. Il fait partie des deux Expert Groups de la <a href="http://jcp.org/en/jsr/detail?id=292">JSR 292, sur invokedynamic</a>,
+et de la <a href="http://jcp.org/en/jsr/detail?id=335">JSR 335 (sur les lambdas, donc)</a>.</p>
+
+<p>Abstract :</p>
+
+<p>Une bonne façon de comprendre les lambdas est de repartir de l&rsquo;historique puis
+d&rsquo;expliquer le cheminement pas toujours en ligne droite qui a été suivi pour
+arriver à la syntaxe et la sémantique actuelle.</p>
+
+<p>Puis je montrerai quelques exemples d&rsquo;utilisation des lambdas pour illustrer la
+façon dont les lambdas impactent le design d&rsquo;APIs.</p>
+
+<p>Pour l&rsquo;instant j&rsquo;ai pas prévu de montrer de code assembleur, mais qui sait ?</p>
+
+<p><a href="http://www.jugevents.org/jugevents/event/show.html?id=52745">Inscrivez-vous rapidement sur JugEvents</a>,
+les places seront chères :-) !</p>
+
+<h3 id="java-8-lambdas-streams-et-collectors-le-nouveau-visage-de-l-api-collection-par-josé-paumard">Java 8 : lambdas, Streams et Collectors, le nouveau visage de l&rsquo;API Collection, par <strong>José Paumard</strong></h3>
+
+<p>José est professeur, membre du Paris JUG et rompu aux plus grosses conférences.
+<a href="http://www.devoxx.be/dv13-jos-paumard.html?presId=3540">Son talk sur le sujet à Devoxx 2013</a>,
+il y a quelques semaines, a été parmi les mieux notés par l&rsquo;assistance.</p>
+
+<p>Abstract :</p>
+
+<p>L&rsquo;API la plus utilisée du JDK est sans aucun doute l&rsquo;API Collection. Brillamment
+conçue il y a un peu plus de 15 ans, elle est encore aujourd&rsquo;hui au coeur de
+toutes les applications Java. En 2004, elle a subi son premier lifting, avec
+l&rsquo;introduction des génériques. Cette mise à jour, bien qu&rsquo;importante, n&rsquo;a
+cependant pas modifié ses patterns d&rsquo;utilisation. Avec l&rsquo;introduction des
+lambdas en Java 8, l&rsquo;API Collection est à nouveau réécrite, mais cette fois la
+situation est différente : ses patterns d&rsquo;utilisation sont complètement changés.</p>
+
+<p>La première partie de cette conférence introduit les lambda expressions, comment
+les écrire, et ce qu&rsquo;elle nous apportent en tant que développeurs. La deuxième
+partir présente en détail les nouveaux patterns introduits par les API Stream et
+Collector. Ces nouvelles API vont changer la façon dont nous allons pouvoir
+traiter les collections de grande taille, y compris en parallèle, avec un modèle
+de programmation très simple, et des patterns très puissants. Cette puissance
+sera montrée dans des exemples réels, qui monteront comment Java 8 va pouvoir
+nous aider à écrire simplement du code efficace et performant.</p>
+
+<p>Les inscriptions ne sont pas encore ouvertes, mais surveillez bien le compte
+Twitter <a href="https://twitter.com/toulousejug">@toulousejug</a> ou
+<a href="https://groups.google.com/forum/#!forum/toulouse-jug">la liste du JUG</a>, nous
+allons l&rsquo;ouvrir probablement d&rsquo;ici mi-décembre.</p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2019 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="http://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="http://www.toulousejug.org/js/holder.min.js"></script>
+<script src="http://www.toulousejug.org/js/lessismore.js"></script>
+<script src="http://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>

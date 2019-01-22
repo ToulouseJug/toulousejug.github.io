@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Toulouse JUG</title>
+    <link>http://www.toulousejug.org/post/</link>
+    <description>Recent content in Posts on Toulouse JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Soirée Apache Camel</title>
+      <link>http://www.toulousejug.org/post/2018-12-11-soiree-apache-camel/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2018-12-11-soiree-apache-camel/</guid>
+      <description>On termine l&amp;rsquo;année 2018 en beauté avec deux sujets sur le thème d&amp;rsquo;Apache Camel :
+Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&amp;rsquo;un SI est un besoin récurrent et pas nouveau.
+Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
+Dans un premier temps, nous retournerons aux basiques : Les EIPs.
+Puis nous évoluerons sur l&amp;rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Kotlin</title>
+      <link>http://www.toulousejug.org/post/2018-06-12-kotlin/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2018-06-12-kotlin/</guid>
+      <description>Adresse : EPITECH 40 Boulevard de la Marquette 7eme étage · Toulouse
+Nouvelle soirée du Java User Group Toulousain. Nous allons plonger, à l&amp;rsquo;aide d&amp;rsquo;Emmanuel VINAS et Igor LABORIE, dans l&amp;rsquo;univers Kotlin.
+Comment aborder un nouveau langage ?
+Les uns répondent en codant, les autres en regardant son fonctionnement en détail.
+Pour le programme plus en détail, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>Soirée introduction aux technologies blockchain</title>
+      <link>http://www.toulousejug.org/post/2018-05-15-blockchain/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2018-05-15-blockchain/</guid>
+      <description>Adresse : EPITECH 40 Boulevard de la Marquette 7eme étage · Toulouse
+Nouvelle soirée du Java User Group Toulousain.
+Arnaud Tournier vient nous présenter les technologies blockchain.
+Bitcoin, Ethereum, systèmes décentralisés, crypto-monnaie,&amp;hellip;
+Cette présentation est l’occasion de faire le point sur ce qu’est une blockchain du point de vue du développeur.
+Nous y présenterons de manière générale les​ ​grands principes : échanges peer-to-peer, les blocks et le minage, les transactions, la gestion des adresses et des clés cryptographiques,&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Soirée Eclipse Vert.x</title>
+      <link>http://www.toulousejug.org/post/2018-04-26-eclipse-vert-x/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2018-04-26-eclipse-vert-x/</guid>
+      <description>Adresse : Epitech 4e étage !
+Nouvelle soirée du Java User Group Toulousain. Nous allons vous faire découvrir, avec l&amp;rsquo;aide de Thomas SEGISMONT (@tsegismont sur twitter) , le toolkit Vert.x afin de faire des applications réactives.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 9 novembre 2017 - Lisp, Spring 5 et Reactor</title>
+      <link>http://www.toulousejug.org/post/2017-11-09-lisp-spring-5-et-reactor/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2017-11-09-lisp-spring-5-et-reactor/</guid>
+      <description>Adresse : Epitech 4e étage !
+Nous découvrirons ce soir la programmation en Lisp sur la JVM avec Arnaud Bos. Florian Beaufumé, quant à lui, nous présentera la programmation réactive dans un contexte Spring 5 et Reactor.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 2 mars 2017 - Eclipse DemoCamp</title>
+      <link>http://www.toulousejug.org/post/2017-03-02-eclipse_democamp/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2017-03-02-eclipse_democamp/</guid>
+      <description>Adresse : A définir
+Cet évènement sera l&amp;rsquo;occasion de découvrir les dernières nouveautés autour d&amp;rsquo;Eclipse. Venez échanger avec d&amp;rsquo;autres utilisateurs et rencontrer les contributeurs Eclipse.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 23 mars 2017 - Programmation concurrente dans l&#39;univers Java</title>
+      <link>http://www.toulousejug.org/post/2017-03-23-programmation_concurrente_java-copie/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2017-03-23-programmation_concurrente_java-copie/</guid>
+      <description>Adresse : A définir
+Cet évènement sera l&amp;rsquo;occasion de découvrir les solutions de programmation concurrente dans l&amp;rsquo;univers Java , des plus simples telles que Thread, synchronized ou Executor, au plus avancées comme StampedLock, fork/join ou CompletableFuture.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 26 avril 2017 - Suivez le lapin blanc ! Exploration au coeur de la JVM</title>
+      <link>http://www.toulousejug.org/post/2017-04-26-suivez-lapin-blanc/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2017-04-26-suivez-lapin-blanc/</guid>
+      <description>Adresse : A définir
+Pour cette nouvelle soirée du Java User Group Toulousain, nous allons rentrer dans les entrailles de notre plateforme préférée avec Sylvain Wallez (@bluxte) aux commandes.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 8 février 2017 - Functional web applications avec Kotlin and Spring</title>
+      <link>http://www.toulousejug.org/post/2017-02-08-kotlin-spring/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2017-02-08-kotlin-spring/</guid>
+      <description>Adresse : Harry Cow ( 13 rue sainte Ursule, Toulouse (Plan).
+Nous avons l&amp;rsquo;honneur en ce début du mois de février de recevoir Sébastien Deleuze, qui travaille chez Pivotal dans l&amp;rsquo;équipe de développement de Spring Framework.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 12 janvier 2017 - Behavior-Driven-Development et Unicode</title>
+      <link>http://www.toulousejug.org/post/2017-01-12-bdd-unicode/</link>
+      <pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2017-01-12-bdd-unicode/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Les 2 présentations de la soirée :
+• Behavior-Driven-Dev­elopment (alias BDD), Shoun Ichida
+• Unicode, Frédéric Cabestre
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 8 décembre 2016 - Soirée multi sujets</title>
+      <link>http://www.toulousejug.org/post/2016-12-08-multi-sujets/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2016-12-08-multi-sujets/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Les 3 présentations de la soirée :
+• Développer des applications Angular 2 100% en Java 8, Arnaud Tournier, 30 minutes • Annotation Java vs. Decorator Python, Didier Plaindoux, 20 minutes • BlueOcean, aperçu rapide de la nouvelle IHM de Jenkins, Baptiste Mathus, 10 minutes
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>Mercredi 26 octobre 2016 - Soirée Java EE, Micro Profile, TypeScript et Angular 2</title>
+      <link>http://www.toulousejug.org/post/2016-10-26-soiree-javaee-typescript/</link>
+      <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2016-10-26-soiree-javaee-typescript/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Présentation de Java EE, Micro Profile, TypeScript et Angular 2 avec Antonio Goncalves et Sébastien Pertus.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 15 septembre 2016 - Soirée SonarQube avec Nicolas Peru et Michael Gumowski</title>
+      <link>http://www.toulousejug.org/post/2016-09-15-soiree-sonarqube/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2016-09-15-soiree-sonarqube/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Présentation de SonarQube avec deux développeurs de chez SonarSource, la compagnie éditrice de SonarQube, Nicolas Peru et Michael Gumowski.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>Mercredi 18 mai 2016 - Soirée Java 9 avec Rémi Forax</title>
+      <link>http://www.toulousejug.org/post/2016-05-17-java9/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2016-05-17-java9/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Présentation de Java 9 par Rémi Forax.
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.</description>
+    </item>
+    
+    <item>
+      <title>Mercredi 9 mars 2016 - Hackergarten Jenkins &amp; Ateliers Ansible, Docker et plus si affinités !</title>
+      <link>http://www.toulousejug.org/post/2016-03-09-ateliers/</link>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2016-03-09-ateliers/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Pour le programme plus en détails, référez-vous aux informations de l&amp;rsquo;événement meetup.
+IMPORTANT: si vous avez envie d&amp;rsquo;animer un sujet particulier en plus de ceux indiqués, c&amp;rsquo;est tout à fait possible.
+Signalez-vous le cas échéant.</description>
+    </item>
+    
+    <item>
+      <title>Mardi 15 décembre 2015 - Soirée Jenkins  !</title>
+      <link>http://www.toulousejug.org/post/2015-12-15-jenkins/</link>
+      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-12-15-jenkins/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Au programme : une présentation du Workflow Plugin, une présentation du Job DSL Plugin et une présentation d&amp;rsquo;un retour d&amp;rsquo;expérience de près de 10 ans d&amp;rsquo;utilisation de Hudson/Jenkins + comment créer et gérer aujourd&amp;rsquo;hui une forge qui déboîte.
+Cf. le lien Meetup ci-dessus pour les détails de chaque session.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Multi-sujets !</title>
+      <link>http://www.toulousejug.org/post/2015-11-04-multi-sujets/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-11-04-multi-sujets/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+Java pattern matching: SuitCase, par Didier Plaindoux (30 min) Etant jeune vous vouliez coder en OCaml et Haskell mais voila Java est partout dans l&amp;rsquo;industrie. Au revoir les lambdas et le pattern matching ! Stop les lambdas dans Java 8 c&amp;rsquo;est une réalité mais quid du pattern matching ?
+Durant cette session je me propose de présenter un design du pattern matching par le biais d&amp;rsquo;un DSL fortement inspiré de Scala.</description>
+    </item>
+    
+    <item>
+      <title>jeudi 24 septembre 2015 - Soirée Websocket &#43;  Annotation processing !</title>
+      <link>http://www.toulousejug.org/post/2015-09-24-websocket/</link>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-09-24-websocket/</guid>
+      <description>Adresse : Epitech Toulouse (cf. lien pour adresse exacte, attention l&amp;rsquo;Epitech a plusieurs sites) (Inscrivez vous).
+WebSocket avec Java EE 7(Florian Beaufumé) WebSocket est un protocole de communication récent apportant de vraies communications bi-directionnelles standardisées au web. Nous allons présenter ce protocole, son API JavaScript, l&amp;rsquo;API Java apportée par Java EE 7, ainsi qu&amp;rsquo;un retour d&amp;rsquo;expérience de développement d&amp;rsquo;application.
+The Pluggable Annotation Processing API (Arnaud Tournier) Avec le doux nom de JSR-269, cette API permet de traiter les annotations présentes dans le code en s&amp;rsquo;insérant dans le processus de compilation de Java.</description>
+    </item>
+    
+    <item>
+      <title>Lundi 15 juin 2015 - Soirée Hibernate  !</title>
+      <link>http://www.toulousejug.org/post/2015-06-15-hibernate/</link>
+      <pubDate>Fri, 05 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-06-15-hibernate/</guid>
+      <description>Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+On n&amp;rsquo;est pas que des cobayes: ORM et NoSQL sont-ils solubles? (Emmanuel Bernard) 50min
+Vous voulez savoir ce que la persistance dans du NoSQL implique dans une architecture Java?
+Java est le fief de l&amp;rsquo;Orienté Objet où les ORMs poussent comme des champignons. Est-ce que les ORMs apportent encore des bénéfices dans le monde du NoSQL et de la persistance polyglotte?</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 21 mai 2015 - Soirée Elasticsearch  !</title>
+      <link>http://www.toulousejug.org/post/2015-05-21-elastic/</link>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-05-21-elastic/</guid>
+      <description>Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ? Il vous faut 3 jours pour produire des statistiques sur vos données ? Vous rêvez d’offrir une recherche &amp;ldquo;à la google&amp;rdquo; sur les données de votre SI ?</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 23 avril 2015 - Soirée MongoDB  !</title>
+      <link>http://www.toulousejug.org/post/2015-04-23-mongo/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-04-23-mongo/</guid>
+      <description>Attention adresse différente: Epitech Toulouse 14 rue Claire Pauilhac (Inscrivez vous).
+Le mouvement NoSQL offre des bases de données simplifiées et distribuables pour gérer plus facilement vos données semi-structurées et pour monter en charge horizontalement sur plusieurs machines. MongoDB est un moteur NoSQL solide et open source qui stocke les données en format JSON.
+Il permet de gérer aisément de grands volumes de données et est devenu très populaire dans les communautés.</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 26 mars 2015 - Soirée Yeoman&amp;Co JHipster  !</title>
+      <link>http://www.toulousejug.org/post/2015-03-11-yeoman/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2015-03-11-yeoman/</guid>
+      <description>Jeudi 26 mars, nous organisons une soirée à cheval sur l&amp;rsquo;univers Javascript et Java, à partir de 18h30 à l&amp;rsquo;Epitech, au 40 boulevard de la Marquette (Inscrivez vous).
+
+ Yeoman par Matthieu Lux: démarrez le développement Web moderne
+Un tour d&amp;rsquo;horizon des outils de développement Web moderne à partir du point d&amp;rsquo;entrée Yeoman qui permet de démarrer facilement un projet.
+Yeoman est l’outil de scaffolding pour le Web moderne. C’est à dire qu’il permet de choisir les briques de votre application et vous initialise un projet fonctionnel.</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 11 décembre 2014 - Soirée Cassandra et toulibre !</title>
+      <link>http://www.toulousejug.org/post/2014-12-11-cassandratour/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2014-12-11-cassandratour/</guid>
+      <description>Jeudi 11 décembre, nous organisons une soirée en partenariat avec le Cassandra Tour, à partir de 18h30 à l&amp;rsquo;Epitech, au 40 boulevard de la Marquette (Inscrivez vous).
+Présentation de l&amp;rsquo;association Toulibre L&amp;rsquo;association Toulibre qui défend les logiciels libres viendront se présenter pendant 30 minutes.
+Introduction à Cassandra 2.1 Nous allons présenter Apache Cassandra 2.1 et son architecture. Nous montrerons comment la base de données peut garantir une scalabilité linéaire, une haute disponibilité tout en gardant un niveau de performance constant.</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 20 novembre 2014 - Soirée Programmation réactive en Java 8 !</title>
+      <link>http://www.toulousejug.org/post/2014-11-20-soiree-going-reactive-java-8/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2014-11-20-soiree-going-reactive-java-8/</guid>
+      <description>Jeudi 20 novembre, nous organisons une nouvelle soirée sur la programmation réactive en Java 8, à partir de 18h30 à l&amp;rsquo;Epitech, au 40 boulevard de la Marquette (Inscrivez vous).
+Warning : la conférence est en Anglais !
+Going Reactive with Java 8 Les Lambdas de Java 8 facilitent la construction d&amp;rsquo;applications Réactives. A travers de nombreux exemples de code, cette session vous montrera comment construire des applications event-driven, scalables et résilientes avec Java 8, Play!</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 16 octobre 2014 - Soirées Spring 4 !</title>
+      <link>http://www.toulousejug.org/post/2014-10-16-spring4/</link>
+      <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2014-10-16-spring4/</guid>
+      <description>Jeudi 16 octobre, à partir de 18h30 à l&amp;rsquo;Epitech qui se trouve à présent au 40 boulevard de la Marquette, nous organisons une soirée sur le récent passage de Spring en version 4 (Inscrivez vous) :
+Spring Boot
+Spring Boot est une boîte à outils qui vous permet de développer et déployer vos applications Spring en un temps record, grâce a son approche orientée convention plutôt que configuration.
+Spring Boot inclut également :</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 25 septembre - Soirées lightning Talks !</title>
+      <link>http://www.toulousejug.org/post/2014-09-25-multisujets/</link>
+      <pubDate>Mon, 22 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2014-09-25-multisujets/</guid>
+      <description>Jeudi 25 septembre, à partir de 18h30, nous organisons à nouveau une soirée grâce à vos propositions.
+Le CFP organisé il y a quelques semaines nous a permis de vous préparer une soirée intéressante avec des sujets pour tous les goûts ! :-)
+L&amp;rsquo;ordre est encore susceptible d&amp;rsquo;évoluer, mais voici les différents sujets :
+   Titre &amp;amp; Speaker Durée prévue Sujet     Vos logs sont une mine d&amp;rsquo;or avec Kibana!</description>
+    </item>
+    
+    <item>
+      <title>Mardi 8 avril - Java 8 Lambdas &amp; Devices, avec Stephen Chin</title>
+      <link>http://www.toulousejug.org/post/2014-03-09-mardi-8-avril-java-8-lambdas-devices-avec-stephen-chin/</link>
+      <pubDate>Sun, 09 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2014-03-09-mardi-8-avril-java-8-lambdas-devices-avec-stephen-chin/</guid>
+      <description>Mardi 8 avril, nous recevons Stephen Chin, Java Technology Ambassador chez Oracle, mais surtout un hacker un peu fou qui fait le tour du monde des JUG en moto !
+
+ On continue sur la lancée de Java 8, plus pleins de petites choses amusantes. Au programme : embarqué, internet of things, Lego MindStorms,lambdas et bien plus encore :-)
+Pour s&amp;rsquo;incrire : http://www.jugevents.org/jugevents/event/53388
+Le résumé de sa session :</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 27 février 2014 - soirée Ateliers, Scala, Hazelcast, Jenkins &amp; co...</title>
+      <link>http://www.toulousejug.org/post/2014-02-11-jeudi-27-fevrier-2014-soiree-ateliers-scala-hazelcast-jenkins-co/</link>
+      <pubDate>Tue, 11 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2014-02-11-jeudi-27-fevrier-2014-soiree-ateliers-scala-hazelcast-jenkins-co/</guid>
+      <description>Pour la prochaine soirée du JUG, on a décidé de tester un format différent de celui habituel.
+Le principe est que vous venez avec votre machine et qu&amp;rsquo;on va pratiquer pour de vrai les sujets.
+Les ateliers se dérouleront entre 18h et 21h30 environ. On va en effet essayer de commencer un rien plus tôt que d’habitude afin que le temps consacré aux manipulations soit suffisant pour aller quelque part :-).</description>
+    </item>
+    
+    <item>
+      <title>Lambda mon amour - 2 talks pour le prix d&#39;un ! Rémi Forax en décembre 2013 et José Paumard en janvier 2014</title>
+      <link>http://www.toulousejug.org/post/2013-11-28-lambda-mon-amour-2-talks-pour-le-prix-dun-remi-forax-en-decembre-2013-et-jose-paumard-en-janvier-2014/</link>
+      <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-11-28-lambda-mon-amour-2-talks-pour-le-prix-dun-remi-forax-en-decembre-2013-et-jose-paumard-en-janvier-2014/</guid>
+      <description>Comme vous le savez sûrement, Java 8 arrive d&amp;rsquo;ici quelques semaines, normalement fin mars 2014.
+Comme le dit Mark Reinhold, le &amp;ldquo;Chief Architect of the Java Platform&amp;rdquo;, les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &amp;ndash; plus encore que les generics.
+Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir sereinement toutes ces nouveautés.
+ Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec Henri Tremblay qui nous a sensibilisé au cocktail spécial qu&amp;rsquo;allait être le mélange lambda/generics.</description>
+    </item>
+    
+    <item>
+      <title>Soirée &#34;Eclipse Demo Camp&#34; à l&#39;N7</title>
+      <link>http://www.toulousejug.org/post/2013-11-07-soiree-eclipse-demo-camp-a-ln7/</link>
+      <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-11-07-soiree-eclipse-demo-camp-a-ln7/</guid>
+      <description>Le jeudi 28 Novembre à 17h30 à l&amp;rsquo;N7, avec la présence de Mike Milinkovich, Directeur Executif de la Fondation Eclipse.
+
+ Les démos camp Eclipse, c&amp;rsquo;est deux fois par an (en juin et en novembre) une série d&amp;rsquo;événement pour rencontrer la communauté Eclipse de votre région.
+Celui de Toulouse est co-organisé par le JUG et la fondation Eclipse et hébergé par l&amp;rsquo;N7.
+Le programme est déjà alléchant, mais il reste encore de la place pour un talk de 20 minutes et quelques quickies.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Generics et Lambda</title>
+      <link>http://www.toulousejug.org/post/2013-10-03-soiree-generics-et-lambda/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-10-03-soiree-generics-et-lambda/</guid>
+      <description>Le mercredi 16 octobre à 18h30 à l&amp;rsquo;Epitech par Henri Tremblay, créateur d&amp;rsquo;EasyMock et Objenesis.
+Nous renouvelons l&amp;rsquo;expérience pizzas de la dernière fois. Si vous voulez avoir le droit de vous en approcher, n&amp;rsquo;oubliez surtout pas de vous inscrire (sinon, ce sera chips et rien d&amp;rsquo;autre :-)).
+Les lambda expressions en Java arrivent à grands pas. Les génériques sont eux apparus en 2004. Joshua Bloch en a conclut: &amp;ldquo;Chaque langage a un quota de complexité.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Threads - Pull Request &amp; Android</title>
+      <link>http://www.toulousejug.org/post/2013-09-13-soiree-threads-pull-request-android/</link>
+      <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-09-13-soiree-threads-pull-request-android/</guid>
+      <description>Ce Jeudi 19 Septembre aura lieu à l&amp;rsquo;Epitech une soirée commune avec nos amis du Toulouse Android User Group.
+Inscrivez-vous pour que nous puissions prévoir suffisamment de quantité pour l&amp;rsquo;apéritif amélioré qui est prévu :-) !
+Au programme :
+ Google Sign-In sur Android par Mathias Seguy Back to Basics Partie 1 : Les Threads par Nicolas Zozol Pull-request GitHub par Baptiste Mathus &amp;amp; Sylvain Wallez  L&amp;rsquo;horaire sera un tout petit peu décalé à 18h45 pour commencer les conférences à 19h tapante.</description>
+    </item>
+    
+    <item>
+      <title>Soirée moteur de recherche le 27/06</title>
+      <link>http://www.toulousejug.org/post/2013-05-28-soiree-moteur-de-recherche-le-2706/</link>
+      <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-05-28-soiree-moteur-de-recherche-le-2706/</guid>
+      <description>A 18h30 à l&amp;rsquo;épitech, le JUG reçoit Lucian Precup qui démontrera la puissance des moteurs de recherche.
+Inscrivez vous
+Avec l’approche BigData et l’essor des technologies NoSQL, les moteurs de recherche sont de plus en plus utilisés sur internet et en entreprise. Dans ce contexte, l’Open Source en général et les technologies basées sur le moteur Apache Lucene en particulier sont en plein développement.
+Après une introduction permettant de découvrir ce qu’un moteur de recherche peut faire pour votre entreprise, votre site web ou votre application, nous verrons comment mettre en place des serveurs de recherche pertinents, robustes, performants et évolutifs.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Java RoundUp</title>
+      <link>http://www.toulousejug.org/post/2013-05-14-soiree-java-roundup/</link>
+      <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-05-14-soiree-java-roundup/</guid>
+      <description>EclipseCon France 2013
+Ce Jeudi 16 mai à 18h30 à l&amp;rsquo;Epitech, nous faisons un Java RoundUp de différents sujets :
+Après les News et le Quizz, nous aurons :
+ EclipseCon US &amp;amp; Europe par Mélanie Bats et Benjamin Cabé Convaincre son DSI sur Big Data par Léonardo Noleto Cassandra par Alexis Krier Les outils du Startupeur par Sylvain Wallez et Nicolas Deverge  puis viendront l&amp;rsquo;apéro et le resto.</description>
+    </item>
+    
+    <item>
+      <title>Soirée CDI &amp; Co le 21/03/2013</title>
+      <link>http://www.toulousejug.org/post/2013-03-06-soiree-cdi-co-le-21032013/</link>
+      <pubDate>Wed, 06 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-03-06-soiree-cdi-co-le-21032013/</guid>
+      <description>Soirée sur l&amp;rsquo;écosystème JEE6 présentée par Romain Manni-Bucau commiter sur le projet DeltaSpike. Connaissez vous bien la plateforme V6? JEE7 arrive bientôt mais la vraie révolution a déjà eu lieu, réveillez vous JEE6 est déjà là et c&amp;rsquo;est pas que du conteneur lourd.
+Inscrivez vous
+ Rappel sur les forces de CDI/JavaEE 6 
+  Codi 
+  Seam 
+  DeltaSpike dans tout ça 
+  Core utility Security JPA JSF Rappel sur Arquillian</description>
+    </item>
+    
+    <item>
+      <title>Soirée Git le Jeudi 21 Février (&#43; AG)</title>
+      <link>http://www.toulousejug.org/post/2013-02-06-soiree-git-2102/</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2013-02-06-soiree-git-2102/</guid>
+      <description>Le Jeudi 21&amp;frasl;02 18h30 à l&amp;rsquo;Epitech le JUG organise une soirée Git.
+On vous promet une soirée show time, pas de &amp;ldquo;man git&amp;rdquo; soporifique.
+Un tour de son écosystème vous apportera surement la solution dont vous avez besoin.
+L&amp;rsquo;essentiel 1) 30 mins : Le moteur de Git et ses principes par Baptiste Mathus
+Les process 2) 15 mins sur Git Flow par Igor Laborie, ou comment ne pas s’emmêler les branches</description>
+    </item>
+    
+    <item>
+      <title>Soirée du jeudi 13 décembre - Big Data et data mining – tour au zoo d’Hadoop</title>
+      <link>http://www.toulousejug.org/post/2012-11-29-soiree-du-jeudi-13-decembre-big-data-et-data-mining-tour-au-zoo-hadoop/</link>
+      <pubDate>Thu, 29 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-11-29-soiree-du-jeudi-13-decembre-big-data-et-data-mining-tour-au-zoo-hadoop/</guid>
+      <description>Après l&amp;rsquo;institutionnelle introduction incluant la vie du JUG, les news et le Quiz, Nicolas Lalevée et François Royer nous parleront jeudi 13 décembre 2012 de la technologie NoSQL Hadoop.
+Pour les inscriptions, c&amp;rsquo;est par là :-).
+Big Data et data mining – tour au zoo d’Hadoop. Hadoop est devenu un socle incontournable pour la fouille de données: ETL, distribution de tâches, collecte et aggrégation, on peut tout faire avec, ou presque.</description>
+    </item>
+    
+    <item>
+      <title>Soirée dont vous êtes le héros strikes back</title>
+      <link>http://www.toulousejug.org/post/2012-11-13-soiree-dont-vous-etes-le-hero-strikes-back/</link>
+      <pubDate>Tue, 13 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-11-13-soiree-dont-vous-etes-le-hero-strikes-back/</guid>
+      <description>La deuxième soirée Hero aura lieu ce Jeudi 15 Novembre. Plusieurs juggers toulousains feront une présenation de 15 à 30 minutes.
+Vous pouvez vous inscrire ici.
+En voici le programme :
+ Méthode Getting Things Done (GTD) par Baptiste Mathus : ou comment organiser sa vie de Développeur 
+  Développement de plugin Jenkins par Michaël Pailloncy : vous saurez tout pour faire votre propre Plugin. 
+  Dessine-moi un DSL par Frédéric Madiot : Une présentation graphique d&amp;rsquo;un nouvel outil Open Source</description>
+    </item>
+    
+    <item>
+      <title>Soirée Ceylon sur Parleys</title>
+      <link>http://www.toulousejug.org/post/2012-11-06-soiree-ceylon-sur-parleys/</link>
+      <pubDate>Tue, 06 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-11-06-soiree-ceylon-sur-parleys/</guid>
+      <description>Les prezs sont dispos:</description>
+    </item>
+    
+    <item>
+      <title>Mercredi 24 octobre - Soirée Ceylon !</title>
+      <link>http://www.toulousejug.org/post/2012-10-07-mercredi-24-octobre-soiree-ceylon/</link>
+      <pubDate>Sun, 07 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-10-07-mercredi-24-octobre-soiree-ceylon/</guid>
+      <description>Mercredi 24 octobre, à 18h30 à l&amp;rsquo;Epitech de Toulouse comme d&amp;rsquo;habitude, nous accueillons Stéphane Epardaud, committer sur le compilateur, et David Festal, développeur de l’IDE associé.
+Inscrivez-vous pour réserver votre place !
+Stéphane et David nous présenteront le nouveau langage de programmation Ceylon.
+Après que David nous aura présenté le langage, David nous montrera le fonctionnement de l&amp;rsquo;IDE associé.
+Le résumé Ceylon est un nouveau langage de programmation pour la machine virtuelle Java.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Android disponible sur Parleys</title>
+      <link>http://www.toulousejug.org/post/2012-09-28-soiree-android-disponible-sur-parleys/</link>
+      <pubDate>Fri, 28 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-09-28-soiree-android-disponible-sur-parleys/</guid>
+      <description>Une soixantaine de personnes est venue voir Mathias Seguy nous présenter Android et les bonnes pratiques pour débuter sur des applications sérieuses.
+De nombreux goodies ont été gagnés : T shirt du JUG, T shirt Android, clés usb Android, stickers&amp;hellip; tant pis pour ceux qui ne sont pas venus ! :-)
+L&amp;rsquo;autre bonne nouvelle c&amp;rsquo;est que la première captation est dispo sur parleys !
+http://www.parleys.com/#st=5&amp;amp;id=3384
+A l&amp;rsquo;avenir toutes les prez devraient s&amp;rsquo;y retrouver.</description>
+    </item>
+    
+    <item>
+      <title>Challenge - Trouvez le sujet de la soirée d&#39;octobre</title>
+      <link>http://www.toulousejug.org/post/2012-09-24-challenge-trouvez-le-sujet-de-la-soiree-doctobre/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-09-24-challenge-trouvez-le-sujet-de-la-soiree-doctobre/</guid>
+      <description>
+ Comme cela a motivé quelques juggers pour la soirée Android de septembre, on renouvelle pour octobre et on corse un peu le travail :-)
+Celle ou celui qui franchira les étapes du challenge (et les aura expliquées) gagnera un T-Shirt du JUG.
+C&amp;rsquo;est parti !
+
+ </description>
+    </item>
+    
+    <item>
+      <title>Soirée Android</title>
+      <link>http://www.toulousejug.org/post/2012-09-14-soiree-android/</link>
+      <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-09-14-soiree-android/</guid>
+      <description>Ce Jeudi 20 Septembre, Mathias Seguy, toulousain devenu expert Android et speaker à DevoxxFrance, viendra nous présenter cette technologie sur laquelle il a décidé de se spécialiser.
+Il dispense d&amp;rsquo;ailleurs régulièrement des formations Android inter-entreprises.
+Nous aborderons les notions et bonnes pratiques élémentaires de ce type de développement. Nous démystifierons également la programmation mobile afin de permettre aux développeurs de s&amp;rsquo;y lancer à leur tour en ayant en tête une vision globale du système et de son fonctionnement.</description>
+    </item>
+    
+    <item>
+      <title>NOSQL - NEO4J</title>
+      <link>http://www.toulousejug.org/post/2012-06-08-nosql-neo4j/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-06-08-nosql-neo4j/</guid>
+      <description>The world’s leading graph database.
+Voilà qui annonce le niveau pour la prez de jeudi prochain !
+Peter Neubauer créateur de Neo4J nous présentera en anglais ce qu’est le NOSQL et quelles sont les spécificités d’une base graph.
+Rendez vous jeudi 14, 18h30 à l’Epitech.
+Inscrivez vous sur JugEvents.</description>
+    </item>
+    
+    <item>
+      <title>Soirée dont vous êtes le héros le 26/04</title>
+      <link>http://www.toulousejug.org/post/2012-04-13-soiree-dont-vous-etes-le-heros-le-2604/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-04-13-soiree-dont-vous-etes-le-heros-le-2604/</guid>
+      <description>Le 26 avril prochain à partir de 18h30 à l’Epitech aura lieu la soirée dont vous êtes le héros, et même les héros .
+Voici les trésors que nous allons découvrir :
+ Lambda dans Java 8 (30 minutes) par Didier Plaindoux : Définition d&amp;rsquo;interface, syntaxe, portée des variables, manipulation de méthodes&amp;hellip; 
+  Processing Java (15 minutes) par Sylvain Wallez : Environnement Java dédié à la création d&amp;rsquo;application multimedia interactives (Kinect, pilotage de LED …)</description>
+    </item>
+    
+    <item>
+      <title>Soirée &#34;Objectif Cloud&#34; le 15/03 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2012-03-05-soiree-objectif-cloud-le-1503-a-lepitech/</link>
+      <pubDate>Mon, 05 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-03-05-soiree-objectif-cloud-le-1503-a-lepitech/</guid>
+      <description>Découvrez Cloudbees Le 15&amp;frasl;03 à l&amp;rsquo;Epitech, à 18h30, Nicolas de Loof, co-auteur du livre Apache Maven, figure de la communauté Java Française, et leader du BreizhJug vous fera découvrir le cloud en Java!
+De plus, pour le premier anniversaire du JUG, nous échangerons sur le mouvement des JUG en France et nous ferons le bilan de l&amp;rsquo;année écoulée.
+Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvent.</description>
+    </item>
+    
+    <item>
+      <title>Igor Laborie - revue de &#34;Apache Maven, Version 2 et 3, 2e édition 2011&#34; offert par Toulouse JUG</title>
+      <link>http://www.toulousejug.org/post/2012-02-20-igor-laborie-revue-de-apache-maven-version-2-et-3-2e-edition-2011-offert-par-toulouse-jug/</link>
+      <pubDate>Mon, 20 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-02-20-igor-laborie-revue-de-apache-maven-version-2-et-3-2e-edition-2011-offert-par-toulouse-jug/</guid>
+      <description>Apache Maven, Version 2 et 3, 2e édition
+
+ 
+Présentation rapide Ce livre est écrit par Nicolas de Loof (CloudBees) et Arnaud Héritier (eXo Platform), avec de nombreuses participations de la communauté francophone.
+Pour rappel Arnaud était venu nous présenter Maven 3 lors de la session du 16 Mars 2011. J&amp;rsquo;espère que l&amp;rsquo;on verra Nicolas bientôt sur Toulouse, par exemple pour nous présenter Cloudbees ?
+UPDATE : Nicolas viendra justement nous présenter CloudBees jeudi 15 mars 2012, pratiquement un an jour pour jour après la venue d&amp;rsquo;Arnaud.</description>
+    </item>
+    
+    <item>
+      <title>Soirée JavaFX 2 le 16/02 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2012-02-06-soiree-javafx-2-le-1602-a-lepitech/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-02-06-soiree-javafx-2-le-1602-a-lepitech/</guid>
+      <description>Découvrez JavaFX 2
+Le 16&amp;frasl;02 à l&amp;rsquo;Epitech, à 18h30, Sébastien Bordes animera une soirée JavaFX2.
+Sébastien nous a alléché en proposant de faire sa présentation 100% avec JavaFX2. Dans le style &amp;ldquo;Eat your own food&amp;rdquo;, la soirée donnera donc lieu à une présentation et démonstration de la techno.
+Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvent.
+Venez nombreux et parlez-en autour de vous !</description>
+    </item>
+    
+    <item>
+      <title>Jonathan Pineau - Retour de JRebel, offert par le Toulouse JUG</title>
+      <link>http://www.toulousejug.org/post/2012-01-28-retour-de-jrebel-offert-par-le-toulouse-jug/</link>
+      <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-01-28-retour-de-jrebel-offert-par-le-toulouse-jug/</guid>
+      <description>Ce retour fait suite au gain d’une licence JRebel lors de la soirée du Toulouse JUG autour du Framework Play.
+Présentation rapide JRebel est un outil proposé par la société ZeroTurnaround à destination des développeurs ayant pour but d’améliorer leur productivité. Pour cela, il fournit un système de prises en compte à chaud des modifications sans nécessiter le redéploiement de l’application ou le redémarrage du serveur.
+Il se présente sous la forme d’un plugin « java agent » à déclarer au niveau de la JVM du serveur d’application et d’un fichier de configuration « rebel.</description>
+    </item>
+    
+    <item>
+      <title>Prochaines soirées - Choisissez la programmation</title>
+      <link>http://www.toulousejug.org/post/2012-01-17-prochaines-soirees-choisissez-la-programmation/</link>
+      <pubDate>Tue, 17 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-01-17-prochaines-soirees-choisissez-la-programmation/</guid>
+      <description>Alors, plutôt Kotlin ou Lucène ?</description>
+    </item>
+    
+    <item>
+      <title>Soirée Grails le 19/01 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2012-01-05-soiree-grails-le-1901-a-lepitech/</link>
+      <pubDate>Thu, 05 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2012-01-05-soiree-grails-le-1901-a-lepitech/</guid>
+      <description>Découvrez Grails et l&amp;rsquo;un des projets les plus importants développé en France avec Grails !
+Le 19&amp;frasl;01 à l&amp;rsquo;Epitech, à 18h30, Vincent Barrier et Franck Silvestre animeront une soirée Grails.
+Ces deux toulousains, grands utilisateurs de Grails, nous présenteront une introduction à Grails, ainsi que l&amp;rsquo;utilisation de Grails pour développer l&amp;rsquo;ENT des Lycées de la Région Île de France: Lilie.
+Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvents.</description>
+    </item>
+    
+    <item>
+      <title>Retour sur la soirée performances</title>
+      <link>http://www.toulousejug.org/post/2011-12-13-retour-sur-la-soiree-performances/</link>
+      <pubDate>Tue, 13 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-12-13-retour-sur-la-soiree-performances/</guid>
+      <description>Cette soirée aura été féminine mais surtout performante ;-)
+Un retour sur Devoxx où Marianne nous aura résumé les grandes annonces dont celle du premier Devoxx France en Avril prochain.
+Claude nous a présenté l&amp;rsquo;organisation Duchess, ce qui nous a permis de bien comprendre la démarche de ce regroupement. Par exemple, les Duchess apportent également à ses adhérentes des conseils sur l&amp;rsquo;intégration dans un univers plutôt masculin. Discussion intéressante sur la discrimination positive (celle d&amp;rsquo;embaucher des filles): Cela n&amp;rsquo;a pas lieu d&amp;rsquo;être; la soirée a montré que les Duchess valent bien des Jugger Toulousains.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Performances en Java le 7/12 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2011-11-30-soiree-performances-en-java-le-712-a-lepitech/</link>
+      <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-11-30-soiree-performances-en-java-le-712-a-lepitech/</guid>
+      <description>Identifiez les problèmes de performances dans vos applications Java ! Le 7&amp;frasl;12 à l&amp;rsquo;Epitech, à 18h30, Claude Falguière, qui a déjà traité ce sujet dans différents JUG et conférences, nous donnera les clés pour résoudre ce problème difficile.
+Nous aurons aussi un retour de Devoxx 2011 par Claude et par Marianne Jullien.
+Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvents.
+Venez nombreux et parlez-en autour de vous.</description>
+    </item>
+    
+    <item>
+      <title>Retour sur la soirée Play!</title>
+      <link>http://www.toulousejug.org/post/2011-11-22-retour-sur-la-soiree-play/</link>
+      <pubDate>Tue, 22 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-11-22-retour-sur-la-soiree-play/</guid>
+      <description>Jeudi dernier le JUG a renoué avec les speakers du terroir: Sylvain Wallez, toulousain, a présenté Play! framework java haute productivité.
+Une présentation qui a repris les grandes lignes de Play! en étant largement accessible aux 80 participants.
+3 retours d&amp;rsquo;expériences ont démontré que ce genre de nouveau framework n&amp;rsquo;était pas destiné qu&amp;rsquo;aux plus Geeks d&amp;rsquo;entre nous mais avait un réel avenir dans les entreprises.
+Ce fut aussi l&amp;rsquo;occasion de présenter nos nouveaux sponsors, Objet Direct et Valtech.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Play le 17/11 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2011-11-04-soiree-play-le-1711-a-lepitech/</link>
+      <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-11-04-soiree-play-le-1711-a-lepitech/</guid>
+      <description>L&amp;rsquo;idée d&amp;rsquo;une soirée Play! circulait entre les membres du JUG depuis quelques temps. C&amp;rsquo;est maintenant prévu pour la soirée du 17 novembre à 18h30 !
+Au programme : une introduction à Play!framework par Sylvain Wallez, et trois &amp;ldquo;REX&amp;rdquo; (Retours d&amp;rsquo;EXpérience).
+L&amp;rsquo;inscription se passe par ici. Venez nombreux et parlez-en autour de vous.
+Introduction à Play! par Sylvain Wallez  origine et inspiration (Rails), &amp;ldquo;oubliez tout ce que vous savez sur J2EE&amp;rdquo;, la fin du &amp;ldquo;anemic domain model&amp;rdquo;, structure d&amp;rsquo;un projet Play : organisation des répertoires, contrôleurs, modèle et DAO, le &amp;ldquo;bytecode magic&amp;rdquo; de Play et ce qu&amp;rsquo;il apporte méthodes statiques : les plus et les moins développement : save &amp;amp; reload.</description>
+    </item>
+    
+    <item>
+      <title>Première soirée internationale pour le JUG</title>
+      <link>http://www.toulousejug.org/post/2011-09-17-premiere-soiree-internationale-pour-le-jug/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-09-17-premiere-soiree-internationale-pour-le-jug/</guid>
+      <description>Terrence Barr speaker international (Brésil, Chine, Japon, Europe, Amériques) a réussi à faire passer le cap des 80 personnes. Une communauté grandissante qui nous encourage tous !
+La présentation de Terrence nous a fait plonger dans les nouveautés de Java 7 et survoler celles du futur Java 8. Il a également résumé la philosophie d’Oracle quand à la communauté Java. Un discours qui s’est voulu rassurant et professionnel.
+La barrière de la langue n’aura pas découragé les participants de poser des questions toujours aussi pointues.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Java 7 le 14/09 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2011-08-30-soiree-java-7-le-1409-a-lepitech/</link>
+      <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-08-30-soiree-java-7-le-1409-a-lepitech/</guid>
+      <description>Pour bien redémarrer, nous organisons un événement Java 7 le 14&amp;frasl;09 à l’EPITECH à 18h30. Inscrivez-vous sur le site JugEvent !
+Nous aurons le plaisir d’accueillir un speaker international, Terrence Barr, Senior Technologist and Ambassador at Oracle.
+Voici la description du talk de Terrence.
+Java SE 7: The Platform Evolves In July 2011, Java SE 7 was released. This evolutionary release brings a host of new features and performance enhancements to the Java platform, designed to increase productivity, re-invigorate the Java ecosystem, grow adoption, and adapt Java to the changing demands of the IT world.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Party le 23/06 à 14h à l&#39;N7 - un programme au top!</title>
+      <link>http://www.toulousejug.org/post/2011-06-01-eclipse-party-le-2306-a-14h-a-ln7-un-programme-au-top/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-06-01-eclipse-party-le-2306-a-14h-a-ln7-un-programme-au-top/</guid>
+      <description>À l’occasion de la sortie de la nouvelle version 3.7 de la plate‐forme Eclipse, nommée Indigo, nous organisons le jeudi 23 juin de 13h à 20h à Toulouse, en collaboration avec l&amp;rsquo;association Toulibre, un après‐midi autour du logiciel libre Eclipse, avec conférences et démonstrations.
+Les conférences seront animées par des personnalités de la communauté francophone d’Eclipse : Benjamin Cabé (committer sur les projets PDE, e4 et Koneki), Simon Chemouil (committer sur le projet e4), Etienne Juliot (membre du board de l&amp;rsquo;Eclipse Foundation), Gaétan Morice (committer sur le projet Koneki), etc.</description>
+    </item>
+    
+    <item>
+      <title>Soirée gestion des dépendances</title>
+      <link>http://www.toulousejug.org/post/2011-05-27-soiree-gestion-des-dependances/</link>
+      <pubDate>Fri, 27 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-05-27-soiree-gestion-des-dependances/</guid>
+      <description>La soirée - très pointue - sur la gestion des dépendances s&amp;rsquo;est déroulée devant environ 40 personnes. En voici la présentation SlideShare.
+ Merci beaucoup à Nicolas Lalevée pour sa présentation, et son travail Open Source.
+Le prochain événement de Toulouse Jug, en association avec nos amis de Toulibre, sera l&amp;rsquo;Eclipse Party le Jeudi 23 Juin, de 13h à 21h.</description>
+    </item>
+    
+    <item>
+      <title>Jeudi 26 mai - Maven et Ivy vs OSGi - duel au sommet de la gestion de dépendances</title>
+      <link>http://www.toulousejug.org/post/2011-05-09-maven-et-ivy-vs-osgi-duel-au-sommet-de-la-gestion-de-dependances/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-05-09-maven-et-ivy-vs-osgi-duel-au-sommet-de-la-gestion-de-dependances/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.jugevents.org/jugevents/event/37929&#34;&gt;Réservez votre place sur le site &lt;strong&gt;JugEvent&lt;/strong&gt; !!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Retour sur la soirée HTML5, Flex &amp; Java du 21 avril 2011</title>
+      <link>http://www.toulousejug.org/post/2011-05-01-retour-sur-la-soiree-html5-flex-java-du-21-avril-2011/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-05-01-retour-sur-la-soiree-html5-flex-java-du-21-avril-2011/</guid>
+      <description>&lt;p&gt;La soirée du 21 a été un succès. Malgré une annonce un peu tardive du programme
+de la session, nous avons tout de même été près de 50 à assister aux
+présentations de Florent, Bert et Nicolas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Soirée HTML5, Flex &amp; Java, le 21/04 à 18h30 à l&#39;EPITECH</title>
+      <link>http://www.toulousejug.org/post/2011-04-11-soiree-html5-flex-java-le-2104-a-18h30-a-lepitech/</link>
+      <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-04-11-soiree-html5-flex-java-le-2104-a-18h30-a-lepitech/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.jugevents.org/jugevents/event/36705&#34;&gt;Réservez votre place sur le site &lt;strong&gt;JugEvent&lt;/strong&gt; !!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Refonte</title>
+      <link>http://www.toulousejug.org/post/2011-03-30-hello-world/</link>
+      <pubDate>Wed, 30 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-03-30-hello-world/</guid>
+      <description>&lt;p&gt;Nous avons décidé de passer le site du JUG sur Wordpress.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Partenariat du Toulouse JUG avec la conférence What&#39;s Next Paris</title>
+      <link>http://www.toulousejug.org/post/2011-03-05-partenariat-du-toulouse-jug-avec-la-conference-whats-next-paris/</link>
+      <pubDate>Sat, 05 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2011-03-05-partenariat-du-toulouse-jug-avec-la-conference-whats-next-paris/</guid>
+      <description>&lt;p&gt;La nouvelle équipe du Toulouse JUG a le plaisir de vous annoncer son partenariat
+avec la conférence What&amp;rsquo;s Next, organisée à Paris les 26 &amp;amp; 27 mai 2011 au
+Grand Rex.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;
+  &lt;img
+    src=&#34;http://www.toulousejug.org/images/2011-03-05-partenariat-du-toulouse-jug-avec-la-conference-whats-next-paris/Logo_whatsnextparis22.png&#34;
+    title=&#34;Logo_whatsnextparis22.png&#34;
+    
+    
+    
+    /&gt;
+&lt;/div&gt;
+&lt;br /&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android et Google App Engine</title>
+      <link>http://www.toulousejug.org/post/2009-09-29-android-et-google-app-engine/</link>
+      <pubDate>Tue, 29 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2009-09-29-android-et-google-app-engine/</guid>
+      <description>&lt;p&gt;La prochaine session aura lieu le 6 Octobre 2009 à partir de 18h.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Première Session - Un succès !</title>
+      <link>http://www.toulousejug.org/post/2009-05-05-premiere-session-un-succes/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2009-05-05-premiere-session-un-succes/</guid>
+      <description>&lt;p&gt;Ce mardi a eu lieu la première session du JUG Toulouse. Beau succès au
+rendez-vous avec 70 participants.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La Première !</title>
+      <link>http://www.toulousejug.org/post/2009-04-20-la-premiere/</link>
+      <pubDate>Mon, 20 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2009-04-20-la-premiere/</guid>
+      <description>&lt;p&gt;Après quelques mois de préparation, ça y est, nous sommes en mesure d&amp;rsquo;annoncer
+le contenu de notre premier RDV !&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Le JUG Toulousain</title>
+      <link>http://www.toulousejug.org/post/2009-02-10-le-jug-toulousain/</link>
+      <pubDate>Tue, 10 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2009-02-10-le-jug-toulousain/</guid>
+      <description>&lt;p&gt;Le JUG Toulousain a pour vocation de fédérer les utilisateurs et développeurs
+Java de la région Toulousaine.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

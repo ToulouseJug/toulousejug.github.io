@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Soirée Play le 17/11 à l&#39;EPITECH</title>
+  <meta property="og:title" content="Soirée Play le 17/11 à l&#39;EPITECH" />
+  <meta name="twitter:title" content="Soirée Play le 17/11 à l&#39;EPITECH" />
+  <meta name="description" content="L&rsquo;idée d&rsquo;une soirée Play! circulait entre les membres du JUG depuis quelques temps. C&rsquo;est maintenant prévu pour la soirée du 17 novembre à 18h30 !
+Au programme : une introduction à Play!framework par Sylvain Wallez, et trois &ldquo;REX&rdquo; (Retours d&rsquo;EXpérience).
+L&rsquo;inscription se passe par ici. Venez nombreux et parlez-en autour de vous.
+Introduction à Play! par Sylvain Wallez  origine et inspiration (Rails), &ldquo;oubliez tout ce que vous savez sur J2EE&rdquo;, la fin du &ldquo;anemic domain model&rdquo;, structure d&rsquo;un projet Play : organisation des répertoires, contrôleurs, modèle et DAO, le &ldquo;bytecode magic&rdquo; de Play et ce qu&rsquo;il apporte méthodes statiques : les plus et les moins développement : save &amp; reload.">
+  <meta property="og:description" content="L&rsquo;idée d&rsquo;une soirée Play! circulait entre les membres du JUG depuis quelques temps. C&rsquo;est maintenant prévu pour la soirée du 17 novembre à 18h30 !
+Au programme : une introduction à Play!framework par Sylvain Wallez, et trois &ldquo;REX&rdquo; (Retours d&rsquo;EXpérience).
+L&rsquo;inscription se passe par ici. Venez nombreux et parlez-en autour de vous.
+Introduction à Play! par Sylvain Wallez  origine et inspiration (Rails), &ldquo;oubliez tout ce que vous savez sur J2EE&rdquo;, la fin du &ldquo;anemic domain model&rdquo;, structure d&rsquo;un projet Play : organisation des répertoires, contrôleurs, modèle et DAO, le &ldquo;bytecode magic&rdquo; de Play et ce qu&rsquo;il apporte méthodes statiques : les plus et les moins développement : save &amp; reload.">
+  <meta name="twitter:description" content="L&rsquo;idée d&rsquo;une soirée Play! circulait entre les membres du JUG depuis quelques temps. C&rsquo;est maintenant prévu pour la soirée du 17 novembre à 18h30 !
+Au programme : une introduction à …">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="keywords" content="Soirée Play le 17/11 à l&#39;EPITECH,Toulouse JUG,L&rsquo;idée d&rsquo;une soirée Play! circulait entre les membres du JUG depuis quelques temps. C&rsquo;est maintenant prévu pour la soirée du 17 novembre à 18h30 !
+Au programme : une introduction à Play!framework par Sylvain Wallez, et trois &ldquo;REX&rdquo; (Retours d&rsquo;EXpérience).
+L&rsquo;inscription se passe par ici. Venez nombreux et parlez-en autour de vous.
+Introduction à Play! par Sylvain Wallez  origine et inspiration (Rails), &ldquo;oubliez tout ce que vous savez sur J2EE&rdquo;, la fin du &ldquo;anemic domain model&rdquo;, structure d&rsquo;un projet Play : organisation des répertoires, contrôleurs, modèle et DAO, le &ldquo;bytecode magic&rdquo; de Play et ce qu&rsquo;il apporte méthodes statiques : les plus et les moins développement : save &amp; reload.">
+  <link href='http://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="http://www.toulousejug.org/post/2011-11-04-soiree-play-le-1711-a-lepitech/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.53" />
+  <link rel="canonical" href="//post/2011-11-04-soiree-play-le-1711-a-lepitech/" />
+  <link rel="alternate" href="http://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://www.toulousejug.org/css/syntax.css" />
+
+  <script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="http://www.toulousejug.org/" class="navbar-brand">
+        <img src="http://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li>
+          <a title="Accueil" href="http://www.toulousejug.org/">Accueil</a>
+        </li>
+        
+        <li>
+          <a title="À propos" href="http://www.toulousejug.org/page/about/">À propos</a>
+        </li>
+        
+        <li>
+          <a title="Sponsors" href="http://www.toulousejug.org/page/sponsors/">Sponsors</a>
+        </li>
+        
+        <li>
+          <a title="Team" href="http://www.toulousejug.org/team/team/">Team</a>
+        </li>
+        
+        <li>
+          <a title="Évènements &amp; Vidéos" href="http://www.toulousejug.org/page/events/">Évènements &amp; Vidéos</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réseaux sociaux&nbsp;<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            <li>
+              <a href="https://www.meetup.com/Toulouse-Java-User-Group/" title="Meetup" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Meetup
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCTqj9i8UpCNXRMcPNuWhocQ" title="Youtube" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/toulousejug" title="Twitter" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="http://groups.google.com/group/toulouse-jug" title="Google Group" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                Google Group
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/toulousejug" title="GitHub" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="index.xml" title="RSS" rel="nofollow" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>&nbsp;
+                RSS
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    
+    
+
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-11" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Soirée Play le 17/11 à l&#39;EPITECH</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            
+
+<p>L&rsquo;idée d&rsquo;une soirée Play! circulait entre les membres du JUG depuis quelques
+temps. C&rsquo;est maintenant prévu pour la soirée du 17 novembre à 18h30 !</p>
+
+<p>Au programme : une introduction à Play!framework par Sylvain Wallez, et trois
+&ldquo;REX&rdquo; (Retours d&rsquo;EXpérience).</p>
+
+<p>L&rsquo;inscription se passe par <a href="http://www.jugevents.org/jugevents/event/show.html?id=42599">ici</a>.
+Venez nombreux et parlez-en autour de vous.</p>
+
+<h3 id="introduction-à-play-par-sylvain-wallez">Introduction à Play! par Sylvain Wallez</h3>
+
+<ul>
+<li>origine et inspiration (Rails), &ldquo;oubliez tout ce que vous savez sur J2EE&rdquo;, la
+fin du &ldquo;anemic domain model&rdquo;,</li>
+<li>structure d&rsquo;un projet Play : organisation des répertoires, contrôleurs, modèle
+et DAO,</li>
+<li>le &ldquo;bytecode magic&rdquo; de Play et ce qu&rsquo;il apporte</li>
+<li>méthodes statiques : les plus et les moins</li>
+<li>développement : save &amp; reload. Maaaagique !</li>
+<li>déploiement, configuration, monitoring</li>
+<li>alors, Play ou pas Play ?</li>
+</ul>
+
+<h3 id="rex-retours-d-expérience-de-projets-play">REX - Retours d&rsquo;expérience de projets Play</h3>
+
+<p>Nous présenterons 3 retours d&rsquo;expérience de projet Play:</p>
+
+<h4 id="projet-meteo-france-par-docdoku">Projet Meteo France par Docdoku</h4>
+
+<p>Portail d&rsquo;information dont le but est de donner accès aux scénarios climatiques
+régionalisés français pour l&rsquo;impact et l&rsquo;adaptation de nos sociétés et
+environnements.</p>
+
+<p>Ce portail est constitué de trois parties :</p>
+
+<ul>
+<li>Une partie documentaire proche du wiki</li>
+<li>Une partie simulation qui permet d&rsquo;afficher des graphes et cartes en fonction
+de scénarios climatiques sélectionnés.</li>
+<li>Une partie commande pour obtenir des données climatiques brutes. Cette partie
+n&rsquo;a pas été développée avec Play mais branchée sur un existant.</li>
+</ul>
+
+<h4 id="pierre-fabre-par-docdoku">Pierre Fabre par Docdoku</h4>
+
+<p>L&rsquo;application Play est le back-office d&rsquo;une application iPad, sorte de lecteur
+de catalogues produits multimédia.</p>
+
+<p>Fonctionnellement l&rsquo;application est utilisée par les équipes marketing de
+Pierre Fabre qui créent, grâce au back-office Play (jQuery, HTML5), de beaux
+catalogues présentant leurs produits cosmétiques mixant allègrement images,
+vidéos et liens interactifs.</p>
+
+<p>Ensuite, les commerciaux téléchargent sur leur iPad, depuis le reader iPad
+client de Play, les données et métadonnées constituant le catalogue.</p>
+
+<p>Enfin, sous les yeux de leurs prospects ébahis devant la restitution léchée du
+catalogue produits, ils n&rsquo;ont aucun mal à conclure la vente et de renseigner
+alors la fiche client sur l&rsquo;iPad.</p>
+
+<p>Celle-ci sera synchronisée avec Play pour une réintégration au CRM sur simple
+clic depuis l&rsquo;iPad.</p>
+
+<h4 id="empreinte-par-ekito">Empreinte par ekito</h4>
+
+<ul>
+<li>La société Empreinte est spécialisée dans la création et la production de la
+signalétique touristique émaillée. Etant un des leaders en France dans sa
+domaine, Empreinte compte parmi ses clients l’acropole d’Athènes, la ville
+de Saint Tropez et la ville de Deauville.</li>
+<li>Avec Emoa, Empreinte enrichit son offre de signalétique avec une solution
+multimédia mobile.</li>
+<li>Emoa est une application de type CMS qui gère du contenu web, généré en HMTL 5
+et JQuery mobile. Au delà d&rsquo;une simple gestion de contenu, Emoa permet
+l&rsquo;organisation du contenu sous forme de parcours et la mise en relation des
+parcours avec les signalétiques existants par le billet de QR codes.</li>
+</ul>
+
+<h3 id="quizz-and-jug-life">Quizz and JUG life</h3>
+
+<p>Nous sommes déjà en train de préparer le quizz, et cette fois-ci, nous ferons
+gagner une licence IntelliJ, le livre de référence de Java7, &hellip;</p>
+
+<p>Nous devrions aussi vous présenter nos premiers sponsors.</p>
+
+<p>Enfin, comme d&rsquo;habitude, on terminera la soirée autour d&rsquo;un apéro/discussion et
+un repas dans un restaurant alentour pour les plus vaillants.</p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2019 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="http://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="http://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="http://www.toulousejug.org/js/holder.min.js"></script>
+<script src="http://www.toulousejug.org/js/lessismore.js"></script>
+<script src="http://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>
