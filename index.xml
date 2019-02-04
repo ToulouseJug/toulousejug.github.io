@@ -5,10 +5,22 @@
     <link>http://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Tests</title>
+      <link>http://www.toulousejug.org/post/2019-01-15-soiree-tests/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-01-15-soiree-tests/</guid>
+      <description>Pour le début de l&amp;rsquo;année 2019 on a décidé de prendre de bonnes résolutions et d&amp;rsquo;écrire des tests.
+Mais avant cela, on a droit à une petite introduction à une nouvelle plateforme d&amp;rsquo;apprentissage et de mentoring:
+Découverte de Exercism - par Lidonis Calhau (@lidodo) Exercism est une plateforme pour la pratique du code avec mentorat. Le site permet de s&amp;rsquo;exercer presque 50 langages.
+Je souhaite faire découvrir au plus grand nombre ce site que je trouve excellent.</description>
+    </item>
     
     <item>
       <title>Soirée Apache Camel</title>

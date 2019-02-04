@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.toulousejug.org/post/2019-01-15-soiree-tests/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.toulousejug.org/post/2018-12-11-soiree-apache-camel/</loc>
     <lastmod>2018-12-11T00:00:00+00:00</lastmod>
   </url>
@@ -358,7 +363,7 @@
   
   <url>
     <loc>http://www.toulousejug.org/post/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -374,7 +379,7 @@
   
   <url>
     <loc>http://www.toulousejug.org/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
