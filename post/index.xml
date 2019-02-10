@@ -5,10 +5,21 @@
     <link>http://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée modèle d&#39;Acteurs</title>
+      <link>http://www.toulousejug.org/post/2019-02-07-soiree-model-acteurs/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-02-07-soiree-model-acteurs/</guid>
+      <description>Grosse soirée ce jeudi au JUG toulousain ! Nous avons l&amp;rsquo;événement à une présentation du modèle d&amp;rsquo;Acteurs.
+Le talk d&amp;rsquo;une durée théorique d&amp;rsquo;une heure et demi à légèrement débordé, mais c&amp;rsquo;est largement dû aux multiples sessions de Q&amp;amp;A (ou &amp;ldquo;breakpoints&amp;rdquo;) qui ont eu lieu pendant la présentation afin de permettre au public présent de mieux suivre, ou de raccrocher les wagons ^_^
+Acteur, un modèle élégant pour le calcul concurrentiel et distribué - par Didier Plaindoux (@dplaindoux) &amp;amp; Alessio Coltellacci (@lightplay8) Avec l’avènement des architectures multi-cœurs, nous avons besoin de moyens pour les exploiter.</description>
+    </item>
     
     <item>
       <title>Soirée Tests</title>
