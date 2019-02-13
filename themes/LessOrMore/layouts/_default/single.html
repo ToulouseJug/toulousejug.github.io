@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ $sponsors := (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
-{{ $promotions := .Site.Data.promotions.promotion_data }}
+{{ $partners := .Site.Data.partners.partner_data }}
 <div class="container docs-container">
   <div class="row">
-    {{ if (or (gt (len $sponsors) 0) (gt (len $promotions) 0)) }}
+    {{ if (or (gt (len $sponsors) 0) (gt (len $partners) 0)) }}
     <div class="col-md-10" role="main">
       <div class="panel docs-content">
         <div class="wrapper">
@@ -35,11 +35,11 @@
           </div>
         </div>
         {{ end }}
-        {{ if (gt (len $promotions) 0) }}
-        <div id="promotions" style="text-align: center;">
-          <h2>Promotions</h2>
+        {{ if (gt (len $partners) 0) }}
+        <div id="partners" style="text-align: center;">
+          <h2>Partenaires</h2>
           <div>
-            {{ range $promotions }}
+            {{ range $partners }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
               <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
             </a>

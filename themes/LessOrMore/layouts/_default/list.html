@@ -91,12 +91,12 @@
     <div class="col-md-2">
       <div class="sponsors hidden-print" role="complementary">
           {{ $sponsors := (where .Site.Data.sponsors.sponsor_data "annual" "eq" true) }}
-          {{ $promotions := .Site.Data.promotions.promotion_data }}
+          {{ $partners := .Site.Data.partners.partner_data }}
           {{ if (gt (len $sponsors) 0) }}
           <div id="sponsors" style="text-align: center;">
               <h2>Sponsors</h2>
               <div>
-                  {{ range where .Site.Data.sponsors.sponsor_data "annual" "eq" true }}
+                  {{ range $sponsors }}
                   <a href="{{ .url }}" title="{{ .title }}" target="_blank">
                       <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
                   </a>
@@ -104,11 +104,11 @@
               </div>
           </div>
           {{ end }}
-          {{ if (gt (len $promotions) 0) }}
-          <div id="promotions" style="text-align: center;">
-              <h2>Promotions</h2>
+          {{ if (gt (len $partners) 0) }}
+          <div id="partners" style="text-align: center;">
+              <h2>Partenaires</h2>
               <div>
-                  {{ range .Site.Data.promotions.promotion_data }}
+                  {{ range $partners }}
                   <a href="{{ .url }}" title="{{ .title }}" target="_blank">
                       <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
                   </a>
