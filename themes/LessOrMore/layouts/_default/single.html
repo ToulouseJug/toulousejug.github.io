@@ -1,23 +1,10 @@
 {{ define "main" }}
 {{ $sponsors := (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
+{{ $promotions := .Site.Data.promotions.promotion_data }}
 <div class="container docs-container">
   <div class="row">
-    {{ if (gt (len $sponsors) 0) }}
-    <div class="col-md-3">
-      <div class="sidebar hidden-print" role="complementary">
-        <div id="navigation">
-          <h1>Sponsors</h1>
-          <div style="text-align: center;">
-            {{ range $sponsors }}
-            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-9" role="main">
+    {{ if (or (gt (len $sponsors) 0) (gt (len $promotions) 0)) }}
+    <div class="col-md-10" role="main">
       <div class="panel docs-content">
         <div class="wrapper">
           <header class="post-header">
@@ -32,6 +19,34 @@
             {{ .Content }}
           </article>
         </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="sponsors hidden-print" role="complementary">
+        {{ if (gt (len $sponsors) 0) }}
+        <div id="sponsors" style="text-align: center;">
+          <h2>Sponsors</h2>
+          <div>
+            {{ range $sponsors }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if (gt (len $promotions) 0) }}
+        <div id="promotions" style="text-align: center;">
+          <h2>Promotions</h2>
+          <div>
+            {{ range $promotions }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
       </div>
     </div>
     {{ else }}

@@ -90,16 +90,32 @@
     </div>
     <div class="col-md-2">
       <div class="sponsors hidden-print" role="complementary">
-        <div id="sponsors">
-          <h1>Sponsors</h1>
-          <div style="text-align: center;">
-            {{ range where .Site.Data.sponsors.sponsor_data "annual" "eq" true }}
-            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
-            </a>
-            {{ end }}
+          {{ $sponsors := (where .Site.Data.sponsors.sponsor_data "annual" "eq" true) }}
+          {{ $promotions := .Site.Data.promotions.promotion_data }}
+          {{ if (gt (len $sponsors) 0) }}
+          <div id="sponsors" style="text-align: center;">
+              <h2>Sponsors</h2>
+              <div>
+                  {{ range where .Site.Data.sponsors.sponsor_data "annual" "eq" true }}
+                  <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+                      <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+                  </a>
+                  {{ end }}
+              </div>
           </div>
-        </div>
+          {{ end }}
+          {{ if (gt (len $promotions) 0) }}
+          <div id="promotions" style="text-align: center;">
+              <h2>Promotions</h2>
+              <div>
+                  {{ range .Site.Data.promotions.promotion_data }}
+                  <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+                      <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+                  </a>
+                  {{ end }}
+              </div>
+          </div>
+          {{ end }}
       </div>
     </div>
   </div>

@@ -1,6 +1,7 @@
 ---
 title: Soirée Tests
 date: 2019-01-15
+sponsors: epitech
 ---
 
 Pour le début de l'année 2019 on a décidé de prendre de bonnes résolutions et d'écrire des tests.  
