@@ -1,7 +1,7 @@
 ---
 title: Soirée Apache Camel
 date: 2018-12-11
-sponsors: epitech
+sponsors: placeholder
 ---
 
 On termine l'année 2018 en beauté avec deux sujets sur le thème d'Apache Camel :
