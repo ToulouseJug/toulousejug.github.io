@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container docs-container" style="padding-top: 60px;">
+  {{ range (where .Site.Data.sponsors.sponsor_data "annual" "eq" "true") }}
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content sponsor-big">
+          <img src="{{ .logo }}" alt="{{ .title }}"/>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10" role="main">
+      <header class="post-header">
+        <h1 class="post-title">Comment devenir sponsor du ToulouseJUG ?</h1>
+        <br />
+      </header>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <article class="post-content">
+            {{ .Content }}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

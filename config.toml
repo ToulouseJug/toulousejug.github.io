@@ -29,31 +29,6 @@ pygmentCodeFences = true
   youtube = "channel/UCTqj9i8UpCNXRMcPNuWhocQ"
   meetup = "Toulouse-Java-User-Group"
 
-[[menu.main]]
-    name = "Accueil"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "À propos"
-    url = "page/about/"
-    weight = 2
-
-[[menu.main]]
-    name = "Sponsors"
-    url = "page/sponsors/"
-    weight = 3
-
-[[menu.main]]
-    name = "Team"
-    url = "team/team/"
-    weight = 4
-
-[[menu.main]]
-    name = "Évènements & Vidéos"
-    url = "page/events/"
-    weight = 5
-
 ## Site settings
 #name: Less Or More
 #email: luoyan35714@126.com

@@ -1,6 +1,7 @@
 ---
-title: Comment devenir sponsor du ToulouseJUG ?
+title: Nos sponsors
 comments: false
+layout: "sponsors"
 ---
 
 ## Termes de la convention de Sponsoring
@@ -16,15 +17,16 @@ dans le cadre d’un plan de sponsor annuel qui couvre la fin de l’année en c
 Le Toulouse JUG s’engage à
 
 * Mettre le logo du Sponsor sur :
-  * la page des sponsors du site http://toulousejug.org/
-  * le projecteur au début des conférences et à la fin des conférences
+  * la page d'accueil du site http://toulousejug.org/ en miniature
+  * les pages "articles" du site http://toulousejug.org/ en miniature
+  * la page des sponsors du site http://toulousejug.org/page/sponsors/ en version large
+  * le projecteur au début des conférences
   * les emails annonçant les présentations
+  * les fonds vidéos des conférences enregistrées et diffusées sur Youtube
 * Limiter le nombre de sponsors annuels à 5 afin de privilégier l’exposition de
   ces sponsors. Certaines soirées ou certains événements (comme l’Eclipse Party
   en 2012), peuvent donner lieu à des sponsoring spécifiques, tout en ne nuisant
   pas à la visibilité des sponsors annuels.
-* Juxtaposer un texte d'une taille maximum de 300 caractères (espaces compris)
-  sur la page des sponsors présentant le Sponsor
 * Permettre au Sponsor de communiquer maximum 10 fois sur la mailing list
   « announce »par l'intermédiaire du Toulouse JUG, dans la limite d’un mail par
   mois. Le JUG se réserve le droit de refuser de publier un contenu qu'il ne
@@ -39,7 +41,7 @@ Le Toulouse JUG s’engage à
 
 #### Article 2
 
-Le Sponsor s’engage à mettre à disposition la somme de 2000 € HT (non asujetti
+Le Sponsor s’engage à mettre à disposition la somme de 2000 € HT (non assujetti
 à TVA soit 2000  € TTC), maximum 30 jours après signature de la présente
 convention, afin de sponsoriser l’association.
 
@@ -55,3 +57,5 @@ demande de sponsoring de même niveau effectuée par un autre organisme.
 #### Article 4
 
 Modalité de rupture si non respect de l’article 1 ou non respect de l’article 2.
+
+## Contactez-nous via les réseaux sociaux

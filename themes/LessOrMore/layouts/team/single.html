@@ -9,14 +9,16 @@
           <article class="post-content">
             {{ .Content }}
 
-            {{ range sort .Site.Data.members.member_data "lastname" }}
-            <h3>{{ .firstname }} {{ .lastname }}</h3>
-            <div style="float:left; margin-right:25px; margin-bottom:10px;">
-              <img src="{{ .image }}" alt="{{ .firstname }} {{ .lastname }}" height="100"/>
-            </div>
-            <div style="height: 100px;">
-              <a href="{{ .url }}">{{ .url }}</a><br/>
-              <span>{{ .description }}</span>
+            {{ range .Site.Data.members.member_data }}
+            <div id="{{ .id }}">
+              <h3>{{ .firstname }} {{ .lastname }}</h3>
+              <div class="trombine">
+                <img src="{{ .image }}" alt="{{ .firstname }} {{ .lastname }}"/>
+                <div>
+                  <a href="{{ .url }}">{{ .url }}</a><br/>
+                  <span>{{ .description }}</span>
+                </div>
+              </div>
             </div>
             {{ end }}
           </article>

@@ -1,9 +1,7 @@
 {{ define "main" }}
-{{ $sponsors := (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
-{{ $partners := .Site.Data.partners.partner_data }}
 <div class="container docs-container">
   <div class="row">
-    {{ if (or (gt (len $sponsors) 0) (gt (len $partners) 0)) }}
+    {{ if (or (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) (gt (len .Site.Data.partners.partner_data) 0)) }}
     <div class="col-md-10" role="main">
       <div class="panel docs-content">
         <div class="wrapper">
@@ -23,25 +21,37 @@
     </div>
     <div class="col-md-2">
       <div class="sponsors hidden-print" role="complementary">
-        {{ if (gt (len $sponsors) 0) }}
+        {{ if (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) }}
         <div id="sponsors" style="text-align: center;">
-          <h2>Sponsors</h2>
+          <h2>Nos sponsors</h2>
           <div>
-            {{ range $sponsors }}
+            {{ range (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
             </a>
             {{ end }}
           </div>
         </div>
         {{ end }}
-        {{ if (gt (len $partners) 0) }}
-        <div id="partners" style="text-align: center;">
-          <h2>Partenaires</h2>
+        {{ if (gt (len .Site.Data.hosts.host_data) 0) }}
+        <div id="hosts" style="text-align: center;">
+          <h2>Nos hôtes</h2>
           <div>
-            {{ range $partners }}
+            {{ range .Site.Data.hosts.host_data }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-              <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if (gt (len .Site.Data.partners.partner_data) 0) }}
+        <div id="partners" style="text-align: center;">
+          <h2>Nos partenaires</h2>
+          <div>
+            {{ range .Site.Data.partners.partner_data }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
             </a>
             {{ end }}
           </div>

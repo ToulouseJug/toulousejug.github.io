@@ -12,9 +12,16 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        {{ range .Site.Menus.main }}
+        {{ range .Site.Data.menus.menu_data }}
         <li>
-          <a title="{{ .Name }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          {{ if eq .internal "false" }}
+          <a title="{{ .name }}" href="{{ .url | relLangURL }}" target="_blank">
+            {{ .name }}
+            <i class="fa fa-external-link-alt"></i>
+          </a>
+          {{ else }}
+          <a title="{{ .name }}" href="{{ .url | relLangURL }}">{{ .name }}</a>
+          {{ end }}
         </li>
         {{ end }}
       </ul>

@@ -1,0 +1,29 @@
+[[menu_data]]
+    name = "Accueil"
+    url = "/"
+    internal = "true"
+
+[[menu_data]]
+    name = "À propos"
+    url = "page/about/"
+    internal = "true"
+
+[[menu_data]]
+    name = "Sponsors"
+    url = "page/sponsors/"
+    internal = "true"
+
+[[menu_data]]
+    name = "Team"
+    url = "team/team/"
+    internal = "true"
+
+[[menu_data]]
+    name = "Évènements & Vidéos"
+    url = "page/events/"
+    internal = "true"
+
+[[menu_data]]
+    name = "CFP"
+    url = "https://github.com/toulousejug/call-for-paper"
+    internal = "false"

@@ -41,81 +41,89 @@
         </div>
       </div>
     </div>
-    <div class="col-md-8" role="main">
-      <div class="panel docs-content">
-        <div class="wrapper">
-          <div class="home">
-            {{ range first (sub (len $posts) 1) $posts }}
-            {{ $this_year := .Date.Year }}
-            {{ $this_month := .Date.Month }}
+    <div class="col-md-8" role="main" style="margin-top: 40px;">
+      {{ range first (sub (len $posts) 1) $posts }}
 
-            {{ if not .NextPage }}
-            <h1 id="year_{{$this_year}}">{{$this_year}}</h1>
-            <h2 id="month_{{$this_year}}_{{$this_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $this_month)) 1) }}</h2>
-            <ul>
-              {{ end }}
+      {{ $this_year := .Date.Year }}
+      {{ $this_month := .Date.Month }}
 
-              <ol class="breadcrumb">
-                <li><span>{{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $this_month)) 1) }} {{ .Date.Year }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
-              </ol>
-              {{ if not .PrevPage }}
-            </ul>
-            {{ else }}
-
-            {{ $next_year := .PrevPage.Date.Year }}
-            {{ $next_month := .PrevPage.Date.Month }}
-
-            {{ if (ne $this_year $next_year) }}
-            </ul>
-            <h1 id="year_{{$next_year}}">{{$next_year}}</h1>
-            <h2 id="month_{{$next_year}}_{{$next_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $next_month)) 1) }}</h2>
-            <ul>
-              {{ else }}
-              {{ if (ne $this_month $next_month) }}
-            </ul>
-            <h2 id="month_{{$next_year}}_{{$next_month}}">{{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $next_month)) 1) }}</h2>
-            <ul>
-              {{ end }}
-              {{ end }}
-              {{ end }}
-              {{ end }}
-              {{ range last 1 $posts }}
-              <ol class="breadcrumb">
-                <li><span>{{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" .Date.Month)) 1) }} {{ .Date.Year }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
-              </ol>
-              {{ end }}
-          </div>
+      <ol class="breadcrumb">
+        <li><span>{{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $this_month)) 1) }} {{ .Date.Year }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+      </ol>
+      {{ if not .NextPage }}
+      <a id="year_{{$this_year}}" class="post-anchor"></a>
+      <a id="month_{{$this_year}}_{{$this_month}}" class="post-anchor"></a>
+      {{ end }}
+      <div class="row">
+        <div class="panel docs-content" style="padding-top: 20px;padding-bottom: 20px;">
+            {{ .Content }}
         </div>
       </div>
+      {{ if not .PrevPage }}
+      {{ else }}
+
+      {{ $next_year := .PrevPage.Date.Year }}
+      {{ $next_month := .PrevPage.Date.Month }}
+
+      {{ if (ne $this_year $next_year) }}
+      <a id="year_{{$next_year}}" class="post-anchor"></a>
+      <a id="month_{{$next_year}}_{{$next_month}}" class="post-anchor"></a>
+      {{ else }}
+      {{ if (ne $this_month $next_month) }}
+      <a id="month_{{$next_year}}_{{$next_month}}" class="post-anchor"></a>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ range last 1 $posts }}
+      <ol class="breadcrumb">
+        <li><span>{{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" .Date.Month)) 1) }} {{ .Date.Year }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+      </ol>
+      <div class="row">
+        <div class="panel docs-content" style="padding-top: 20px;padding-bottom: 20px;">
+            {{ .Content }}
+        </div>
+      </div>
+      {{ end }}
     </div>
     <div class="col-md-2">
       <div class="sponsors hidden-print" role="complementary">
-          {{ $sponsors := (where .Site.Data.sponsors.sponsor_data "annual" "eq" true) }}
-          {{ $partners := .Site.Data.partners.partner_data }}
-          {{ if (gt (len $sponsors) 0) }}
-          <div id="sponsors" style="text-align: center;">
-              <h2>Sponsors</h2>
-              <div>
-                  {{ range $sponsors }}
-                  <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-                      <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
-                  </a>
-                  {{ end }}
-              </div>
+        {{ if (gt (len (where .Site.Data.sponsors.sponsor_data "annual" "eq" true)) 0) }}
+        <div id="sponsors" style="text-align: center;">
+          <h2>Nos sponsors</h2>
+          <div>
+            {{ range (where .Site.Data.sponsors.sponsor_data "annual" "eq" true) }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
           </div>
-          {{ end }}
-          {{ if (gt (len $partners) 0) }}
-          <div id="partners" style="text-align: center;">
-              <h2>Partenaires</h2>
-              <div>
-                  {{ range $partners }}
-                  <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-                      <img src="/{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
-                  </a>
-                  {{ end }}
-              </div>
+        </div>
+        {{ end }}
+        {{ if (gt (len .Site.Data.hosts.host_data) 0) }}
+        <div id="hosts" style="text-align: center;">
+          <h2>Nos hôtes</h2>
+          <div>
+            {{ range .Site.Data.hosts.host_data }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
           </div>
-          {{ end }}
+        </div>
+        {{ end }}
+        {{ if (gt (len .Site.Data.partners.partner_data) 0) }}
+        <div id="partners" style="text-align: center;">
+          <h2>Nos partenaires</h2>
+          <div>
+            {{ range .Site.Data.partners.partner_data }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>
