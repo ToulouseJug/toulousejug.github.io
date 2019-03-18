@@ -37,25 +37,6 @@ bureau = true
 role = "Trésorier"
 
 [[member_data]]
-id = "davinkevin"
-firstname = "Kevin"
-lastname = "Davin"
-url = "https://github.com/davinkevin"
-image = "/images/members/kdavin.png"
-description = "Tech-Addict et développeur... entre autres ! ( @davinkevin sur Twitter )"
-bureau = false
-
-[[member_data]]
-id = "bmathus"
-firstname = "Baptiste"
-lastname = "Mathus"
-url = "http://batmat.net"
-image = "/images/members/bmathus.jpeg"
-description = ""
-bureau = true
-role = "Président"
-
-[[member_data]]
 id = "vferries"
 firstname = "Vincent"
 lastname = "Ferries"
@@ -71,13 +52,4 @@ lastname = "Pailloncy"
 url = ""
 image = "/images/members/mpailloncy.png"
 description = "Forgeron Automatisateur @ OpenAirlines"
-bureau = false
-
-[[member_data]]
-id = "swallez"
-firstname = "Sylvain"
-lastname = "Wallez"
-url = "http://bluxte.net/"
-image = "/images/members/swallez.jpeg"
-description = "Développeur et architecte freelance"
 bureau = false

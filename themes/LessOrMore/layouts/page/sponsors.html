@@ -1,15 +1,53 @@
 {{ define "main" }}
 <div class="container docs-container" style="padding-top: 60px;">
-  {{ range (where .Site.Data.sponsors.sponsor_data "annual" "eq" "true") }}
+  {{ range after 1 .Site.Data.sponsors.sponsor_data }}
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content" style="padding: 1px 60px 1px 60px;">
+        <div class="sponsor-big">
+          <a title="{{ .title }}"
+             {{ if isset . "description" }}
+             data-toggle="collapse"
+             data-target="#{{ .id }}-collapse"
+             aria-expanded="false"
+             aria-controls="{{ .id }}-collapse"
+             style="cursor: pointer;"
+             {{ else }}
+             href="{{ .url }}"
+             target="_blank"
+             {{ end }}
+          >
+            <img src="{{ .logo }}" alt="{{ .title }}" height="130"/>
+          </a>
+        </div>
+        {{ if isset . "description" }}
+        <div class="collapse" id="{{ .id }}-collapse">
+          <div class="well">
+            {{ .description | safeHTML }}<br/>
+            <a title="{{ .title }}" href="{{ .url }}" target="_blank" style="text-align: center;display: block;width: 100%;">{{ .url }}</a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ if $.Site.Params.lookingForSponsors }}
+  {{ range first 1 .Site.Data.sponsors.sponsor_data }}
   <div class="row">
     <div class="col-md-1">
     </div>
     <div class="col-md-10" role="main">
       <div class="panel docs-content sponsor-big">
-          <img src="{{ .logo }}" alt="{{ .title }}"/>
+        <a href="{{ .url }}" title="{{ .title }}" target="_blank" style="font-weight: bold;">
+          <img src="{{ .logo }}" alt="{{ .title }}" height="130"/>
+        </a>
       </div>
     </div>
   </div>
+  {{ end }}
   {{ end }}
   <div class="row">
     <div class="col-md-1">

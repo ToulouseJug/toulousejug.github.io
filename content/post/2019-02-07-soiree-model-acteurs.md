@@ -1,7 +1,6 @@
 ---
 title: Soirée modèle d'Acteurs
 date: 2019-02-07
-sponsors: placeholder
 ---
 
 Grosse soirée ce jeudi au JUG toulousain ! Nous avons l'événement à une présentation du

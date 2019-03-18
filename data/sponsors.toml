@@ -1,6 +1,18 @@
+# placeholder should always be first
 [[sponsor_data]]
 id = "placeholder"
 url = "https://twitter.com/toulousejug/status/1096050053448429568"
-title = "Le Toulouse JUG recherche des sponsors 🎖️ !"
-logo = "plop"
-annual = "true"
+title = "Le JUG cherche des sponsors 🎖️ !"
+
+[[sponsor_data]]
+id = "ippon"
+url = "https://ippon.tech"
+title = "Ippon Technologies"
+logo = "/images/sponsors/ippon.jpg"
+description = "Ippon est un cabinet de conseil qui accélère les projets innovants de ses clients de la page blanche au Cloud.<br/>Nos équipes dans le monde accompagnent les organisations dans la transformation d'idées innovantes en solutions logicielles de haute qualité avec un focus particulier sur le Time To Market.<br/>Ippon est présent à Toulouse depuis mai 2018."
+
+[[sponsor_data]]
+id = "monkeypatch"
+url = "http://www.monkeypatch.io/"
+title = "MonkeyPatch"
+logo = "/images/sponsors/monkeypatch.png"

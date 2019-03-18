@@ -20,6 +20,7 @@ pygmentCodeFences = true
   commit = false
   rss = true
   comments = true
+  lookingForSponsors = true
 
 [Author]
   name = "Toulouse JUG"

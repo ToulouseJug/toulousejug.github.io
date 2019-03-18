@@ -46,23 +46,12 @@ Pour les discussions techniques, <a href="http://groups.google.com/group/toulous
 
 Le bureau :
 
-* Baptiste Mathus – Président
+* Gaël Blondelle – Président
 * Alexis Krier – Trésorier
 * Arnaud Bos – Secrétaire
 
 Les membres du CA :
 
-* Gaël Blondelle
-* Frédéric Cabestre
-* Lionel Capdecomme
-* Kevin Davin
-* Vincent Ferries
-* Igor Laborie
-* Vincent Latrouite
-* Michaël Pailloncy
-* Didier Plaindoux
-* Gaspard Pointeau
-* Arnaud Tournier
-* Fabien Tregan
-* Sylvain Wallez
 * Julien Zanon
+* Vincent Ferries
+* Michaël Pailloncy
