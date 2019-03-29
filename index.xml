@@ -5,10 +5,21 @@
     <link>http://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Kafka &amp; AOP</title>
+      <link>http://www.toulousejug.org/post/2019-03-19-soiree-kafka-aop/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-03-19-soiree-kafka-aop/</guid>
+      <description>Pendant cette soirée, nous avons discuté d&amp;rsquo;Apache Kafka et de la Programmation Orientée Aspect.
+L&amp;rsquo;un est un sujet relativement récent et à la mode dont tout le monde parle, l&amp;rsquo;autre un sujet qui existe depuis des années et dont on ne parle pas assez. J&amp;rsquo;espère que vous apprécierez.
+Easy Kafka comprendre les concepts et jouer avec facilement - par Mikael KROK (@mikaelkrok) &amp;amp; Romain Chartier (@romlinch) Kafka Starter Kit : marre de revoir les mêmes conférences et envie de mettre les mains dans le cambouis facilement?</description>
+    </item>
     
     <item>
       <title>Soirée modèle d&#39;Acteurs</title>
