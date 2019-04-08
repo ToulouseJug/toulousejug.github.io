@@ -15,7 +15,7 @@ Nous nous attendons à la coopération de tous les participants pour aider à as
 
 Nous voulons être très clairs pour tous les participants, conférenciers et sponsors de nos événements: 
 nous apprécions votre participation et si quelque chose se passe pendant votre participation à un événement Toulouse JUG
- qui vous met mal à l'aise, merci de nous en informer au plus vite, dès que possible. 
+ qui vous met mal à l'aise, merci de nous en informer au plus vite, dès que possible.
 
 
 ## La version moins rapide
@@ -34,3 +34,6 @@ Si vous êtes harcelé ou remarquez que quelqu'un d'autre est harcelé, veuillez
 Toute communication que nous recevons concernant un problème de harcèlement sera bien entendu strictement confidentielle.
 
 
+## A qui s'adresser?
+
+Directement à l'un des membres de [la team]({{< ref "/team/team.md" >}}) ou par d'autres réseaux comme Twitter: <a href="http://twitter.com/toulousejug">@ToulouseJUG</a>
