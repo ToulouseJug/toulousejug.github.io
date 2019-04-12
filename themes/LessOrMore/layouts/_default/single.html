@@ -1,0 +1,103 @@
+{{ define "main" }}
+<div class="container docs-container">
+  <div class="row">
+    {{ if (or (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) (gt (len .Site.Data.partners.partner_data) 0)) }}
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            <!--
+              <p class="post-meta">{{ .Date }}{% if .Author %} • {{ .Author }}{% endif %}{% if .Param.meta %} • {{ .Params.meta }}{% endif %}</p>
+            -->
+            <!--<div class="meta">Posted on <span class="postdate">{{ .Date }}</span> By <a target="_blank" href="{{ .Site.BaseURL }}">{{ .Site.Author }}</a></div>-->
+            <!--<br />-->
+          </header>
+          <article class="post-content">
+            {{ .Content }}
+          </article>
+          {{ if (gt (len (where .Site.Data.members.member_data "id" "in" .Params.authors)) 0) }}
+          <hr>
+          <aside>
+              <div>
+                  Auteur(s):
+                  {{ range first 1 (where .Site.Data.authors.author_data "id" "in" .Params.authors) }}<a href="{{ .url }}" target="_blank">{{ .firstname }} {{ .lastname }}</a>{{ end }}{{ range after 1 (where .Site.Data.authors.author_data "id" "in" .Params.authors) }}, <a href="{{ .url }}" target="_blank">{{ .firstname }} {{ .lastname }}</a>{{ end }}
+              </div>
+          </aside>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="sponsors hidden-print" role="complementary">
+        {{ if (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) }}
+        <div id="sponsors" style="text-align: center;">
+          <h2>Nos sponsors</h2>
+          <div>
+            {{ range (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if (gt (len .Site.Data.hosts.host_data) 0) }}
+        <div id="hosts" style="text-align: center;">
+          <h2>Nos hôtes</h2>
+          <div>
+            {{ range .Site.Data.hosts.host_data }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if (gt (len .Site.Data.partners.partner_data) 0) }}
+        <div id="partners" style="text-align: center;">
+          <h2>Nos partenaires</h2>
+          <div>
+            {{ range .Site.Data.partners.partner_data }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ else }}
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-11" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            <!--
+              <p class="post-meta">{{ .Date }}{% if .Author %} • {{ .Author }}{% endif %}{% if .Param.meta %} • {{ .Params.meta }}{% endif %}</p>
+            -->
+            <!--<div class="meta">Posted on <span class="postdate">{{ .Date }}</span> By <a target="_blank" href="{{ .Site.BaseURL }}">{{ .Site.Author }}</a></div>-->
+            <!--<br />-->
+          </header>
+          <article class="post-content">
+            {{ .Content }}
+          </article>
+          {{ if (gt (len (where .Site.Data.members.member_data "id" "in" .Params.authors)) 0) }}
+          <hr>
+          <aside>
+              <div>
+                  Auteur(s):
+                  {{ range first 1 (where .Site.Data.authors.author_data "id" "in" .Params.authors) }}<a href="{{ .url }}" target="_blank">{{ .firstname }} {{ .lastname }}</a>{{ end }}{{ range after 1 (where .Site.Data.authors.author_data "id" "in" .Params.authors) }}, <a href="{{ .url }}" target="_blank">{{ .firstname }} {{ .lastname }}</a>{{ end }}
+              </div>
+          </aside>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

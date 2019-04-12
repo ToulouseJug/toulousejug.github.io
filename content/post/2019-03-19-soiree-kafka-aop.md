@@ -2,6 +2,7 @@
 title: Soirée Kafka & AOP
 date: 2019-03-19
 sponsors: ippon, monkeypatch
+authors: [abos]
 ---
 
 Pendant cette soirée, nous avons discuté d'[Apache Kafka](https://kafka.apache.org/) et

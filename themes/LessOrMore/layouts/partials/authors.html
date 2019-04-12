@@ -1,0 +1,8 @@
+{{ if (gt (len (where .Site.Data.members.member_data "id" "in" .Params.authors)) 0) }}
+<hr>
+<aside>
+    <div>
+        Auteur(s): {{ range (where .Site.Data.members.member_data "id" "in" .Params.authors) }}<a href="{{ .url }}" target="_blank">{{ .firstname }} {{ .lastname }}</a>{{ end }}
+    </div>
+</aside>
+{{ end }}

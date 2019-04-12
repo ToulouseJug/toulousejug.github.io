@@ -1,12 +1,17 @@
 ---
 title: Résultats du sondage 2019
-date: 2019-04-10
-authors: abos
+date: 2019-04-12
+authors: [abos]
 ---
 
 Les résultats du sondage [Stack Overflow 2019](https://insights.stackoverflow.com/survey/2019) viennent d'être
 dévoilés, mais franchement vous avez mieux à faire, puisque les résultats du sondage **Toulouse JUG 2019** sont
 arrivés !
+
+> **ATTENTION** Les graphiques présents dans cet article pourraient mal s'afficher sur certaines résolutions
+> d'écrans, les appareils mobiles notamment.  
+> N'ayant pas le courage de me battre avec le CSS, je vous conseille plutôt de changer d'écran
+> si vous souhaitez consulter les graphiques de façon détaillée.
 
 Après un démarrage en trombe à prés de 80 entrées dans les 3 premiers jours, les réponses se sont faites rares
 jusqu'à un petit sursaut lors de la dernière soirée d'avril qui nous a permis d'atteindre les 101 soumissions.  
