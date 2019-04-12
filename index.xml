@@ -5,10 +5,21 @@
     <link>http://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Résultats du sondage 2019</title>
+      <link>http://www.toulousejug.org/post/2019-04-10-resultats-sondage-2019/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-04-10-resultats-sondage-2019/</guid>
+      <description>Les résultats du sondage Stack Overflow 2019 viennent d&amp;rsquo;être dévoilés, mais franchement vous avez mieux à faire, puisque les résultats du sondage Toulouse JUG 2019 sont arrivés !
+ ATTENTION Les graphiques présents dans cet article pourraient mal s&amp;rsquo;afficher sur certaines résolutions d&amp;rsquo;écrans, les appareils mobiles notamment.
+N&amp;rsquo;ayant pas le courage de me battre avec le CSS, je vous conseille plutôt de changer d&amp;rsquo;écran si vous souhaitez consulter les graphiques de façon détaillée.</description>
+    </item>
     
     <item>
       <title>Soirée Kafka &amp; AOP</title>
