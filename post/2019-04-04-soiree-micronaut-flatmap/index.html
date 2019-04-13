@@ -5,39 +5,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Soirée Apache Camel</title>
-  <meta property="og:title" content="Soirée Apache Camel" />
-  <meta name="twitter:title" content="Soirée Apache Camel" />
-  <meta name="description" content="On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
-Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&rsquo;un SI est un besoin récurrent et pas nouveau.
-Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
-Dans un premier temps, nous retournerons aux basiques : Les EIPs.
-Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.">
-  <meta property="og:description" content="On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
-Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&rsquo;un SI est un besoin récurrent et pas nouveau.
-Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
-Dans un premier temps, nous retournerons aux basiques : Les EIPs.
-Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.">
-  <meta name="twitter:description" content="On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
-Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou …">
+  <title>Soirée Micronaut &amp; flatMap</title>
+  <meta property="og:title" content="Soirée Micronaut &amp; flatMap" />
+  <meta name="twitter:title" content="Soirée Micronaut &amp; flatMap" />
+  <meta name="description" content="Et voici les vidéos de la soirée d&rsquo;avril où il a été question de Micronaut et des boucles for et autres patterns d&rsquo;itération/récursion.
+ Je tiens à vous prévenir : la qualité des vidéos de cette soirée laisse à désirer&hellip;
+ Mea culpa :
+ le son n&rsquo;est pas aussi clair que ce que nous avons pu obtenir par le passé, c&rsquo;est parce que j&rsquo;avais oublié un cable crucial pour l&rsquo;installation : mon cable TRRS.">
+  <meta property="og:description" content="Et voici les vidéos de la soirée d&rsquo;avril où il a été question de Micronaut et des boucles for et autres patterns d&rsquo;itération/récursion.
+ Je tiens à vous prévenir : la qualité des vidéos de cette soirée laisse à désirer&hellip;
+ Mea culpa :
+ le son n&rsquo;est pas aussi clair que ce que nous avons pu obtenir par le passé, c&rsquo;est parce que j&rsquo;avais oublié un cable crucial pour l&rsquo;installation : mon cable TRRS.">
+  <meta name="twitter:description" content="Et voici les vidéos de la soirée d&rsquo;avril où il a été question de Micronaut et des boucles for et autres patterns d&rsquo;itération/récursion.
+ Je tiens à vous prévenir : la qualité des vidéos de …">
   <meta name="author" content="Toulouse JUG"/>
-  <meta name="keywords" content="Soirée Apache Camel,Toulouse JUG,On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :
-Apache Camel - par Emmanuel Vinel (@EmmanuelVinel) Interconnecter des applications , des services tiers ou des processus au sein d&rsquo;un SI est un besoin récurrent et pas nouveau.
-Dans cette présentation, nous allons aborder une solution possible le framework Apache Camel.
-Dans un premier temps, nous retournerons aux basiques : Les EIPs.
-Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un processus plus complexe.">
+  <meta name="keywords" content="Soirée Micronaut &amp; flatMap,Toulouse JUG,Et voici les vidéos de la soirée d&rsquo;avril où il a été question de Micronaut et des boucles for et autres patterns d&rsquo;itération/récursion.
+ Je tiens à vous prévenir : la qualité des vidéos de cette soirée laisse à désirer&hellip;
+ Mea culpa :
+ le son n&rsquo;est pas aussi clair que ce que nous avons pu obtenir par le passé, c&rsquo;est parce que j&rsquo;avais oublié un cable crucial pour l&rsquo;installation : mon cable TRRS.">
   <link href='http://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="/images/logo.jpg" />
   <meta name="twitter:image" content="/images/logo.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@toulousejug" />
   <meta name="twitter:creator" content="@toulousejug" />
-  <meta property="og:url" content="http://www.toulousejug.org/post/2018-12-11-soiree-apache-camel/" />
+  <meta property="og:url" content="http://www.toulousejug.org/post/2019-04-04-soiree-micronaut-flatmap/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Toulouse JUG" />
 
   <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="canonical" href="//post/2018-12-11-soiree-apache-camel/" />
+  <link rel="canonical" href="//post/2019-04-04-soiree-micronaut-flatmap/" />
   <link rel="alternate" href="http://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
   <link rel="stylesheet" href="http://www.toulousejug.org/css/index.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -182,7 +179,7 @@ Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresse
       <div class="panel docs-content">
         <div class="wrapper">
           <header class="post-header">
-            <h1 class="post-title">Soirée Apache Camel</h1>
+            <h1 class="post-title">Soirée Micronaut &amp; flatMap</h1>
             
             
             
@@ -190,43 +187,77 @@ Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresse
           <article class="post-content">
             
 
-<p>On termine l&rsquo;année 2018 en beauté avec deux sujets sur le thème d&rsquo;Apache Camel :</p>
+<p>Et voici les vidéos de la soirée d&rsquo;avril où il a été question de <a href="https://micronaut.io/">Micronaut</a>
+et des boucles <code>for</code> et autres patterns d&rsquo;itération/récursion.</p>
 
-<h3 id="apache-camel-par-emmanuel-vinel-hahahugoshortcode-0xc00078e500-1-hbhb">Apache Camel - par Emmanuel Vinel (<a href="https://twitter.com/EmmanuelVinel" title="EmmanuelVinel" target="_blank">@EmmanuelVinel</a>)</h3>
+<blockquote>
+<p><strong>Je tiens à vous prévenir :</strong> la qualité des vidéos de cette soirée laisse à désirer&hellip;</p>
+</blockquote>
 
-<p>Interconnecter des applications , des services tiers ou des processus au sein
-d&rsquo;un SI est un besoin récurrent et pas nouveau.<br />
-Dans cette présentation, nous allons aborder une solution possible le framework
-<a href="http://camel.apache.org/">Apache Camel</a>.</p>
+<p>Mea culpa :</p>
 
-<p>Dans un premier temps, nous retournerons aux basiques : Les EIPs.</p>
+<ul>
+<li>le son n&rsquo;est pas aussi clair que ce que nous avons pu obtenir par le passé, c&rsquo;est
+parce que j&rsquo;avais oublié un cable crucial pour l&rsquo;installation : mon cable TRRS.</li>
+<li>de plus, la soirée s&rsquo;étant déroulée dans une salle différente de celle qui nous est habituellement mise à disposition,
+j&rsquo;ai eu quelques problèmes de mise en place de la caméra (angle) ainsi que des problèmes <strong>d&rsquo;éclairage</strong>.
+<br /></li>
+</ul>
 
-<p>Puis nous évoluerons sur l&rsquo;implémentation avec Apache Camel pour adresser un
-processus plus complexe.</p>
+<p>La deuxième présentation en particulier a subi plusieurs retouches en post-production, notamment au niveau de
+l&rsquo;exposition et de la saturation, pour un résultat assez décevant. Rassurez vous, la qualité du contenu est au
+rendez-vous 😃</p>
 
-<p>Nous terminerons par quelques mots sur l&rsquo;architecture micro-services et apache Camel.</p>
+<p>Le point positif, c&rsquo;est que si la qualité de ces vidéos est en dessous de celle de nos productions habituelles,
+<strong>ces deux présentations étaient des répétition</strong> avant qu&rsquo;elles ne soient données par leurs auteurs à de plus grands
+événements :</p>
+
+<ul>
+<li>Olivier présentera Micronaut dans un Tools in Action à <a href="https://cfp.devoxx.fr/2019/talk/WPM-6585/Micronaut,_le_framework_JVM_ultra-light_du_futur">Devoxx France</a></li>
+<li>Igor reparlera des boucles <code>for</code> et de <code>flatMap</code> <a href="https://sunny-tech.io/schedule/2019-06-27?sessionId=45">à SunnyTech</a></li>
+</ul>
+
+<h3 id="micronaut-le-framework-jvm-ultra-light-du-futur-par-olivier-revial-hahahugoshortcode-0xc000ae9400-1-hbhb">Micronaut, le framework JVM ultra-light du futur - par Olivier Revial (<a href="https://twitter.com/pommeDouze" title="pommeDouze" target="_blank">@pommeDouze</a>)</h3>
+
+<p>Temps de démarrage proche de la seconde, empreinte mémoire de 10MB, pas de réflection, approche &ldquo;cloud native&rdquo; : autant de caractéristiques qui font du framework Micronaut le compagnon idéal de développement de vos microservices Java/Kotlin.</p>
+
+<p>Si des frameworks comme Spring Boot ont grandement facilité l&rsquo;écriture d&rsquo;applications en permettant de générer des applications standalone et auto-configurées, ils souffrent néanmoins de l&rsquo;historique Spring et de sa &ldquo;lourdeur&rdquo;. En effet, l&rsquo;injection de dépendances au runtime et la réflection rendent plus longs les temps de démarrage et font grossir l&rsquo;empreinte mémoire de nos applis.</p>
+
+<p>En partant de 0, Micronaut prend le contre-pied de ses prédécesseurs en se passant de la réflection et en utilisant la &ldquo;Ahead-Of-Time compilation&rdquo; pour des temps de démarrage en dessous de la seconde !</p>
+
+<p>Pensé de base pour supporter et faciliter le développement de microservices et d&rsquo;applications serverless, Micronaut offre par défaut le support de nombreux providers et outils cloud, il permet l&rsquo;écriture d&rsquo;applications réactives, il rend les applications facilement testables&hellip; bref, il apporte tout ce dont on a besoin pour développer des applications modernes !</p>
+
+<p>Cette présentation sera un live-coding pour montrer les principales fonctionnalités et les principaux points forts du framework Micronaut.</p>
 
 <p>Vidéo : 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/k5SC7bmGQlU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/wzGD7ThQ64o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 </p>
 
-<p>Référence CfP: <a href="https://github.com/ToulouseJug/call-for-paper/issues/15">https://github.com/ToulouseJug/call-for-paper/issues/15</a></p>
+<p>Référence CfP : <a href="https://github.com/ToulouseJug/call-for-paper/issues/32">https://github.com/ToulouseJug/call-for-paper/issues/32</a></p>
 
-<h3 id="outils-pour-le-développement-de-projet-d-intégration-apache-camel-red-hat-fuse-du-profil-technique-au-profil-business-par-aurélien-pupier-hahahugoshortcode-0xc00078e500-3-hbhb">Outils pour le développement de Projet d&rsquo;intégration Apache Camel/Red Hat Fuse : du profil technique au profil business - par Aurélien Pupier (<a href="https://twitter.com/apupier" title="apupier" target="_blank">@apupier</a>)</h3>
+<h3 id="refactoring-sans-les-for-par-igor-laborie-hahahugoshortcode-0xc000ae9400-3-hbhb">🏋️‍️ Refactoring sans les <code>for</code> - par Igor Laborie (<a href="https://twitter.com/ilaborie" title="ilaborie" target="_blank">@ilaborie</a>)</h3>
 
-<p>Nous verrons l&rsquo;ensemble des outils de développement existant pour développer des
-projets d&rsquo;intégration basé sur <a href="http://camel.apache.org/">Apache Camel</a>.</p>
+<p>Peut-on se passer de la bonne vieille boucle for ?
+Il est toujours intéressant de creuser les alternatives comme les Stream, ou d&rsquo;autres options.
+Mais le plus important c&rsquo;est de savoir quand il fuir cette instruction. Ou pas !</p>
 
-<p>Nous verrons comment ces différents outils adressent des profils variés et
-comment ils interopérent pour mener à bien le développement du projet.</p>
+<p>Au quotidien, les boucles sont les briques de base de notre code.
+Mais on oublie souvent les alternatives comme l&rsquo;API Stream, la récursivité&hellip;
+C&rsquo;est toujours bénéfique de prendre du recul sur le code que l&rsquo;on écrit, pour analyser ce qui peut être amélioré.
+Les alternatives sont elles plus lisibles ? Plus maintenables ? Plus performantes ?</p>
+
+<p>Ici on se contentera de regarder ce qui se passe en Java, avec quelques incursion coté Kotlin et Scala.
+Mais le propos s&rsquo;adapte aux autres langages de programmation.</p>
 
 <p>Vidéo : 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/VNUMBxWgiWg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/KjzA91jvjq4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 </p>
+
+<p>Référence CfP : <a href="https://github.com/ToulouseJug/call-for-paper/issues/24">https://github.com/ToulouseJug/call-for-paper/issues/24</a></p>
 
           </article>
           
@@ -243,6 +274,21 @@ comment ils interopérent pour mener à bien le développement du projet.</p>
     </div>
     <div class="col-md-2">
       <div class="sponsors hidden-print" role="complementary">
+        
+        <div id="sponsors" style="text-align: center;">
+          <h2>Nos sponsors</h2>
+          <div>
+            
+            <a href="http://www.ippon.fr/" title="Ippon Technologies" target="_blank">
+              <img src="http://www.toulousejug.org/images/sponsors/ippon.jpg" alt="Ippon Technologies" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            
+            <a href="http://www.monkeypatch.io/" title="MonkeyPatch" target="_blank">
+              <img src="http://www.toulousejug.org/images/sponsors/monkeypatch.png" alt="MonkeyPatch" style="margin-top: 10px; max-width: 200px;">
+            </a>
+            
+          </div>
+        </div>
         
         
         <div id="hosts" style="text-align: center;">
