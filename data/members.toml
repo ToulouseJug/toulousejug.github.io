@@ -5,26 +5,31 @@ lastname = "Blondelle"
 url = "https://accounts.eclipse.org/users/gblondelle"
 image = "/images/members/gblondelle.jpeg"
 description = "I contribute to the Eclipse ecosystem development in Europe, and I am the Conference chair of EclipseCon France"
-bureau = false
+bureau = true
+role = "Président"
+twitter = "gblondelle"
 
 [[member_data]]
 id = "abos"
 firstname = "Arnaud"
 lastname = "Bos"
-url = "http://www.arnaudbos.com/"
+url = "http://www.arnaudbos.com"
 image = "/images/members/arnaud.jpg"
-description = "Software Developer"
+description = "Software Developer. Clojure as heck. Distributed systems. Podcasts. Mirror writer 🙃"
 bureau = true
 role = "Secrétaire"
+email = "mail@arnaudbos.com"
+twitter = "arnaud_bos"
 
 [[member_data]]
 id = "jzanon"
 firstname = "Julien"
 lastname = "Zanon"
-url = "https://jzanon.github.io/gloseDeDev/"
+url = "https://jzanon.github.io/gloseDeDev"
 image = "/images/members/jzanon.jpg"
 description = "Senior Software Engineer - Freelance"
 bureau = false
+twitter = "jullienzan"
 
 [[member_data]]
 id = "akrier"

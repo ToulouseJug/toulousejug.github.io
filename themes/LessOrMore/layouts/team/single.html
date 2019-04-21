@@ -15,7 +15,11 @@
               <div class="trombine">
                 <img src="{{ .image }}" alt="{{ .firstname }} {{ .lastname }}"/>
                 <div>
-                  <a href="{{ .url }}">{{ .url }}</a><br/>
+                  {{ if .bureau }}<span>{{ .role }}</span><br/>{{ end }}
+                  {{ if isset . "url" }} • <a href="{{ .url }}">Sur le Web</a>{{ end }}
+                  {{ if isset . "email" }} • <a href="mailto:{{ .email }}">Email</a>{{ end }}
+                  {{ if isset . "twitter" }} • <a href="https://twitter.com/{{ .twitter }}">Twitter</a>{{ end }}
+                   •<br/>
                   <span>{{ .description }}</span>
                 </div>
               </div>
