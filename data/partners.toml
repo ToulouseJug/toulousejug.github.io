@@ -3,3 +3,9 @@ id = "jetbrains"
 url = "https://www.jetbrains.com/"
 title = "JetBrains"
 logo = "/images/promotions/jetbrains.png"
+
+[[partner_data]]
+id = "eyrolles"
+url = "https://www.editions-eyrolles.com/"
+title = "Edition Eyrolles"
+logo = "/images/promotions/eyrolles.svg"
