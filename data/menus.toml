@@ -24,6 +24,11 @@
     internal = "true"
 
 [[menu_data]]
+    name = "CoC"
+    url = "page/coc/"
+    internal = "true"
+
+[[menu_data]]
     name = "CFP"
     url = "https://github.com/toulousejug/call-for-paper"
     internal = "false"
