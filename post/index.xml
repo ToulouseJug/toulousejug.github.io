@@ -5,10 +5,22 @@
     <link>http://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée JHipster</title>
+      <link>http://www.toulousejug.org/post/2019-05-14-soiree-jhipster/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-05-14-soiree-jhipster/</guid>
+      <description>Voici les vidéos de la soirée de mai où nous avons eu la chance de recevoir deux membres de l&amp;rsquo;équipe &amp;ldquo;core&amp;rdquo; de JHipster qui nous ont parlé de leur projet !
+ Nouveau matos !
+Grace à nos sponsors, nous avons pu nous permettre de remettre un petit peu à jour notre matériel de captation. Un prochain article détaillera nos nouvelles acquisitions mais en attendant:
+merci Ippon, merci MonkeyPatch !</description>
+    </item>
     
     <item>
       <title>Résultats du sondage 2019</title>
