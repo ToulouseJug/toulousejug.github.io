@@ -7,7 +7,7 @@ authors: [abos]
 
 Pour la dernière soirée de la saison 2018-2019 le thème était "de la programmation orientée object
 à la programmation fonctionnelle", vaste programme.  
-Pour se faire, une première vidéo où l'on revient aux sources et où l'on présente les grands concepts, suivi
+Pour ce faire, une première vidéo où l'on revient aux sources et où l'on présente les grands concepts, suivi
 d'une présentation d'un cas concret pour lequel des concepts de programmation fonctionnelle peuvent nous aider.
 
 ### La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre ({{< twitter fcabestre >}})
