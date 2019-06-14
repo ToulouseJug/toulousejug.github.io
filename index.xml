@@ -5,10 +5,21 @@
     <link>http://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée De l&#39;OOP à la FP</title>
+      <link>http://www.toulousejug.org/post/2019-06-11-soiree-oop-vers-fp/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-06-11-soiree-oop-vers-fp/</guid>
+      <description>Pour la dernière soirée de la saison 2018-2019 le thème était &amp;ldquo;de la programmation orientée object à la programmation fonctionnelle&amp;rdquo;, vaste programme.
+Pour se faire, une première vidéo où l&amp;rsquo;on revient aux sources et où l&amp;rsquo;on présente les grands concepts, suivi d&amp;rsquo;une présentation d&amp;rsquo;un cas concret pour lequel des concepts de programmation fonctionnelle peuvent nous aider.
+La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre (@fcabestre) Aujourd&amp;rsquo;hui, pour être à la mode, il faut parler de programmation fonctionnelle.</description>
+    </item>
     
     <item>
       <title>Soirée JHipster</title>

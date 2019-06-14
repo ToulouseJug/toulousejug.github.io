@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.toulousejug.org/post/2019-06-11-soiree-oop-vers-fp/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.toulousejug.org/post/2019-05-14-soiree-jhipster/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
   </url>
@@ -392,7 +397,7 @@
   
   <url>
     <loc>http://www.toulousejug.org/post/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -408,7 +413,7 @@
   
   <url>
     <loc>http://www.toulousejug.org/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
