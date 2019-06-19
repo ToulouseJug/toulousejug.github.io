@@ -94,7 +94,7 @@
           <div>
             {{ range after 1 .Site.Data.sponsors.sponsor_data }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
             </a>
             {{ end }}
             {{ if $.Site.Params.lookingForSponsors }}
@@ -127,6 +127,13 @@
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
               <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
             </a>
+            {{ end }}
+            {{ if (gt (len .Site.Data.promotions.temporary_promotion_data) 0) }}
+            {{ range .Site.Data.promotions.temporary_promotion_data }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
+            </a>
+            {{ end }}
             {{ end }}
           </div>
         </div>

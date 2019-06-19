@@ -1,7 +1,10 @@
 ---
 title: Soirée Kafka & AOP
 date: 2019-03-19
-sponsors: ippon, monkeypatch
+host: epitech
+sponsors: [ippon, monkeypatch]
+partners: [digitalocean, jetbrains]
+promotions: []
 authors: [abos]
 ---
 

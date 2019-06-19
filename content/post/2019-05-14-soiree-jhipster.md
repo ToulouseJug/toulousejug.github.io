@@ -1,7 +1,10 @@
 ---
 title: Soirée JHipster
 date: 2019-05-14
-sponsors: ippon, monkeypatch
+host: epitech
+sponsors: [ippon, monkeypatch]
+partners: [digitalocean, jetbrains]
+promotions: []
 authors: [abos]
 ---
 

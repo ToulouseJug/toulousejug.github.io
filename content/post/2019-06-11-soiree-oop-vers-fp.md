@@ -1,7 +1,10 @@
 ---
 title: Soirée De l'OOP à la FP
 date: 2019-06-11
-sponsors: ippon, monkeypatch
+host: epitech
+sponsors: [ippon, monkeypatch]
+partners: [digitalocean, jetbrains]
+promotions: []
 authors: [abos]
 ---
 

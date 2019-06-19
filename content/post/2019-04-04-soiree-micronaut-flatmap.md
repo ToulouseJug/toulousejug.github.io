@@ -1,7 +1,10 @@
 ---
 title: Soirée Micronaut & flatMap
 date: 2019-04-04
-sponsors: ippon, monkeypatch
+host: epitech
+sponsors: [ippon, monkeypatch]
+partners: [digitalocean, jetbrains]
+promotions: []
 authors: [abos]
 ---
 

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container docs-container">
   <div class="row">
-    {{ if (or (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) (gt (len .Site.Data.partners.partner_data) 0)) }}
+    {{ if (or (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) (gt (len (where .Site.Data.partners.partner_data "id" "in" .Params.partners)) 0) (gt (len (where .Site.Data.hosts.host_data "id" "eq" .Params.host)) 0)) }}
     <div class="col-md-10" role="main">
       <div class="panel docs-content">
         <div class="wrapper">
@@ -36,17 +36,17 @@
           <div>
             {{ range (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
-              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px;">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
             </a>
             {{ end }}
           </div>
         </div>
         {{ end }}
-        {{ if (gt (len .Site.Data.hosts.host_data) 0) }}
+        {{ if (gt (len (where .Site.Data.hosts.host_data "id" "eq" .Params.host)) 0) }}
         <div id="hosts" style="text-align: center;">
-          <h2>Nos hôtes</h2>
+          <h2>Notre hôte</h2>
           <div>
-            {{ range .Site.Data.hosts.host_data }}
+            {{ range (where .Site.Data.hosts.host_data "id" "eq" .Params.host) }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
               <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
             </a>
@@ -54,11 +54,16 @@
           </div>
         </div>
         {{ end }}
-        {{ if (gt (len .Site.Data.partners.partner_data) 0) }}
+        {{ if (gt (len (where .Site.Data.partners.partner_data "id" "in" .Params.partners)) 0) }}
         <div id="partners" style="text-align: center;">
           <h2>Nos partenaires</h2>
           <div>
-            {{ range .Site.Data.partners.partner_data }}
+            {{ range (where .Site.Data.partners.partner_data "id" "in" .Params.partners) }}
+            <a href="{{ .url }}" title="{{ .title }}" target="_blank">
+              <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
+            </a>
+            {{ end }}
+            {{ range (where .Site.Data.promotions.temporary_promotion_data "id" "in" .Params.promotions) }}
             <a href="{{ .url }}" title="{{ .title }}" target="_blank">
               <img src="{{ .logo }}" alt="{{ .title }}" style="margin-top: 10px; max-width: 200px; max-height: 100px;">
             </a>

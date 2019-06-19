@@ -1,6 +1,7 @@
 ---
 title: Soirée modèle d'Acteurs
 date: 2019-02-07
+host: epitech
 authors: [abos]
 ---
 
