@@ -6505,6 +6505,10 @@ hr {
     margin-bottom: 0;
   }
 }
+.sponsor-sidebar-logo {
+  margin-top: 10px;
+  max-width: 200px;
+}
 .sponsors.affix {
   position: static;
 }
@@ -6554,7 +6558,6 @@ hr {
     width: 213px;
   }
   .sponsors.affix {
-    position: fixed;
     top: 45px;
   }
   .sponsors.affix-bottom {
