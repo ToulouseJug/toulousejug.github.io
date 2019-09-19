@@ -5,10 +5,21 @@
     <link>http://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Loom &amp; Spring Cloud</title>
+      <link>http://www.toulousejug.org/post/2019-09-05-soiree-loom-spring-cloud/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-09-05-soiree-loom-spring-cloud/</guid>
+      <description>Pour attaquer cette nouvelle saison, un aperçu du Projet Loom par moi-même, et une présentation de Spring Cloud par un speaker bien connu du JUG.
+Malheureusement, étant speaker lors de cette soirée, il m&amp;rsquo;a été impossible d&amp;rsquo;enregistrer ma présentation sur Loom, et la présentation sur Spring Cloud a été enregistrée sans micro-cravate sur la caméra n°2, d&amp;rsquo;où une qualité d&amp;rsquo;image et de son inférieures à d&amp;rsquo;habitude.
+La concurrence sans s’emmêler les ficelles avec Project Loom - par Arnaud Bos (@abos) Le domaine de la programmation concurrente utilise le champ lexical de la filature et nous met les nerfs en pelote avec des concepts qui s&amp;rsquo;entrelacent : fibers, threads, lightweight-threads, green threads, loom&amp;hellip; Peut-être avez vous également entendu parler de coroutines ?</description>
+    </item>
     
     <item>
       <title>Soirée De l&#39;OOP à la FP</title>
