@@ -32,7 +32,7 @@
       <div class="sponsors hidden-print" role="complementary">
         {{ if (gt (len (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors)) 0) }}
         <div id="sponsors" style="text-align: center;">
-          <h2>Nos sponsors</h2>
+          <h2>Sponsors</h2>
           <div>
             {{ range (where .Site.Data.sponsors.sponsor_data "id" "in" .Params.sponsors) }}
             {{ partial "sponsor_sidebar_logo.html" . }}
@@ -42,7 +42,7 @@
         {{ end }}
         {{ if (gt (len (where .Site.Data.hosts.host_data "id" "eq" .Params.host)) 0) }}
         <div id="hosts" style="text-align: center;">
-          <h2>Notre hôte</h2>
+          <h2>Hôte</h2>
           <div>
             {{ range (where .Site.Data.hosts.host_data "id" "eq" .Params.host) }}
             {{ partial "sponsor_sidebar_logo.html" . }}
@@ -52,7 +52,7 @@
         {{ end }}
         {{ if (gt (len (where .Site.Data.partners.partner_data "id" "in" .Params.partners)) 0) }}
         <div id="partners" style="text-align: center;">
-          <h2>Nos partenaires</h2>
+          <h2>Partenaires</h2>
           <div>
             {{ range (where .Site.Data.partners.partner_data "id" "in" .Params.partners) }}
             {{ partial "sponsor_sidebar_logo.html" . }}
