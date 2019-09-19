@@ -1,0 +1,20 @@
+[[sponsor_data]]
+id = "sigfox"
+url = "https://openairlines.com/"
+title = "Sigfox"
+logo = "/images/past-sponsors/sigfox.png"
+width = 100
+
+[[sponsor_data]]
+id = "openairlines"
+url = "https://openairlines.com/"
+title = "OpenAirlines"
+logo = "/images/past-sponsors/openairlines.png"
+width = 160
+
+[[sponsor_data]]
+id = "viseo"
+url = "https://www.viseo.com/"
+title = "Viseo"
+logo = "/images/past-sponsors/viseo.png"
+width = 160

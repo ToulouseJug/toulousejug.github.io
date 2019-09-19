@@ -41,7 +41,7 @@
     </div>
     <div class="col-md-10" role="main">
       <div class="panel docs-content sponsor-big">
-        <a href="{{ .url }}" title="{{ .title }}" target="_blank" style="font-weight: bold;">
+        <a href="{{ .url }}" title="{{ .title }}" target="_blank" style="font-size: 20px; font-weight: bold;">
           <img src="{{ .logo }}" alt="{{ .title }}" height="130"/>
         </a>
       </div>
@@ -71,6 +71,29 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10" role="main">
+      <header class="post-header">
+        <h1 class="post-title">Ils nous ont déjà sponsorisé</h1>
+        <br />
+      </header>
+    </div>
+  </div>
+  <div class="row">
+    {{ range .Site.Data.past_sponsors.sponsor_data }}
+    <div role="main" class="col-md-2">
+      <div class="panel docs-content" style="padding: 1px 1px 1px 1px; margin-left: -2px; margin-right: -2px;">
+        <div class="sponsor-big">
+          <a title="{{ .title }}" href="{{ .url }}" target="_blank">
+            <img src="{{ .logo }}" alt="{{ .title }}" width="{{ .width }}px">
+          </a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
   </div>
 </div>
 {{ end }}
