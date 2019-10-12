@@ -5,10 +5,21 @@
     <link>http://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Debrief DevFest &amp; GRPC &amp; Quiz</title>
+      <link>http://www.toulousejug.org/post/2019-10-10-soiree-grpc/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-10-10-soiree-grpc/</guid>
+      <description>Compte tenu de la proximité du Toulouse DevFest 2019, nous avons profité de cette soirée pour débriefer sur cet événement de façon ouverte par des prises de paroles volontaires.
+Nous avons donc discuté de l&amp;rsquo;organisation avec les membres du staff présents sur place, des expériences et du ressenti de chacun ainsi que des présentations les plus marquantes et les plus appréciées par les uns et les autres.
+Puis place au seul talk de la soirée : API Web Moderne avec GRPC!</description>
+    </item>
     
     <item>
       <title>Soirée Loom &amp; Spring Cloud</title>
