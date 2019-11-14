@@ -21,7 +21,8 @@ Le Toulouse JUG s'engage à :
   * en miniature sur le projecteur au début des conférences
   * en miniature sur les fonds vidéos des conférences enregistrées et diffusées sur Youtube
 * Publier, en aval de la soirée :
-  * un tweet de remerciement du sponsor, accompagné de son logo
+  * en amont de la soirée : un tweet citant le sponsor comme partenaire de la soirée, accompagné de son logo
+  * en aval de la soirée : un tweet de remerciement du sponsor, accompagné de son logo
 * Limiter le nombre de sponsors occasionnels à 3 afin de privilégier l'exposition de ces
   sponsors tout en ne nuisant pas à la visibilité des sponsors annuels.
 * Permettre au sponsor de faire une présentation de type short talk (10 minutes) lors
