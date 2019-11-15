@@ -38,11 +38,11 @@ de la présente convention, afin de sponsoriser l'association.
 
 #### Article 3
 
-Ce partenariat est actif à compter de la date de signature par le partenaire, et
-jusqu'à la soirée mentionnée dans l'objet de la convention de sponsoring.  
-Son renouvellement, s'il est effectué par la signature d'une nouvelle convention avant
-l'expiration du présent partenariat, sera prioritaire sur toute autre demande de
-sponsoring de même niveau effectuée par un autre organisme.
+Ce partenariat est actif à pour la durée de la soirée mentionnée dans l’objet de
+la convention de sponsoring.  
+Son renouvellement pour une soirée ultérieure, s’il est effectué par la signature
+d’une nouvelle convention avant l’expiration du présent partenariat, sera prioritaire
+sur toute autre demande de sponsoring de même niveau effectuée par un autre organisme.
 
 #### Article 4
 

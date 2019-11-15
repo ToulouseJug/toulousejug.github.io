@@ -47,9 +47,10 @@ Le Toulouse JUG s'engage à :
 #### Article 2
 
 Le Sponsor s'engage à mettre à disposition la somme de 2000 € HT (non asujetti à TVA
-soit 2000 € TTC), au prorata du nombre de mois restants entre la date de signature
-et le 30 juin 2020, au maximum 30 jours après réception de la facture suite à la signature
-de la présente convention, afin de sponsoriser l'association.
+soit 2000 € TTC) au prorata du nombre de mois restants (arrondi à l’entier supérieur)
+entre la date de signature et le 30 juin 2020, au maximum 30 jours après réception
+de la facture suite à la signature de la présente convention, afin de sponsoriser
+l'association.
 
 #### Article 3
 
