@@ -3,9 +3,3 @@ id = "eyrolles"
 url = "https://www.editions-eyrolles.com/"
 title = "Edition Eyrolles"
 logo = "/images/promotions/eyrolles.svg"
-
-[[temporary_promotion_data]]
-id = "voxxeddaysmicroservices"
-url = "https://voxxeddays.com/microservices/"
-title = "Voxxed Days Microservices 2019"
-logo = "/images/promotions/voxxeddays_microservices.png"
