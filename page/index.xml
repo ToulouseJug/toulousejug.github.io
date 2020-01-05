@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Toulouse JUG</title>
-    <link>http://www.toulousejug.org/page/</link>
+    <link>https://www.toulousejug.org/page/</link>
     <description>Recent content in Pages on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://www.toulousejug.org/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.toulousejug.org/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code of Conduct</title>
-      <link>http://www.toulousejug.org/page/coc/</link>
+      <link>https://www.toulousejug.org/page/coc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.toulousejug.org/page/coc/</guid>
+      <guid>https://www.toulousejug.org/page/coc/</guid>
       <description>Code of Conduct du Toulouse JUG Tous les participants, conférenciers, sponsors et bénévoles de notre communauté sont tenus d’accepter le code de conduite suivant. Les organisateurs appliqueront ce code tout au long de l&amp;rsquo;événement. Nous nous attendons à la coopération de tous les participants pour aider à assurer un environnement sain pour tous.
 La version courte Le harcèlement ne sera pas toléré lors des événements du Toulouse JUG.
 Nous voulons être très clairs pour tous les participants, conférenciers et sponsors de nos événements: nous apprécions votre participation et si quelque chose se passe pendant votre participation à un événement Toulouse JUG qui vous met mal à l&amp;rsquo;aise, merci de nous en informer au plus vite, dès que possible.</description>
@@ -22,19 +22,19 @@ Nous voulons être très clairs pour tous les participants, conférenciers et sp
     
     <item>
       <title>Nos sponsors</title>
-      <link>http://www.toulousejug.org/page/sponsors/</link>
+      <link>https://www.toulousejug.org/page/sponsors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.toulousejug.org/page/sponsors/</guid>
+      <guid>https://www.toulousejug.org/page/sponsors/</guid>
       <description> Choisissez le format qui vous convient : # Sponsoring annuel # Sponsoring soirée (dit &amp;ldquo;occasionnel&amp;rdquo;) </description>
     </item>
     
     <item>
       <title>Sponsoring Annuel</title>
-      <link>http://www.toulousejug.org/page/sponsoring-annuel/</link>
+      <link>https://www.toulousejug.org/page/sponsoring-annuel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.toulousejug.org/page/sponsoring-annuel/</guid>
+      <guid>https://www.toulousejug.org/page/sponsoring-annuel/</guid>
       <description>Termes de la convention de Sponsoring Annuel Cette convention consiste à fixer les engagements de chacune des deux parties dans le cadre d&amp;rsquo;un plan de sponsoring qui couvre la saison 2019&amp;frasl;2020, du 1er septembre 2019 au 30 juin 2020 (inclus), à partir de la date de signature.
 Engagements : Article 1 Le Toulouse JUG s&amp;rsquo;engage à :
  Afficher, à partir de la date de signature et jusqu&amp;rsquo;au 30 juin 2020 inclus, le logo du Sponsor :  en miniature sur la page d&amp;rsquo;accueil du site http://toulousejug.</description>
@@ -42,10 +42,10 @@ Engagements : Article 1 Le Toulouse JUG s&amp;rsquo;engage à :
     
     <item>
       <title>Sponsoring Soirée (dit &#34;occasionnel&#34;)</title>
-      <link>http://www.toulousejug.org/page/sponsoring-soiree/</link>
+      <link>https://www.toulousejug.org/page/sponsoring-soiree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.toulousejug.org/page/sponsoring-soiree/</guid>
+      <guid>https://www.toulousejug.org/page/sponsoring-soiree/</guid>
       <description>Termes de la convention de Sponsoring Occasionnel Cette convention consiste à fixer les engagements de chacune des deux parties dans le cadre d&amp;rsquo;un plan de sponsoring qui couvrant une soirée choisie par le sponsor à partir de la date de signature.
 Engagements : Article 1 Le Toulouse JUG s&amp;rsquo;engage à :
  Afficher, de façon définitive pour la soirée mentionnée dans l&amp;rsquo;objet de la convention de sponsoring, le logo du Sponsor :  en miniature sur les pages &amp;ldquo;articles&amp;rdquo; du site http://toulousejug.</description>
@@ -53,20 +53,20 @@ Engagements : Article 1 Le Toulouse JUG s&amp;rsquo;engage à :
     
     <item>
       <title>À propos du JUG</title>
-      <link>http://www.toulousejug.org/page/about/</link>
+      <link>https://www.toulousejug.org/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.toulousejug.org/page/about/</guid>
+      <guid>https://www.toulousejug.org/page/about/</guid>
       <description>Le Toulouse JUG est un groupe d’utilisateurs Java ayant pour but de réunir des acteurs (professionnels, communautés open source, institutions, étudiants, enseignants…) afin d’échanger des idées et de discuter des avancées technologiques de la plateforme Java.
 Nous nous rencontrons une fois par mois. Les réunions sont gratuites, ouvertes à tous et consistent le plus souvent en une présentation technique, une démonstration d’un produit, ou une table ronde. Après la rencontre, nous nous retrouvons généralement pour discuter autour d’un verre et d’un mini-buffet.</description>
     </item>
     
     <item>
       <title>À venir &amp; À revoir</title>
-      <link>http://www.toulousejug.org/page/events/</link>
+      <link>https://www.toulousejug.org/page/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.toulousejug.org/page/events/</guid>
+      <guid>https://www.toulousejug.org/page/events/</guid>
       <description>Évènements Les évènements passés sont répertoriés sur la page d&amp;rsquo;accueil de ce site.
 Les évènements à venir sont organisés via Meetup.
 Les vidéos Tous (ou presque) les évènements organisés par le JUG sont enregistrés.
