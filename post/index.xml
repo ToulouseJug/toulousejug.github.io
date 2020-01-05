@@ -5,10 +5,23 @@
     <link>http://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Rust</title>
+      <link>http://www.toulousejug.org/post/2019-11-07-soiree-rust/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.toulousejug.org/post/2019-11-07-soiree-rust/</guid>
+      <description>Je vous entends déjà :
+ &amp;rdquo;- Rust au JUG ?! Non mais t&amp;rsquo;es pas maboule ?!&amp;rdquo;
+ Et bin non ! Il y a plusieurs mois est arrivé sur le CFP (https://github.com/ToulouseJug/call-for-paper/) un sujet sur Rust orienté pour les développeurs Java.
+Une occasion parfaite de mettre à l&amp;rsquo;honneur un concept cher à mon coeur : la pollinisation croisée.
+Rust pour les développeurs Java - par Simon Chemouil (@simach) Rust, tout comme Java, est né de l&amp;rsquo;objectif de proposer une alternative sûre à C++ (à l&amp;rsquo;exécution et pour la santé mentale des développeurs), mais avec une approche radicalement différente: du côté de Java, la sûreté résulte de la VM et de son Garbage Collector, alors que Rust est le premier langage mainstream à proposer un mécanisme sûr de gestion automatique de la mémoire &amp;ldquo;compile-time&amp;rdquo;, tout en générant des binaires natifs.</description>
+    </item>
     
     <item>
       <title>Soirée Debrief DevFest &amp; GRPC &amp; Quiz</title>
