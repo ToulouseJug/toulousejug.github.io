@@ -5,10 +5,22 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée GraalVM</title>
+      <link>https://www.toulousejug.org/post/2019-12-12-soiree-graalvm/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2019-12-12-soiree-graalvm/</guid>
+      <description>Il faudrait vivre dans une grotte pour ne pas avoir entendu parler de GraalVM.
+Si c&amp;rsquo;est votre cas, il va falloir songer à venir plus souvent au JUG !
+Pour la dernière soirée de l&amp;rsquo;année 2019 nous vous avions proposé deux présentations sur ce thème.
+GraalVM : les applications natives en Java - par Sylvain Wallez (@bluxte) GraalVM est une JVM nouvelle génération qui a plusieurs aspects intéressants :</description>
+    </item>
     
     <item>
       <title>Soirée Rust</title>
