@@ -5,10 +5,34 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Video Games &amp; Code SOLID</title>
+      <link>https://www.toulousejug.org/post/2020-02-04-soiree-gaming-solid/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-02-04-soiree-gaming-solid/</guid>
+      <description>Juste avant les vacances d&amp;rsquo;hivers nous avons reparlé de Java (yay!) avec une première présentation axée sur l&amp;rsquo;utilisation de Java dans les jeux vidéo.
+Le second second talk a porté sur les code reviews et les principes de base pour la programmation orientée objet : SOLID !
+Java et les Jeux Vidéo - par Mounir Regragui A l&amp;rsquo;heure où les frameworks de développement de jeux-vidéo les plus populaires sont Unity et UE, la conférence proposera de :</description>
+    </item>
+    
+    <item>
+      <title>Soirée Test-Safe &amp; Oauth2</title>
+      <link>https://www.toulousejug.org/post/2020-01-16-soiree-test-safe-oauth2/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-01-16-soiree-test-safe-oauth2/</guid>
+      <description>Bonne année 2020 à tous les Juggers (c&amp;rsquo;est comme ça qu&amp;rsquo;on dit ?) !
+Pour débuter l&amp;rsquo;année on va se faire un peu peur 👻 avec un sujet expérimental &amp;ldquo;Test-Safe&amp;rdquo;, suivi d&amp;rsquo;un tour d&amp;rsquo;oauth2.
+Programmation Test-Safe - par Adrien Piquerez (@adrien_piquerez) La programmation test-safe est une méthode de programmation centrée sur les tests.
+C&amp;rsquo;est du TDD, mais natif, du TDD par design !
+Plus concrètement c&amp;rsquo;est l&amp;rsquo;idée que les tests sont la source du programme, et que l&amp;rsquo;implémentation est le produit des tests.</description>
+    </item>
     
     <item>
       <title>Soirée GraalVM</title>
