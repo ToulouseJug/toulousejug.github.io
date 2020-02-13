@@ -25,7 +25,7 @@ Vidéo : {{< youtube tmcuMFl02do >}}
 Référence CfP: https://github.com/ToulouseJug/call-for-paper/issues/21 
 
 
-### Introduction à la Programmation Orientée Aspect - par  ({{< twitter  >}})
+### Introduction à la Programmation Orientée Aspect - par Mounir Regragui
 
 Présentation de la programmation orientée aspect : concepts, vocabulaires, exemples avec AspectJ/Spring et CDI.
 
