@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container docs-container" style="padding-top: 60px;">
-  {{ range after 1 .Site.Data.sponsors.sponsor_data }}
+  {{ range (where .Site.Data.sponsors.sponsor_data "current" "eq" true) }}
   <div class="row">
     <div class="col-md-1">
     </div>

@@ -3,9 +3,11 @@ id = "epitech"
 url = "http://www.epitech.eu/"
 title = "Epitech"
 logo = "/images/sponsors/epitech.png"
+current = true
 
 [[host_data]]
 id = "onepoint"
 url = "https://www.groupeonepoint.com/"
 title = "onepoint"
 logo = "/images/sponsors/onepoint_site.png"
+current = true

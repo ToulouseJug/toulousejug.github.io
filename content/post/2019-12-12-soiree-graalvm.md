@@ -1,7 +1,7 @@
 ---
 title: Soirée GraalVM
 date: 2019-12-12
-host: epitech
+host: onepoint
 sponsors: [ippon, monkeypatch]
 partners: [jetbrains]
 authors: [abos]

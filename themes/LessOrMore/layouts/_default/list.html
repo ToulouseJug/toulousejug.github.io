@@ -88,11 +88,11 @@
     </div>
     <div class="col-md-2">
       <div class="sponsors hidden-print" role="complementary">
-        {{ if (gt (len .Site.Data.sponsors.sponsor_data) 0) }}
+        {{ if or (gt (len (where .Site.Data.sponsors.sponsor_data "current" "eq" true)) 0) $.Site.Params.lookingForSponsors }}
         <div id="sponsors" style="text-align: center;">
           <h2>Nos sponsors</h2>
           <div>
-            {{ range after 1 .Site.Data.sponsors.sponsor_data }}
+            {{ range (where .Site.Data.sponsors.sponsor_data "current" "eq" true) }}
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}
             {{ if $.Site.Params.lookingForSponsors }}
@@ -105,24 +105,24 @@
           </div>
         </div>
         {{ end }}
-        {{ if (gt (len .Site.Data.hosts.host_data) 0) }}
+        {{ if (gt (len (where .Site.Data.hosts.host_data "current" "eq" true)) 0) }}
         <div id="hosts" style="text-align: center;">
           <h2>Nos hôtes</h2>
           <div>
-            {{ range .Site.Data.hosts.host_data }}
+            {{ range where .Site.Data.hosts.host_data "current" "eq" true }}
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}
           </div>
         </div>
         {{ end }}
-        {{ if (gt (len .Site.Data.partners.partner_data) 0) }}
+        {{ if or (gt (len (where .Site.Data.partners.partner_data "current" "eq" true)) 0) (gt (len (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true)) 0)}}
         <div id="partners" style="text-align: center;">
           <h2>Nos partenaires</h2>
           <div>
-            {{ range .Site.Data.partners.partner_data }}
+            {{ range (where .Site.Data.partners.partner_data "current" "eq" true) }}
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}
-            {{ if (gt (len .Site.Data.promotions.temporary_promotion_data) 0) }}
+            {{ if (gt (len (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true)) 0) }}
             {{ range .Site.Data.promotions.temporary_promotion_data }}
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}

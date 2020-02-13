@@ -9,3 +9,4 @@ id = "jetbrains"
 url = "https://www.jetbrains.com/"
 title = "JetBrains"
 logo = "/images/partners/jetbrains.png"
+current = true
