@@ -1,14 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Toulouse JUG</title>
     <link>https://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Web décentralisé</title>
+      <link>https://www.toulousejug.org/post/2020-06-04-soiree-web-decentralise/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-06-04-soiree-web-decentralise/</guid>
+      <description>Une nouvelle soirée en remote pour clôturer l&amp;rsquo;année malgré la pandémie.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte sur la plateforme crowdcast.io.
+Le web décentralisé, comment ça marche ? - par Antoine Cailly (@AntoineCailly) Aujourd’hui l’inquiétude monte devant l’emprise qu’ont certaines entreprises ou gouvernement sur notre utilisation d’internet.
+Face à cette situation, beaucoup de personnes prônent la décentralisation du web un peu à la manière de Mastodon face à Twitter, néanmoins les concepts nécessaires sont assez éloignés des traditionnelles application client-serveur qui restent aujourd’hui majoritaires.</description>
+    </item>
+    
+    <item>
+      <title>Soirée GC concurrents</title>
+      <link>https://www.toulousejug.org/post/2020-05-14-soiree-gc-concurrents/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-05-14-soiree-gc-concurrents/</guid>
+      <description>Première soirée pour le Toulouse JUG !
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte sur la plateforme crowdcast.io.
+Suite à l&amp;rsquo;épidémie de COVID-19 de nombreuses conférences ont été annulée. C&amp;rsquo;est le cas de Devoxx France où Jean-Philippe Bempel devait, cette année, parler de Java Flight Recorder après avoir donné, l&amp;rsquo;an dernier, une présentation sur les GC concurrents.
+Avec Julien on a pensé que cette présentation sur les GC concurrents, même si déjà vue à d&amp;rsquo;autres conférences, était très intéressante et vallait la peine d&amp;rsquo;être rejouée.</description>
+    </item>
+    
+    <item>
+      <title>Workshop Testcontainers</title>
+      <link>https://www.toulousejug.org/post/2020-03-12-workshop-testcontainers/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-03-12-workshop-testcontainers/</guid>
+      <description>En raison de l&amp;rsquo;épidémie de COVID (EDIT Post COVID: et juste avant d&amp;rsquo;être confinés !!!) nous avions prévu une baisse du nombre d&amp;rsquo;inscrits à cette soirée. C&amp;rsquo;est pourquoi nous avons choisi de vous proposer un workshop !
+Les auteurs du Workshop n&amp;rsquo;étant pas dispo pour des raisons de planning, ils nous ont proposé d&amp;rsquo;organiser le Workshop sans eux de notre côté, les sources étant disponible en ligne (licence MIT) !</description>
+    </item>
     
     <item>
       <title>Soirée Video Games &amp; Code SOLID</title>
@@ -43,7 +77,8 @@ Plus concrètement c&amp;rsquo;est l&amp;rsquo;idée que les tests sont la sourc
       <description>Il faudrait vivre dans une grotte pour ne pas avoir entendu parler de GraalVM.
 Si c&amp;rsquo;est votre cas, il va falloir songer à venir plus souvent au JUG !
 Pour la dernière soirée de l&amp;rsquo;année 2019 nous vous avions proposé deux présentations sur ce thème.
-GraalVM : les applications natives en Java - par Sylvain Wallez (@bluxte) GraalVM est une JVM nouvelle génération qui a plusieurs aspects intéressants :</description>
+GraalVM : les applications natives en Java - par Sylvain Wallez (@bluxte) GraalVM est une JVM nouvelle génération qui a plusieurs aspects intéressants :
+ elle est &amp;ldquo;polyglotte&amp;rdquo; et permet de faire tourner du Java/Kotlin/Scala (classique) mais aussi du R, JavaScript, Ruby ou Python (moins classique) elle permet de faire de la compilation &amp;ldquo;ahead of time&amp;rdquo; et produire un exécutable natif minimaliste qui peut être déployé facilement.</description>
     </item>
     
     <item>
@@ -53,7 +88,7 @@ GraalVM : les applications natives en Java - par Sylvain Wallez (@bluxte) GraalV
       
       <guid>https://www.toulousejug.org/post/2019-11-07-soiree-rust/</guid>
       <description>Je vous entends déjà :
- &amp;rdquo;- Rust au JUG ?! Non mais t&amp;rsquo;es pas maboule ?!&amp;rdquo;
+ &amp;ldquo;- Rust au JUG ?! Non mais t&amp;rsquo;es pas maboule ?!&amp;rdquo;
  Et bin non ! Il y a plusieurs mois est arrivé sur le CFP (https://github.com/ToulouseJug/call-for-paper/) un sujet sur Rust orienté pour les développeurs Java.
 Une occasion parfaite de mettre à l&amp;rsquo;honneur un concept cher à mon coeur : la pollinisation croisée.
 Rust pour les développeurs Java - par Simon Chemouil (@simach) Rust, tout comme Java, est né de l&amp;rsquo;objectif de proposer une alternative sûre à C++ (à l&amp;rsquo;exécution et pour la santé mentale des développeurs), mais avec une approche radicalement différente: du côté de Java, la sûreté résulte de la VM et de son Garbage Collector, alors que Rust est le premier langage mainstream à proposer un mécanisme sûr de gestion automatique de la mémoire &amp;ldquo;compile-time&amp;rdquo;, tout en générant des binaires natifs.</description>
@@ -101,7 +136,7 @@ La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre 
       <description>Voici les vidéos de la soirée de mai où nous avons eu la chance de recevoir deux membres de l&amp;rsquo;équipe &amp;ldquo;core&amp;rdquo; de JHipster qui nous ont parlé de leur projet !
  Nouveau matos !
 Grace à nos sponsors, nous avons pu nous permettre de remettre un petit peu à jour notre matériel de captation. Un prochain article détaillera nos nouvelles acquisitions mais en attendant:
-merci Ippon, merci MonkeyPatch !</description>
+merci Ippon, merci MonkeyPatch ! 🥳</description>
     </item>
     
     <item>
@@ -493,7 +528,7 @@ Les ateliers se dérouleront entre 18h et 21h30 environ. On va en effet essayer 
       
       <guid>https://www.toulousejug.org/post/2013-11-28-lambda-mon-amour-2-talks-pour-le-prix-dun-remi-forax-en-decembre-2013-et-jose-paumard-en-janvier-2014/</guid>
       <description>Comme vous le savez sûrement, Java 8 arrive d&amp;rsquo;ici quelques semaines, normalement fin mars 2014.
-Comme le dit Mark Reinhold, le &amp;ldquo;Chief Architect of the Java Platform&amp;rdquo;, les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &amp;ndash; plus encore que les generics.
+Comme le dit Mark Reinhold, le &amp;ldquo;Chief Architect of the Java Platform&amp;quot;, les lambdas sont la plus grosse mise à jour du modèle de programmation depuis toujours &amp;ndash; plus encore que les generics.
 Nous avons donc trouvé important de planifier plusieurs sessions pour découvrir sereinement toutes ces nouveautés.
  Octobre 2013 : La première de la série a déjà eu lieu il y a quelques semaines, avec Henri Tremblay qui nous a sensibilisé au cocktail spécial qu&amp;rsquo;allait être le mélange lambda/generics.</description>
     </item>
@@ -579,11 +614,10 @@ Inscrivez vous
       <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/post/2013-02-06-soiree-git-2102/</guid>
-      <description>Le Jeudi 21&amp;frasl;02 18h30 à l&amp;rsquo;Epitech le JUG organise une soirée Git.
+      <description>Le Jeudi 21/02 18h30 à l&amp;rsquo;Epitech le JUG organise une soirée Git.
 On vous promet une soirée show time, pas de &amp;ldquo;man git&amp;rdquo; soporifique.
 Un tour de son écosystème vous apportera surement la solution dont vous avez besoin.
-L&amp;rsquo;essentiel 1) 30 mins : Le moteur de Git et ses principes par Baptiste Mathus
-Les process 2) 15 mins sur Git Flow par Igor Laborie, ou comment ne pas s’emmêler les branches</description>
+L&amp;rsquo;essentiel  30 mins : Le moteur de Git et ses principes par Baptiste Mathus  Les process  15 mins sur Git Flow par Igor Laborie, ou comment ne pas s’emmêler les branches</description>
     </item>
     
     <item>
@@ -606,9 +640,8 @@ Big Data et data mining – tour au zoo d’Hadoop. Hadoop est devenu un socle i
       <description>La deuxième soirée Hero aura lieu ce Jeudi 15 Novembre. Plusieurs juggers toulousains feront une présenation de 15 à 30 minutes.
 Vous pouvez vous inscrire ici.
 En voici le programme :
- Méthode Getting Things Done (GTD) par Baptiste Mathus : ou comment organiser sa vie de Développeur 
-  Développement de plugin Jenkins par Michaël Pailloncy : vous saurez tout pour faire votre propre Plugin. 
-  Dessine-moi un DSL par Frédéric Madiot : Une présentation graphique d&amp;rsquo;un nouvel outil Open Source</description>
+  Méthode Getting Things Done (GTD) par Baptiste Mathus : ou comment organiser sa vie de Développeur 
+   Développement de plugin Jenkins par Michaël Pailloncy : vous saurez tout pour faire votre propre Plugin.</description>
     </item>
     
     <item>
@@ -692,8 +725,8 @@ Inscrivez vous sur JugEvents.</description>
       <guid>https://www.toulousejug.org/post/2012-04-13-soiree-dont-vous-etes-le-heros-le-2604/</guid>
       <description>Le 26 avril prochain à partir de 18h30 à l’Epitech aura lieu la soirée dont vous êtes le héros, et même les héros .
 Voici les trésors que nous allons découvrir :
- Lambda dans Java 8 (30 minutes) par Didier Plaindoux : Définition d&amp;rsquo;interface, syntaxe, portée des variables, manipulation de méthodes&amp;hellip; 
-  Processing Java (15 minutes) par Sylvain Wallez : Environnement Java dédié à la création d&amp;rsquo;application multimedia interactives (Kinect, pilotage de LED …)</description>
+  Lambda dans Java 8 (30 minutes) par Didier Plaindoux : Définition d&amp;rsquo;interface, syntaxe, portée des variables, manipulation de méthodes&amp;hellip; 
+   Processing Java (15 minutes) par Sylvain Wallez : Environnement Java dédié à la création d&amp;rsquo;application multimedia interactives (Kinect, pilotage de LED …)</description>
     </item>
     
     <item>
@@ -702,7 +735,7 @@ Voici les trésors que nous allons découvrir :
       <pubDate>Mon, 05 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/post/2012-03-05-soiree-objectif-cloud-le-1503-a-lepitech/</guid>
-      <description>Découvrez Cloudbees Le 15&amp;frasl;03 à l&amp;rsquo;Epitech, à 18h30, Nicolas de Loof, co-auteur du livre Apache Maven, figure de la communauté Java Française, et leader du BreizhJug vous fera découvrir le cloud en Java!
+      <description>Découvrez Cloudbees Le 15/03 à l&amp;rsquo;Epitech, à 18h30, Nicolas de Loof, co-auteur du livre Apache Maven, figure de la communauté Java Française, et leader du BreizhJug vous fera découvrir le cloud en Java!
 De plus, pour le premier anniversaire du JUG, nous échangerons sur le mouvement des JUG en France et nous ferons le bilan de l&amp;rsquo;année écoulée.
 Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvent.</description>
     </item>
@@ -728,7 +761,7 @@ UPDATE : Nicolas viendra justement nous présenter CloudBees jeudi 15 mars 2012,
       
       <guid>https://www.toulousejug.org/post/2012-02-06-soiree-javafx-2-le-1602-a-lepitech/</guid>
       <description>Découvrez JavaFX 2
-Le 16&amp;frasl;02 à l&amp;rsquo;Epitech, à 18h30, Sébastien Bordes animera une soirée JavaFX2.
+Le 16/02 à l&amp;rsquo;Epitech, à 18h30, Sébastien Bordes animera une soirée JavaFX2.
 Sébastien nous a alléché en proposant de faire sa présentation 100% avec JavaFX2. Dans le style &amp;ldquo;Eat your own food&amp;rdquo;, la soirée donnera donc lieu à une présentation et démonstration de la techno.
 Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvent.
 Venez nombreux et parlez-en autour de vous !</description>
@@ -761,7 +794,7 @@ Il se présente sous la forme d’un plugin « java agent » à déclarer au niv
       
       <guid>https://www.toulousejug.org/post/2012-01-05-soiree-grails-le-1901-a-lepitech/</guid>
       <description>Découvrez Grails et l&amp;rsquo;un des projets les plus importants développé en France avec Grails !
-Le 19&amp;frasl;01 à l&amp;rsquo;Epitech, à 18h30, Vincent Barrier et Franck Silvestre animeront une soirée Grails.
+Le 19/01 à l&amp;rsquo;Epitech, à 18h30, Vincent Barrier et Franck Silvestre animeront une soirée Grails.
 Ces deux toulousains, grands utilisateurs de Grails, nous présenteront une introduction à Grails, ainsi que l&amp;rsquo;utilisation de Grails pour développer l&amp;rsquo;ENT des Lycées de la Région Île de France: Lilie.
 Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvents.</description>
     </item>
@@ -783,7 +816,7 @@ Claude nous a présenté l&amp;rsquo;organisation Duchess, ce qui nous a permis 
       <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/post/2011-11-30-soiree-performances-en-java-le-712-a-lepitech/</guid>
-      <description>Identifiez les problèmes de performances dans vos applications Java ! Le 7&amp;frasl;12 à l&amp;rsquo;Epitech, à 18h30, Claude Falguière, qui a déjà traité ce sujet dans différents JUG et conférences, nous donnera les clés pour résoudre ce problème difficile.
+      <description>Identifiez les problèmes de performances dans vos applications Java ! Le 7/12 à l&amp;rsquo;Epitech, à 18h30, Claude Falguière, qui a déjà traité ce sujet dans différents JUG et conférences, nous donnera les clés pour résoudre ce problème difficile.
 Nous aurons aussi un retour de Devoxx 2011 par Claude et par Marianne Jullien.
 Plus de détails sur la soirée, et le formulaire d&amp;rsquo;inscription sur le site JugEvents.
 Venez nombreux et parlez-en autour de vous.</description>
@@ -830,7 +863,7 @@ La barrière de la langue n’aura pas découragé les participants de poser des
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/post/2011-08-30-soiree-java-7-le-1409-a-lepitech/</guid>
-      <description>Pour bien redémarrer, nous organisons un événement Java 7 le 14&amp;frasl;09 à l’EPITECH à 18h30. Inscrivez-vous sur le site JugEvent !
+      <description>Pour bien redémarrer, nous organisons un événement Java 7 le 14/09 à l’EPITECH à 18h30. Inscrivez-vous sur le site JugEvent !
 Nous aurons le plaisir d’accueillir un speaker international, Terrence Barr, Senior Technologist and Ambassador at Oracle.
 Voici la description du talk de Terrence.
 Java SE 7: The Platform Evolves In July 2011, Java SE 7 was released. This evolutionary release brings a host of new features and performance enhancements to the Java platform, designed to increase productivity, re-invigorate the Java ecosystem, grow adoption, and adapt Java to the changing demands of the IT world.</description>
@@ -853,7 +886,7 @@ Les conférences seront animées par des personnalités de la communauté franco
       
       <guid>https://www.toulousejug.org/post/2011-05-27-soiree-gestion-des-dependances/</guid>
       <description>La soirée - très pointue - sur la gestion des dépendances s&amp;rsquo;est déroulée devant environ 40 personnes. En voici la présentation SlideShare.
- Merci beaucoup à Nicolas Lalevée pour sa présentation, et son travail Open Source.
+Merci beaucoup à Nicolas Lalevée pour sa présentation, et son travail Open Source.
 Le prochain événement de Toulouse Jug, en association avec nos amis de Toulibre, sera l&amp;rsquo;Eclipse Party le Jeudi 23 Juin, de 13h à 21h.</description>
     </item>
     
@@ -904,7 +937,6 @@ présentations de Florent, Bert et Nicolas.&lt;/p&gt;</description>
       <description>&lt;p&gt;La nouvelle équipe du Toulouse JUG a le plaisir de vous annoncer son partenariat
 avec la conférence What&amp;rsquo;s Next, organisée à Paris les 26 &amp;amp; 27 mai 2011 au
 Grand Rex.&lt;/p&gt;
-
 &lt;p&gt;&lt;/p&gt;
 &lt;div style=&#34;text-align:center&#34;&gt;
   &lt;img

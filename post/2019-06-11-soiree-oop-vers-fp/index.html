@@ -30,7 +30,7 @@ La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Toulouse JUG" />
 
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.70.0" />
   <link rel="canonical" href="//post/2019-06-11-soiree-oop-vers-fp/" />
   <link rel="alternate" href="https://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
   <link rel="stylesheet" href="https://www.toulousejug.org/css/index.css" />
@@ -188,35 +188,23 @@ La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre 
             
           </header>
           <article class="post-content">
-            
-
-<p>Pour la dernière soirée de la saison 2018-2019 le thème était &ldquo;de la programmation orientée object
-à la programmation fonctionnelle&rdquo;, vaste programme.<br />
+            <p>Pour la dernière soirée de la saison 2018-2019 le thème était &ldquo;de la programmation orientée object
+à la programmation fonctionnelle&rdquo;, vaste programme.<br>
 Pour ce faire, une première vidéo où l&rsquo;on revient aux sources et où l&rsquo;on présente les grands concepts, suivi
 d&rsquo;une présentation d&rsquo;un cas concret pour lequel des concepts de programmation fonctionnelle peuvent nous aider.</p>
-
-<h3 id="la-programmation-fonctionnelle-sans-céder-à-la-mode-par-frédéric-cabestre-hahahugoshortcode-0xc000afb900-1-hbhb">La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre (<a href="https://twitter.com/fcabestre" title="fcabestre" target="_blank">@fcabestre</a>)</h3>
-
+<h3 id="la-programmation-fonctionnelle-sans-céder-à-la-mode---par-frédéric-cabestre-hahahugoshortcode-s0-hbhb">La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre (<a href="https://twitter.com/fcabestre" title="fcabestre" target="_blank">@fcabestre</a>)</h3>
 <p>Aujourd&rsquo;hui, pour être à la mode, il faut parler de programmation fonctionnelle. Et de suite on convoque les mots en vogue: « Immutabilité », « Monade » ou « Catamorphisme ». Au mieux le message est brouillé, mal reçu. Au pire la salle se vide !</p>
-
 <p>Ce que je vous propose c&rsquo;est de repartir des principes de base, avec des idées bien arrêtées et peut-être parfois provocatrices. Comprendre, comme le disait John Hugues, « Why functionnal programming matters ». Cerner les quelques idées directrices de la programmation fonctionnelle et ce qu&rsquo;elles apportent concrètement au quotidien. Voir comment et pourquoi d&rsquo;autres concepts en découlent nécessairement&hellip;</p>
-
 <p>Il sera peut-être finalement question de « Théorie des catégories » ! Mais il sera surtout question, en vrac, d&rsquo;histoire et de mise en œuvre des langages, de typage, de performance, d&rsquo;artisanat du logiciel, de « Design patterns », d&rsquo;abstraction et, soyons fou, de réification.</p>
-
 <p>En somme, je vais vous parler de programmation fonctionnelle en essayant de ne pas être à la mode !</p>
-
 <p>Référence CfP : <a href="https://github.com/ToulouseJug/call-for-paper/issues/20">https://github.com/ToulouseJug/call-for-paper/issues/20</a></p>
-
 <p>Vidéo : 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/pBHCHF2JMfg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/pBHCHF2JMfg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 </p>
-
-<h3 id="de-l-oop-à-la-fp-l-affaire-de-la-validation-par-emmanuel-nhan-hahahugoshortcode-0xc000afb900-3-hbhb">De l&rsquo;OOP à la FP : l&rsquo;affaire de la validation - par Emmanuel Nhan (<a href="https://twitter.com/nhanmanu" title="nhanmanu" target="_blank">@nhanmanu</a>)</h3>
-
+<h3 id="de-loop-à-la-fp--laffaire-de-la-validation---par-emmanuel-nhan-hahahugoshortcode-s2-hbhb">De l&rsquo;OOP à la FP : l&rsquo;affaire de la validation - par Emmanuel Nhan (<a href="https://twitter.com/nhanmanu" title="nhanmanu" target="_blank">@nhanmanu</a>)</h3>
 <p>On est tous tombé au moins une fois dans cette boucle en remplissant un formulaire web :</p>
-
 <ul>
 <li>Remplir et cliquer sur envoyer,</li>
 <li>Avoir en retour un champ en erreur,</li>
@@ -225,18 +213,13 @@ d&rsquo;une présentation d&rsquo;un cas concret pour lequel des concepts de pro
 <li>Corriger la saisie et soumettre,</li>
 <li>&hellip;</li>
 </ul>
-
 <p>Même chose pour l&rsquo;envoi d&rsquo;une requête HTTP avec un body JSON qui peut être invalide à plusieurs endroits. Doit-on corriger chaque champ un à un à mesure que l&rsquo;on découvre les erreurs ou existe-t-il un moyen d&rsquo;avoir l&rsquo;ensemble des erreurs dès la première requête ?</p>
-
 <p>Dans ce talk, nous examinerons les moyens pour remonter toutes les erreurs dès la première validation en commençant par la solution la plus Java possible en utilisant la JSR 303 Bean Validation. Après avoir vu les avantages et inconvénients de cette approche, nous essayerons de construire un programme plus fonctionnel. Petit à petit nous ferons émerger des abstractions et nous déboucherons sur une version purement fonctionnelle de la résolution de ce problème.</p>
-
 <p>Ce talk est fait pour les développeurs Java ou Kotlin qui veulent rendre leur code plus fonctionnel. Par conséquent, il nécessite une connaissance de Java et des bases de Kotlin ou Scala. Si vous connaissez déjà Scala et Cats, ne vous attendez pas à apprendre beaucoup.</p>
-
 <p>Référence CfP : <a href="https://github.com/ToulouseJug/call-for-paper/issues/27">https://github.com/ToulouseJug/call-for-paper/issues/27</a></p>
-
 <p>Vidéo : 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/tkq-TjcYM3Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/tkq-TjcYM3Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 </p>
 
