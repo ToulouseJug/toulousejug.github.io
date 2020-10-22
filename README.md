@@ -16,7 +16,7 @@ Once happy with your changes, commit to the `source` branch.
 
 Run:
 
-    docker run -it --rm --volume=$(pwd):/srv registry.gitlab.com/pages/hugo@sha256:017b3e0d3620cf4a7d782656237b7aa8793909339d927c15dcd5bdd26180a849 hugo -d public/
+    docker run -it --rm --volume=$(pwd):/src registry.gitlab.com/pages/hugo@sha256:017b3e0d3620cf4a7d782656237b7aa8793909339d927c15dcd5bdd26180a849 hugo -d public/
 
 Then go to the `public` folder, commit onto the `master` branch and push to Github to deploy. 
 
