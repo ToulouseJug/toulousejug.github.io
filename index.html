@@ -188,8 +188,24 @@
             
             <li><a href="#year_2020">2020</a>
               <ul class="nav">
-                <li><a href="#month_2020_June">Juin</a></li>
+                <li><a href="#month_2020_October">Octobre</a></li>
                 
+                
+
+            
+            
+
+            
+              
+              <li><a href="#month_2020_June">Juin</a></li>
+              
+              
+              
+              
+            
+            
+
+            
                 
 
             
@@ -1503,11 +1519,155 @@
       
 
       <ol class="breadcrumb">
-        <li><span>4 Juin 2020</span> &raquo; <a href="https://www.toulousejug.org/post/2020-06-04-soiree-web-decentralise/">Soirée Web décentralisé</a></li>
+        <li><span>24 Octobre 2020</span> &raquo; <a href="https://www.toulousejug.org/post/2020-10-24-jeu-twitter/">Jeu Twitter licences JetBrains</a></li>
       </ol>
       
       <a id="year_2020" class="post-anchor"></a>
+      <a id="month_2020_October" class="post-anchor"></a>
+      
+      <div class="row">
+        <div class="panel docs-content" style="padding-top: 20px;padding-bottom: 20px;">
+            <p>Chose promise, chose due !</p>
+<p>Comme nous l&rsquo;avions annoncé via Twitter, nous avions pas moins de 6 licences
+pour des produits JetBrains à offrir en raison de notre partenariat
+(JetBrains User Group Support Program).</p>
+<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Nous avons oublié d&#39;offrir les 6 coupons JetBrains hier soir 🤦‍♂️<br><br>Alors c&#39;est parti !<br>Pour tenter d&#39;en gagner un, likez ce Tweet ❤️<br><br>Les gagnants seront tirés au sort via un algorithme random qui honorera les présentations d&#39;hier soir 🤓<br><br>Vous avez jusqu&#39;à ce soir minuit (CEST) 🤞 <a href="https://t.co/ShimTz2FBi">pic.twitter.com/ShimTz2FBi</a></p>&mdash; Toulouse JUG (@toulousejug) <a href="https://twitter.com/toulousejug/status/1319590091724128256?ref_src=twsrc%5Etfw">October 23, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Sans plus attendre, les gagnants sont :</p>
+<ul>
+<li><a href="https://twitter.com/JBaptiste_31" title="JBaptiste_31" target="_blank">@JBaptiste_31</a></li>
+<li><a href="https://twitter.com/19emtuck" title="19emtuck" target="_blank">@19emtuck</a></li>
+<li><a href="https://twitter.com/Olivier_M_31" title="Olivier_M_31" target="_blank">@Olivier_M_31</a></li>
+<li><a href="https://twitter.com/ClergueCh34" title="ClergueCh34" target="_blank">@ClergueCh34</a></li>
+<li><a href="https://twitter.com/lidodo" title="lidodo" target="_blank">@lidodo</a></li>
+<li><a href="https://twitter.com/jpbolatre" title="jpbolatre" target="_blank">@jpbolatre</a></li>
+</ul>
+<p>Félicitations ! 🥳 Vos coupons vous ont déjà été envoyés via Direct Message sur Twitter.</p>
+<h3 id="et-ce-tirage-au-sort-il-est-honnête-">Et ce tirage au sort, il est honnête ?!</h3>
+<p>Alors voilà, ce n&rsquo;est pas la première fois qu&rsquo;on voulait mettre en place un petit
+tirage au sort avec Julien [Zanon, co-organisateur du JUG, NDLR] mais comme il
+n&rsquo;y a que 24 heures par jour, et 7 jours par semaine, ça ne s&rsquo;était pas produit
+jusqu&rsquo;ici.</p>
+<p>Seulement, après les deux sujets de la dernière soirée (Randomness &amp; Property-Based
+Testing) et voyant notre petit stock de coupons qui commençait à s&rsquo;accumuler, on
+s&rsquo;est dit qu&rsquo;il était temps.</p>
+<p>J&rsquo;avais gardé dans un coin quelque part un lien vers une méthode de sélection
+d&rsquo;un gagnant de concours via un petit algo en ligne de commande, alors cette nuit
+je me suis chauffé et je l&rsquo;ai ré-implémenté pour obtenir nos 6 gagnants.</p>
+<h3 id="show-me-the-code">Show me the code!</h3>
+<p>Premièrement : récupérer la liste des participants au concour.</p>
+<p>Pour aller vite, je n&rsquo;ai pas intégré cette partie là dans le script (flemme
+de créer un identifiant d&rsquo;App Twitter, authentification, oauth, toussa&hellip;) et j&rsquo;ai
+directement récupéré le contenu JSON de la réponse faite par le navigateur.</p>
+<p></p>
+<div style="text-align:center">
+  <img
+    src="https://www.toulousejug.org/images/2020-10-24-jeu-twitter/firefox.png"
+    title="Testcontainers"
+    alt="Testcontainers"
+    width="800"
+    
+    />
+</div>
+<br />
+
+<p>Le dernier Twittos à avoir &ldquo;liké&rdquo; le Tweet (le premier sur la capture d&rsquo;écran)
+l&rsquo;a fait après l&rsquo;heure limite, il n&rsquo;est donc pas pris en compte pour le tirage
+au sort.<br>
+Le contenu est disponible <a href="https://www.toulousejug.org/misc/2020-10-24-jeu-twitter/twitter.json">ici</a>.</p>
+<p>Ensuite l&rsquo;algorithme. Je n&rsquo;ai pas réinventé la roue, j&rsquo;ai simplement adapté
+le script détaillé dans cet article : <a href="http://www.guido-flohr.net/how-to-do-a-fair-online-raffle/">How To Do a Fair Online Raffle?</a>
+Je l&rsquo;ai simplement modifié pour pouvoir faire plusieurs tours en excluant le
+vainqueur du tour précédent, afin de faire gagner plus d&rsquo;une personne.</p>
+<p>Ce que j&rsquo;ai trouvé d&rsquo;amusant avec cet article, c&rsquo;est que sa &ldquo;source d&rsquo;entropie&rdquo;
+est le compte Twitter de Donald Trump 🤣<br>
+C&rsquo;est tellement un excité de Twitter que comme source de
+valeurs aléatoires, c&rsquo;est effectivement bien choisi.</p>
+<p>Je me suis donc basé sur le premier Tweet du 45° président des États-Unis à partir
+de la fin du jeu, c&rsquo;est-à-dire <a href="https://twitter.com/realDonaldTrump/status/1319761576996573186">celui-ci</a>
+(qui n&rsquo;a rien d&rsquo;amusant malheureusement, j&rsquo;aurais bien aimé un petit Covfefe).</p>
+<p>Et pour le reste, j&rsquo;ai utilisé Clojure, et plus particulièrement <a href="https://github.com/borkdude/babashka">Babashka</a>.<br>
+Parce que, quand même, on est un JUG, on va pas faire du bash ! On reste sur la JVM scrogneugneu !
+(enfin GraalVM là en fait, mais ça passe !)</p>
+<div class="highlight"><pre class="chroma"><code class="language-clojure" data-lang="clojure"><span class="o">#</span><span class="nv">!/usr/bin/env</span> <span class="nv">bb</span>
+<span class="p">(</span><span class="nf">require</span> <span class="o">&#39;</span><span class="p">[</span><span class="nv">clojure.java.shell</span> <span class="ss">:refer</span> <span class="p">[</span><span class="nv">sh</span><span class="p">]])</span>
+<span class="p">(</span><span class="nf">require</span> <span class="o">&#39;</span><span class="p">[</span><span class="nv">cheshire.core</span> <span class="ss">:as</span> <span class="nv">json</span><span class="p">])</span>
+
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">get-entries</span> <span class="p">[]</span>
+  <span class="p">(</span><span class="nf">-&gt;</span>
+    <span class="p">(</span><span class="nb">slurp </span><span class="s">&#34;twitter.json&#34;</span><span class="p">)</span>
+    <span class="nv">json/parse-string</span>
+    <span class="p">(</span><span class="nf">get-in</span> <span class="p">[</span><span class="s">&#34;data&#34;</span> <span class="s">&#34;favoriters_timeline&#34;</span> <span class="s">&#34;timeline&#34;</span> <span class="s">&#34;instructions&#34;</span><span class="p">])</span>
+    <span class="nv">first</span>
+    <span class="p">(</span><span class="nb">get </span><span class="s">&#34;entries&#34;</span><span class="p">)</span>
+    <span class="c1">; ici j&#39;inverse la liste des participants parce que Twittere</span>
+    <span class="c1">; me la donne par ordre antichronologique de &#34;like&#34;</span>
+    <span class="nv">reverse</span>
+    <span class="nv">vec</span><span class="p">))</span>
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">get-random-number-script-str</span> <span class="p">[</span><span class="nv">s</span> <span class="nv">mod</span><span class="p">]</span>
+  <span class="p">(</span><span class="nf">format</span>
+    <span class="s">&#34;echo &#39;%s&#39; | openssl sha512 -whirlpool | sed -e &#39;s/.*= //&#39; | tr &#39;[:lower:]&#39; &#39;[:upper:]&#39; | perl -lne &#39;print \&#34;ibase=16;n=$_;ibase=A;n%%%s\&#34;&#39; | bc | tr -d &#39;\n&#39;&#34;</span>
+    <span class="nv">s</span> <span class="nv">mod</span><span class="p">))</span>
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">get-random-number</span> <span class="p">[</span><span class="nv">tweet</span> <span class="nv">participants</span><span class="p">]</span>
+  <span class="p">(</span><span class="nf">-&gt;&gt;</span>
+    <span class="p">(</span><span class="nf">get-random-number-script-str</span> <span class="nv">tweet</span> <span class="nv">participants</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">sh</span> <span class="s">&#34;bash&#34;</span> <span class="s">&#34;-c&#34;</span><span class="p">)</span>
+    <span class="ss">:out</span>
+    <span class="nv">Integer/parseInt</span><span class="p">))</span>
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">vec-remove</span>
+  <span class="s">&#34;remove elem in coll&#34;</span>
+  <span class="p">[</span><span class="nb">nth </span><span class="nv">coll</span><span class="p">]</span>
+  <span class="p">(</span><span class="nf">vec</span> <span class="p">(</span><span class="nb">concat </span><span class="p">(</span><span class="nb">subvec </span><span class="nv">coll</span> <span class="mi">0</span> <span class="nv">nth</span><span class="p">)</span> <span class="p">(</span><span class="nb">subvec </span><span class="nv">coll</span> <span class="p">(</span><span class="nb">inc </span><span class="nv">nth</span><span class="p">)))))</span>
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">get-winners</span> <span class="p">[</span><span class="nv">entries</span> <span class="nv">participants</span> <span class="nv">tweet</span> <span class="nv">max-coupons</span><span class="p">]</span>
+  <span class="p">(</span><span class="k">loop </span><span class="p">[</span><span class="nv">entries</span> <span class="nv">entries</span> <span class="nv">participants</span> <span class="nv">participants</span> <span class="nv">winners</span> <span class="o">#</span><span class="p">{}</span> <span class="nv">coupons</span> <span class="mi">0</span><span class="p">]</span>
+    <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">&lt; </span><span class="nv">coupons</span> <span class="nv">max-coupons</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">winnerIdx</span> <span class="p">(</span><span class="nf">get-random-number</span> <span class="nv">tweet</span> <span class="nv">participants</span><span class="p">)</span>
+            <span class="nv">entry</span> <span class="p">(</span><span class="nb">nth </span><span class="nv">entries</span> <span class="nv">winnerIdx</span><span class="p">)</span>
+            <span class="nv">winner</span> <span class="p">(</span><span class="nf">get-in</span> <span class="nv">entry</span> <span class="p">[</span><span class="s">&#34;content&#34;</span> <span class="s">&#34;itemContent&#34;</span> <span class="s">&#34;user&#34;</span> <span class="s">&#34;legacy&#34;</span> <span class="s">&#34;screen_name&#34;</span><span class="p">])</span>
+            <span class="p">]</span>
+          <span class="p">(</span><span class="nf">recur</span> <span class="p">(</span><span class="nf">vec-remove</span> <span class="nv">winnerIdx</span> <span class="nv">entries</span><span class="p">)</span> <span class="p">(</span><span class="nb">dec </span><span class="nv">participants</span><span class="p">)</span> <span class="p">(</span><span class="nb">conj </span><span class="nv">winners</span> <span class="nv">winner</span><span class="p">)</span> <span class="p">(</span><span class="nb">inc </span><span class="nv">coupons</span><span class="p">)))</span>
+      <span class="nv">winners</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">entries</span> <span class="p">(</span><span class="nf">get-entries</span><span class="p">)</span>
+      <span class="nv">participants</span> <span class="p">(</span><span class="nb">count </span><span class="nv">entries</span><span class="p">)</span>
+      <span class="nv">tweet</span> <span class="s">&#34;THANK YOU to all of the Great American Patriots in The Villages, Florida! #MAGA&#34;</span>
+      <span class="nv">max-coupons</span> <span class="mi">6</span>
+      <span class="p">]</span>
+  <span class="p">(</span><span class="nf">get-winners</span> <span class="nv">entries</span> <span class="nv">participants</span> <span class="nv">tweet</span> <span class="nv">max-coupons</span><span class="p">))</span>
+</code></pre></div><p>Le résultat est le suivant :</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ raffle.clj
+<span class="c1">#{&#34;JBaptiste_31&#34; &#34;19emtuck&#34; &#34;Olivier_M_31&#34; &#34;ClergueCh34&#34; &#34;lidodo&#34; &#34;jpbolatre&#34;}</span>
+</code></pre></div><p>Voilà ! En attendant les vidéos de la soirée, qui ne devraient pas tarder,
+vous avez tout sous la main pour vérifier les résultats.<br>
+J&rsquo;espère ne pas avoir fait de bêtise 😇</p>
+
+        </div>
+      </div>
+      
+
+      
+      
+
+      
+      
       <a id="month_2020_June" class="post-anchor"></a>
+      
+      
+      
+      
+
+      
+      
+
+      <ol class="breadcrumb">
+        <li><span>4 Juin 2020</span> &raquo; <a href="https://www.toulousejug.org/post/2020-06-04-soiree-web-decentralise/">Soirée Web décentralisé</a></li>
+      </ol>
       
       <div class="row">
         <div class="panel docs-content" style="padding-top: 20px;padding-bottom: 20px;">
