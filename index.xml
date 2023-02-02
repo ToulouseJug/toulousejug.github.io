@@ -5,10 +5,80 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2023, le retour du comeback du JUG 😅</title>
+      <link>https://www.toulousejug.org/post/2023-02-03-2023-le-retour-du-comeback/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2023-02-03-2023-le-retour-du-comeback/</guid>
+      <description>Vous l&amp;rsquo;avez sûrement remarqué : le Toulouse JUG est devenu un User Group un peu moribond depuis presque deux ans.
+Julien et moi avons tenu bon le post-COVID avec des soirées remote, mais nous nous sommes essouflés. Les événements en ligne, ça n&amp;rsquo;a tout de même pas la saveur des soirées et des discussions IRL.
+La tentative de reprise de 2022 a donné naissance à une excellente soirée qui nous a permis de faire le plein de motivation.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Retour du JUG</title>
+      <link>https://www.toulousejug.org/post/2022-06-14-soiree-retour-2022/</link>
+      <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2022-06-14-soiree-retour-2022/</guid>
+      <description>Retour du JUG en présentiel pour 2022 !
+Pas de captation, vous n&amp;rsquo;aviez qu&amp;rsquo;à venir 😜
+400 endpoints d&amp;rsquo;API et 2000 types : genèse et utilisation du nouveau client Java pour Elasticsearch - par Sylvain Wallez (@bluxte) Un nouveau client Java pour Elasticsearch est sorti en octobre 2021. Plus léger, plus rapide, plus ergonomique et… généré à 99% !
+Comment avons nous conçu et développé ce nouveau client ?
+On parlera des design patterns mis en place pour laisser la complétion de l&amp;rsquo;IDE nous guider dans cette vaste API en permettant une écriture proche d&amp;rsquo;un DSL.</description>
+    </item>
+    
+    <item>
+      <title>Soirée (Practical) Vavr</title>
+      <link>https://www.toulousejug.org/post/2021-02-11-soiree-practical-vavr/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2021-02-11-soiree-practical-vavr/</guid>
+      <description>Encore une soirée en remote.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
+Practical Vavr - par Alexandre Grison (@algrison) Practical Vavr is all about making you want to use Vavr in your day to day Java programming.
+If you want to improve the quality of your code by using a well-thought and beautifully designed functional programming library for Java, then you need to adopt Vavr, and this book will help you put it in practice.</description>
+    </item>
+    
+    <item>
+      <title>Soirée War Story Elastic Cloud</title>
+      <link>https://www.toulousejug.org/post/2021-01-14-soiree-war-story-elastic-cloud/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2021-01-14-soiree-war-story-elastic-cloud/</guid>
+      <description>Encore une soirée en remote.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
+War story : comment les pauses du GC ont pété la prod - par Sylvain Wallez (@bluxte) Nous avons eu un incident récent sur Elastic Cloud dont une des causes est des pauses longues du garbage collector de ZooKeeper.
+Le talk présentera les grands principes de ZooKeeper et comment il est utilisé sur Elastic Cloud.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Java&#43;WebFlux vers Kotlin&#43;coroutines</title>
+      <link>https://www.toulousejug.org/post/2020-12-08-soiree-java&#43;webflux-kotlin&#43;coroutines/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-12-08-soiree-java&#43;webflux-kotlin&#43;coroutines/</guid>
+      <description>Encore une soirée en remote.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
+De WebFlux en Java aux coroutines en Kotlin, le parcours du combattant ? - par Jennifer Aguiar (@yaourtcorp) et Mialy Rakotovao (@ramyihany) Vous aviez votre application en JAVA Spring Boot REST controller/REST template et tout allait bien. Mais votre boss/archi/&amp;hellip; a débarqué dans l&amp;rsquo;openspace après la lecture d&amp;rsquo;un article Medium et a déclaré &amp;ldquo;qu&amp;rsquo;à partir de maintenant on fait du webflux avec du Kotlin et des coroutines&amp;rdquo; et qu&amp;rsquo;il vous restait exactement 4h56 pour tout migrer.</description>
+    </item>
+    
+    <item>
+      <title>Soirée jOOQ &amp; Change-Data-Capture</title>
+      <link>https://www.toulousejug.org/post/2020-11-17-soiree-jooq-cdc/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-11-17-soiree-jooq-cdc/</guid>
+      <description>Encore une soirée en remote.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
+JOOQ, joy of SQL - par Kevin Davin (@davinkevin) Et si l&amp;rsquo;on reprenait le contrôle de nos interactions avec notre base de données préférée? Car en vrai, nos BDD sont des monstres de puissance qui sont souvent sous exploités sweat. Nous verrons, avec JOOQ, comment écrire des requêtes SQL simples ou évolués, le tout facilement et de manière type-safe !</description>
+    </item>
     
     <item>
       <title>Jeu Twitter licences JetBrains</title>
@@ -25,13 +95,26 @@ Les gagnants seront tirés au sort via un algorithme random qui honorera les pr�
     </item>
     
     <item>
+      <title>Soirée Randomness &amp; Property-Based Testing</title>
+      <link>https://www.toulousejug.org/post/2020-10-22-soiree-randomness-pbt/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2020-10-22-soiree-randomness-pbt/</guid>
+      <description>Encore une soirée en remote.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
+Randomness, what did you expect ? - par Théo Cadoret (@CadoretTheo) Despite being inherently unreachable to softwares, Randomness is yet widely used.
+What is Randomness ? Why is it so vital to softwares ? How do we cope with this apparent paradox ?
+Let&amp;rsquo;s got for a quick dive in !</description>
+    </item>
+    
+    <item>
       <title>Soirée Web décentralisé</title>
       <link>https://www.toulousejug.org/post/2020-06-04-soiree-web-decentralise/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/post/2020-06-04-soiree-web-decentralise/</guid>
       <description>Une nouvelle soirée en remote pour clôturer l&amp;rsquo;année malgré la pandémie.
-Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte sur la plateforme crowdcast.io.
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
 Le web décentralisé, comment ça marche ? - par Antoine Cailly (@AntoineCailly) Aujourd’hui l’inquiétude monte devant l’emprise qu’ont certaines entreprises ou gouvernement sur notre utilisation d’internet.
 Face à cette situation, beaucoup de personnes prônent la décentralisation du web un peu à la manière de Mastodon face à Twitter, néanmoins les concepts nécessaires sont assez éloignés des traditionnelles application client-serveur qui restent aujourd’hui majoritaires.</description>
     </item>
@@ -42,8 +125,8 @@ Face à cette situation, beaucoup de personnes prônent la décentralisation du 
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/post/2020-05-14-soiree-gc-concurrents/</guid>
-      <description>Première soirée pour le Toulouse JUG !
-Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte sur la plateforme crowdcast.io.
+      <description>Première soirée remote pour le Toulouse JUG !
+Un énorme merci à la fondation Eclipse de nous permettre d&amp;rsquo;utiliser leur compte &amp;ldquo;Jakarta EE for JUGs&amp;rdquo; sur la plateforme crowdcast.io.
 Suite à l&amp;rsquo;épidémie de COVID-19 de nombreuses conférences ont été annulée. C&amp;rsquo;est le cas de Devoxx France où Jean-Philippe Bempel devait, cette année, parler de Java Flight Recorder après avoir donné, l&amp;rsquo;an dernier, une présentation sur les GC concurrents.
 Avec Julien on a pensé que cette présentation sur les GC concurrents, même si déjà vue à d&amp;rsquo;autres conférences, était très intéressante et vallait la peine d&amp;rsquo;être rejouée.</description>
     </item>
@@ -1029,9 +1112,9 @@ Nous voulons être très clairs pour tous les participants, conférenciers et sp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/page/sponsoring-annuel/</guid>
-      <description>Termes de la convention de Sponsoring Annuel Cette convention consiste à fixer les engagements de chacune des deux parties dans le cadre d&amp;rsquo;un plan de sponsoring qui couvre la saison 2019/2020, du 1er septembre 2019 au 30 juin 2020 (inclus), à partir de la date de signature.
+      <description>Termes de la convention de Sponsoring Annuel Cette convention consiste à fixer les engagements de chacune des deux parties dans le cadre d&amp;rsquo;un plan de sponsoring qui couvre une saison (du 1er septembre au 30 juin de l&amp;rsquo;année suivante inclus), à partir de la date de signature.
 Engagements : Article 1 Le Toulouse JUG s&amp;rsquo;engage à :
- Afficher, à partir de la date de signature et jusqu&amp;rsquo;au 30 juin 2020 inclus, le logo du Sponsor :  en miniature sur la page d&amp;rsquo;accueil du site http://toulousejug.</description>
+ Afficher, à partir de la date de signature et jusqu&amp;rsquo;au 30 juin suivant inclus, le logo du Sponsor :  en miniature sur la page d&amp;rsquo;accueil du site http://toulousejug.</description>
     </item>
     
     <item>
