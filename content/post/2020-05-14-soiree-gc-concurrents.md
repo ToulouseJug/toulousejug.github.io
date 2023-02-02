@@ -1,15 +1,16 @@
 ---
 title: Soirée GC concurrents
 date: 2020-05-14
+host: jakartaee
 sponsors: [ippon, monkeypatch]
 partners: [jetbrains]
 authors: [abos]
 ---
 
-Première soirée pour le Toulouse JUG !
+Première soirée remote pour le Toulouse JUG !
 
 Un énorme merci à la fondation Eclipse de nous permettre d'utiliser leur compte
-sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
+"Jakarta EE for JUGs" sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
 
 Suite à l'épidémie de COVID-19 de nombreuses conférences ont été annulée. C'est le
 cas de Devoxx France où Jean-Philippe Bempel devait, cette année, parler de Java

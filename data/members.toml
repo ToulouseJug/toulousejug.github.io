@@ -1,23 +1,12 @@
 [[member_data]]
-id = "gblondelle"
-firstname = "Gaël"
-lastname = "Blondelle"
-url = "https://accounts.eclipse.org/users/gblondelle"
-image = "/images/members/gblondelle.jpeg"
-description = "I contribute to the Eclipse ecosystem development in Europe, and I am the Conference chair of EclipseCon France"
-bureau = true
-role = "Président"
-twitter = "gblondelle"
-
-[[member_data]]
 id = "abos"
 firstname = "Arnaud"
 lastname = "Bos"
 url = "http://www.arnaudbos.com"
 image = "/images/members/arnaud.jpg"
-description = "Software Developer. Clojure as heck. Distributed systems. Podcasts. Mirror writer 🙃"
+description = "Software Developer. Mirror writer 🙃"
 bureau = true
-role = "Secrétaire"
+role = "Président"
 email = "mail@arnaudbos.com"
 twitter = "arnaud_bos"
 
@@ -28,33 +17,11 @@ lastname = "Zanon"
 url = "https://jzanon.github.io/gloseDeDev"
 image = "/images/members/jzanon.jpg"
 description = "Senior Software Engineer - Freelance"
-bureau = false
+bureau = true
+role = "Trésorier"
 twitter = "jullienzan"
 
 [[member_data]]
-id = "akrier"
-firstname = "Alexis"
-lastname = "Krier"
-url = ""
-image = "/images/members/alexis.jpg"
-description = "Trésorier du JUG, archi dev @Cirso"
-bureau = true
-role = "Trésorier"
-
-[[member_data]]
-id = "vferries"
-firstname = "Vincent"
-lastname = "Ferries"
-url = "http://www.enveille.info"
-image = "/images/members/vferries.png"
-description = ""
-bureau = false
-
-[[member_data]]
-id = "mpailloncy"
-firstname = "Michaël"
-lastname = "Pailloncy"
-url = ""
-image = "/images/members/mpailloncy.png"
-description = "Forgeron Automatisateur @ OpenAirlines"
-bureau = false
+id = "you"
+firstname = "We need you!"
+image = "/images/members/unclesam.png"

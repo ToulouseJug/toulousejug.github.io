@@ -10,7 +10,8 @@ url = "http://www.ippon.fr/"
 title = "Ippon Technologies"
 logo = "/images/sponsors/ippon.jpg"
 description = "Ippon est un cabinet de conseil qui accélère les projets innovants de ses clients de la page blanche au Cloud.<br/>Nos équipes dans le monde accompagnent les organisations dans la transformation d'idées innovantes en solutions logicielles de haute qualité avec un focus particulier sur le Time To Market.<br/>Ippon est présent à Toulouse depuis mai 2018."
-current = true
+# Not currently a sponsor but still in the list because it has been sponsoring past events and it should be displayed on those event's pages
+current = false
 
 [[sponsor_data]]
 id = "monkeypatch"
@@ -18,4 +19,5 @@ url = "http://www.monkeypatch.io/"
 title = "MonkeyPatch"
 logo = "/images/sponsors/monkeypatch.png"
 description = "MonkeyPatch est une équipe constituée d’un mélange unique d'experts ayant un solide bagage technique et des références significatives.<br/>Notre but est d'aider nos clients dans leurs réalisations techniques et de les accompagner jusqu'au déploiement de systèmes complexes tout en partageant notre passion de l'informatique et des bonnes pratiques du développement logiciel."
-current = true
+# Not currently a sponsor but still in the list because it has been sponsoring past events and it should be displayed on those event's pages
+current = false

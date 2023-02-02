@@ -28,7 +28,7 @@ boissons suite aux sessions organisées.
 Si vous le souhaitez, vous pouvez soutenir le Toulouse JUG en devenant adhérant.
 
 L'adhésion peut se faire directement en ligne : 
-			{% include button-adherer-jug.html %}
+			TODO {% include button-adherer-jug.html %}
 
 En plus d'aider le JUG, vous pourrez également participer au choix des futures
 sessions sur une liste de diffusion exclusivement réservée aux membres.
@@ -46,12 +46,10 @@ Pour les discussions techniques, <a href="http://groups.google.com/group/toulous
 
 Le bureau :
 
-* Gaël Blondelle – Président
-* Alexis Krier – Trésorier
-* Arnaud Bos – Secrétaire
+* Arnaud Bos – Président
+* Julien Zanon – Trésorier
 
 Les membres du CA :
 
+* Arnaud Bos
 * Julien Zanon
-* Vincent Ferries
-* Michaël Pailloncy

@@ -1,6 +1,7 @@
 ---
 title: Soirée Web décentralisé
 date: 2020-06-04
+host: jakartaee
 sponsors: [ippon, monkeypatch]
 partners: [jetbrains]
 authors: [abos]
@@ -9,7 +10,7 @@ authors: [abos]
 Une nouvelle soirée en remote pour clôturer l'année malgré la pandémie.
 
 Un énorme merci à la fondation Eclipse de nous permettre d'utiliser leur compte
-sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
+"Jakarta EE for JUGs" sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
 
 ### Le web décentralisé, comment ça marche ? - par Antoine Cailly ({{< twitter AntoineCailly >}})
 

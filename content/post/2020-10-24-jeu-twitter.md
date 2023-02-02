@@ -1,7 +1,6 @@
 ---
 title: Jeu Twitter licences JetBrains
 date: 2020-10-24
-sponsors: []
 partners: [jetbrains]
 authors: [abos]
 ---
