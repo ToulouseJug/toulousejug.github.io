@@ -123,7 +123,7 @@
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}
             {{ if (gt (len (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true)) 0) }}
-            {{ range .Site.Data.promotions.temporary_promotion_data }}
+            {{ range (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true) }}
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}
             {{ end }}

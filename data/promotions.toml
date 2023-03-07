@@ -3,3 +3,11 @@ id = "eyrolles"
 url = "https://www.editions-eyrolles.com/"
 title = "Edition Eyrolles"
 logo = "/images/promotions/eyrolles.svg"
+current = false
+
+[[temporary_promotion_data]]
+id = "devoxxfr2023"
+url = "https://www.devoxx.fr/"
+title = "Devoxx France 2023"
+logo = "/images/promotions/devoxxfr2023.jpg"
+current = true
