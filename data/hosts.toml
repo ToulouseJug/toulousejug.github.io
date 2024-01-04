@@ -18,3 +18,10 @@ url = "https://www.groupeonepoint.com/"
 title = "onepoint"
 logo = "/images/sponsors/onepoint_site.png"
 current = true
+
+[[host_data]]
+id = "eurecia"
+url = "https://www.eurecia.com/"
+title = "Eurécia"
+logo = "/images/sponsors/eurecia_logo.png"
+current = false
