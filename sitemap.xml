@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.toulousejug.org/post/2023-02-03-2023-le-retour-du-comeback/</loc>
-    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+    <loc>https://www.toulousejug.org/post/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.toulousejug.org/post/</loc>
-    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+    <loc>https://www.toulousejug.org/post/2023-06-14-soiree-spring-boot-3&#43;bilan-jug/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.toulousejug.org/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.toulousejug.org/post/2023-03-07-soiree-sdkman&#43;architecture-hexagonale/</loc>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.toulousejug.org/post/2023-02-03-2023-le-retour-du-comeback/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url>
   

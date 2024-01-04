@@ -5,10 +5,33 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Spring Boot 3 &amp; Bilan JUG</title>
+      <link>https://www.toulousejug.org/post/2023-06-14-soiree-spring-boot-3&#43;bilan-jug/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2023-06-14-soiree-spring-boot-3&#43;bilan-jug/</guid>
+      <description>Pour ce dernier événement avant la pause estivale, nous vous avions préparé une soirée spéciale : un format un peu différent avec un speaker venu de loin suivi d&amp;rsquo;un bilan du JUG, tout ça dans un cadre superbe, chez Eurécia.
+Un peu loin du centre ville auquel on vous a habitué, certes, mais qui en vallait la car le temps était de notre côté pour profiter des jardins !
+Spring Boot 3 - par Stéphane Nicoll (@snicoll) Après une phase d&amp;rsquo;expérimentation avec le project Spring Native, l&amp;rsquo;équipe Spring a ajouté le support AOT (Ahead Of Time) à Spring Boot 3.</description>
+    </item>
+    
+    <item>
+      <title>Soirée SDKMan &amp; Architecture Hexagonale</title>
+      <link>https://www.toulousejug.org/post/2023-03-07-soiree-sdkman&#43;architecture-hexagonale/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2023-03-07-soiree-sdkman&#43;architecture-hexagonale/</guid>
+      <description>Nouvelle soirée en présentiel chez OnePoint, avec un format un peu différent :
+ un quick-talk pour nous présenter un outil qui peut nous faciliter la vie une présentation plus longue sur un sujet d&amp;rsquo;architecture  SDKMan : The Software Development Kit Manager - par Rémi Navarro (@NavarroRemi) SDKMan est un outil qui facilite l&amp;rsquo;installation et le switch de version de certain langage et framework.
+Référence CfP : https://github.com/ToulouseJug/call-for-paper/issues/36
+Architecture Hexagonale, retour d&amp;rsquo;expérience - par Frédéric Combes On a pas mal parlé d’architecture hexagonale dans les conférences des dernières années.</description>
+    </item>
     
     <item>
       <title>2023, le retour du comeback du JUG 😅</title>
