@@ -6,8 +6,8 @@ logo = "/images/promotions/eyrolles.svg"
 current = false
 
 [[temporary_promotion_data]]
-id = "devoxxfr2023"
+id = "devoxxfr2024"
 url = "https://www.devoxx.fr/"
-title = "Devoxx France 2023"
-logo = "/images/promotions/devoxxfr2023.jpg"
+title = "Devoxx France 2024"
+logo = "/images/promotions/devoxxfr2024.jpg"
 current = true
