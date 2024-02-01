@@ -5,10 +5,22 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Pattern Matching &amp; Amazing PostgreSQL</title>
+      <link>https://www.toulousejug.org/post/2024-01-23-soiree-pattern-matching&#43;amazing-postgresql/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-01-23-soiree-pattern-matching&#43;amazing-postgresql/</guid>
+      <description>🎊 BONNE ANNÉE ! 🎊
+Première soirée de l&amp;rsquo;année du Java User Group Toulousain le mardi 23 janvier, chez onepoint, en centre-ville.
+Une piqûre de rappel sur le pattern matching en Java ! Ce sujet avait déjà fait l&amp;rsquo;objet d&amp;rsquo;une présentation au JUG en&amp;hellip; 2015 😁 Ce fut l&amp;rsquo;occasion de réviser les concepts avec la sortie récente de Java 21 qui nous apporte une version aboutie de cette feature.
+Et en second talk, votre ex-JUG-leader préféré, Kevin, est revenu faire un petit coucou pour nous parler de ce petit bijou de SGBD qu&amp;rsquo;est PostgreSQL ❤️</description>
+    </item>
     
     <item>
       <title>Soirée Spring Boot 3 &amp; Bilan JUG</title>
