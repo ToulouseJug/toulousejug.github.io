@@ -1,11 +1,4 @@
 [[sponsor_data]]
-id = "monkeypatch"
-url = "http://www.monkeypatch.io/"
-title = "MonkeyPatch"
-logo = "/images/sponsors/monkeypatch.png"
-width = 100
-
-[[sponsor_data]]
 id = "ippon"
 url = "http://www.ippon.fr/"
 title = "Ippon Technologies"

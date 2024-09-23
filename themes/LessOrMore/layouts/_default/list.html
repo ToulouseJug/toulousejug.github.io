@@ -96,11 +96,9 @@
             {{ partial "sponsor_sidebar_logo.html" . }}
             {{ end }}
             {{ if $.Site.Params.lookingForSponsors }}
-            {{ range first 1 .Site.Data.sponsors.sponsor_data }}
-            <a href="{{ .url }}" title="{{ .title }}" target="_blank" style="margin-top: 20px;">
-              <img class="sponsor-sidebar-logo" src="{{ .logo }}" alt="{{ .title }}">
+            <a href="mailto:toulousejug@gmail.com" title="Le JUG cherche des sponsors 🎖️Contactez nous !" style="margin-top: 20px;">
+              Le JUG cherche des sponsors 🎖️Contactez nous !
             </a>
-            {{ end }}
             {{ end }}
           </div>
         </div>
