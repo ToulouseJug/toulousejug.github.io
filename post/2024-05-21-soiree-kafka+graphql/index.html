@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Soirée Kafka &#43; GraphQL</title>
+  <meta property="og:title" content="Soirée Kafka &#43; GraphQL" />
+  <meta name="twitter:title" content="Soirée Kafka &#43; GraphQL" />
+  <meta name="description" content="Nouvelle soirée chez Epitech Toulouse.
+Retex : Kafka et les traitements longs? Yes we (kaf)can - par Guillaume Andrieu Kafka est notoirement mal adapté aux traitements longs&hellip; ou pas! Certes la configuration par défaut est plus adaptée à traiter des tas de messages par microseconde, pourtant dans nos chaînes de traitement parfois, il y a un CPU qui donne de sa personne et qui a besoin de plus de quelques secondes pour terminer.">
+  <meta property="og:description" content="Nouvelle soirée chez Epitech Toulouse.
+Retex : Kafka et les traitements longs? Yes we (kaf)can - par Guillaume Andrieu Kafka est notoirement mal adapté aux traitements longs&hellip; ou pas! Certes la configuration par défaut est plus adaptée à traiter des tas de messages par microseconde, pourtant dans nos chaînes de traitement parfois, il y a un CPU qui donne de sa personne et qui a besoin de plus de quelques secondes pour terminer.">
+  <meta name="twitter:description" content="Nouvelle soirée chez Epitech Toulouse.
+Retex : Kafka et les traitements longs? Yes we (kaf)can - par Guillaume Andrieu Kafka est notoirement mal adapté aux traitements longs&hellip; ou pas! Certes la …">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="keywords" content="Soirée Kafka &#43; GraphQL,Toulouse JUG,Nouvelle soirée chez Epitech Toulouse.
+Retex : Kafka et les traitements longs? Yes we (kaf)can - par Guillaume Andrieu Kafka est notoirement mal adapté aux traitements longs&hellip; ou pas! Certes la configuration par défaut est plus adaptée à traiter des tas de messages par microseconde, pourtant dans nos chaînes de traitement parfois, il y a un CPU qui donne de sa personne et qui a besoin de plus de quelques secondes pour terminer.">
+  <link href='https://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="https://www.toulousejug.org/post/2024-05-21-soiree-kafka&#43;graphql/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.70.0" />
+  <link rel="canonical" href="//post/2024-05-21-soiree-kafka&#43;graphql/" />
+  <link rel="alternate" href="https://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="https://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.toulousejug.org/css/syntax.css" />
+
+  <script src="https://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="https://www.toulousejug.org/" class="navbar-brand">
+        <img src="https://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li class="nav-item">
+          
+          <a title="Articles" href="https://www.toulousejug.org/page/articles/">Articles</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="À propos" href="https://www.toulousejug.org/page/about/">À propos</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="Sponsors" href="https://www.toulousejug.org/page/sponsors/">Sponsors</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="La Team" href="https://www.toulousejug.org/team/team/">La Team</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="CoC" href="https://www.toulousejug.org/page/coc/">CoC</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="Call For Paper" href="https://github.com/toulousejug/call-for-paper" target="_blank">
+            Call For Paper
+            <i class="fa fa-external-link-alt"></i>
+          </a>
+          
+        </li>
+        
+      </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </nav>
+  </div>
+</header>
+    
+    
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Soirée Kafka &#43; GraphQL</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            <p>Nouvelle soirée chez Epitech Toulouse.</p>
+<h3 id="retex--kafka-et-les-traitements-longs-yes-we-kafcan---par-guillaume-andrieu">Retex : Kafka et les traitements longs? Yes we (kaf)can - par Guillaume Andrieu</h3>
+<p>Kafka est notoirement mal adapté aux traitements longs&hellip; ou pas!
+Certes la configuration par défaut est plus adaptée à traiter des tas de messages par microseconde, pourtant dans nos chaînes de traitement parfois, il y a un CPU qui donne de sa personne et qui a besoin de plus de quelques secondes pour terminer.</p>
+<p>Dans ce cas, on modifie à la va vite <code>max.poll.timeout</code> et pis vala? Ca peut poser de sérieux soucis, surtout si on a des traitements parallélisés et de l&rsquo;autoscaling.</p>
+<p>Dans cette présentation, on verra comment on peut s&rsquo;en sortir en paramétrant le client Kafka proprement, à coups de <code>rebalance listener</code> et de <code>partition assignor</code>.</p>
+<p>Vidéo : 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/BGbTDEl5bss" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h3 id="graphql-une-api-de-base-de-données-ou-pas-ou-quand-même-un-peu---par-nicolas-lalevée">GraphQL, une API de base de données, ou pas, ou quand même un peu - par Nicolas Lalevée</h3>
+<p>Mettre en place une API grâce à GraphQL : limites et avantages sur le dev d’un backend avec Spring GraphQL.</p>
+<p>S&rsquo;agit-il d&rsquo;une API au dessus d&rsquo;une connexion à une BDD ? Telle est la question posée par @hibnico.</p>
+<p>Vidéo : 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/zzkJu-LlJy4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+          </article>
+          
+          <hr>
+          <aside>
+              <div>
+                  Auteur(s):
+                  <a href="http://www.arnaudbos.com/" target="_blank">Arnaud Bos</a>
+              </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="sponsors hidden-print" role="complementary">
+        
+        <div id="sponsors" style="text-align: center;">
+          <h2>Sponsors</h2>
+          <div>
+            
+            <a href="https://www.monkeypatch.io/" title="MonkeyPatch" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/monkeypatch.png" alt="MonkeyPatch">
+</a>
+            
+            <a href="https://www.lyra.com/fr/" title="Lyra" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/lyra.png" alt="Lyra">
+</a>
+            
+          </div>
+        </div>
+        
+        
+        <div id="hosts" style="text-align: center;">
+          <h2>Hôte</h2>
+          <div>
+            
+            <a href="http://www.epitech.eu/" title="Epitech" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/epitech.png" alt="Epitech">
+</a>
+            
+          </div>
+        </div>
+        
+        
+        <div id="partners" style="text-align: center;">
+          <h2>Partenaires</h2>
+          <div>
+            
+            <a href="https://www.jetbrains.com/" title="JetBrains" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/partners/jetbrains.png" alt="JetBrains">
+</a>
+            
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2024 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="https://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="https://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="https://www.toulousejug.org/js/holder.min.js"></script>
+<script src="https://www.toulousejug.org/js/lessismore.js"></script>
+<script src="https://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>

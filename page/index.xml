@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>Articles, soirée, événements, tout y est !</title>
+      <link>https://www.toulousejug.org/page/articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/page/articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Code of Conduct</title>
       <link>https://www.toulousejug.org/page/coc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -26,7 +35,7 @@ Nous voulons être très clairs pour tous les participants, conférenciers et sp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/page/sponsors/</guid>
-      <description>Choisissez le format qui vous convient : # Sponsoring annuel # Sponsoring soirée (dit &amp;ldquo;occasionnel&amp;rdquo;) </description>
+      <description></description>
     </item>
     
     <item>
@@ -37,18 +46,6 @@ Nous voulons être très clairs pour tous les participants, conférenciers et sp
       <guid>https://www.toulousejug.org/page/about/</guid>
       <description>Le Toulouse JUG est un groupe d’utilisateurs Java ayant pour but de réunir des acteurs (professionnels, communautés open source, institutions, étudiants, enseignants…) afin d’échanger des idées et de discuter des avancées technologiques de la plateforme Java.
 Nous nous rencontrons une fois par mois. Les réunions sont gratuites, ouvertes à tous et consistent le plus souvent en une présentation technique, une démonstration d’un produit, ou une table ronde. Après la rencontre, nous nous retrouvons généralement pour discuter autour d’un verre et d’un mini-buffet.</description>
-    </item>
-    
-    <item>
-      <title>À venir &amp; À revoir</title>
-      <link>https://www.toulousejug.org/page/events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.toulousejug.org/page/events/</guid>
-      <description>Évènements Les évènements passés sont répertoriés sur la page d&amp;rsquo;accueil de ce site.
-Les évènements à venir sont organisés via Meetup.
-Les vidéos Tous (ou presque) les évènements organisés par le JUG sont enregistrés.
-Retrouvez toutes les vidéos des précédentes soirées sur Youtube.</description>
     </item>
     
   </channel>

@@ -5,10 +5,64 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur</title>
+      <link>https://www.toulousejug.org/post/2024-10-08-soiree-kotlin&#43;glitchage/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-10-08-soiree-kotlin&#43;glitchage/</guid>
+      <description>Nouvelle soirée chez Epitech avec un retex par Arnaud Giuliani sur la gestion des choix techniques sous contrainte de perf et de volumétrie, en Kotlin. Suivi d&amp;rsquo;une épopée électronique par Fabien Tregan.
+From Zero to Billions : Building a High-Performance Kotlin App in Two Months - par Arnaud Giuliani Join us as we unravel the journey of building a Kotlin app capable of handling billions of events in just two months.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Java 22</title>
+      <link>https://www.toulousejug.org/post/2024-06-18-soiree-java-22/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-06-18-soiree-java-22/</guid>
+      <description>Encore une fois nous nous retrouverons chez Epitech Toulouse.
+Pour cette dernière soirée avant la pause estivale, nous recevrons un speaker chevronné bien connu dans l&amp;rsquo;écosystème Java en la personne de Rémi Forax qui nous fera le plaisir de venir nous présenter les nouveautés de Java 22 et au délà.
+Nouveautés Java 22 et au délà - par Rémi Forax 45min sur la foreign memory API (sans la partie en C) et 45 mins sur les Gatherer, les nouveautés de Java 22/23.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Kafka &#43; GraphQL</title>
+      <link>https://www.toulousejug.org/post/2024-05-21-soiree-kafka&#43;graphql/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-05-21-soiree-kafka&#43;graphql/</guid>
+      <description>Nouvelle soirée chez Epitech Toulouse.
+Retex : Kafka et les traitements longs? Yes we (kaf)can - par Guillaume Andrieu Kafka est notoirement mal adapté aux traitements longs&amp;hellip; ou pas! Certes la configuration par défaut est plus adaptée à traiter des tas de messages par microseconde, pourtant dans nos chaînes de traitement parfois, il y a un CPU qui donne de sa personne et qui a besoin de plus de quelques secondes pour terminer.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Change Data Capture &#43; OpenAPI</title>
+      <link>https://www.toulousejug.org/post/2024-04-25-soiree-debezium&#43;openapi/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-04-25-soiree-debezium&#43;openapi/</guid>
+      <description>Pour cette occasion nous serons accueillis par notre sponsor, Lyra, à Labège.
+Change Data Capture : comment garantir l&amp;rsquo;intégrité des données relationnelles ? - par Manfred Martin Le Change Data capture (CDC) permet de capter tous les changements de données qui se produisent sur la base de données et de les traiter comme on le souhaite.
+Cette solution technique (ex : Debezium) adresse de nombreux cas d&amp;rsquo;utilisation : alimentation d&amp;rsquo;un data-lake, migration vers une architecture event-driven&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Soirée Spring Boot 3.2</title>
+      <link>https://www.toulousejug.org/post/2024-03-18-soiree-spring-boot-3/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-03-18-soiree-spring-boot-3/</guid>
+      <description>Nous profiterons du passage de Stéphane, que nous avons déjà eu le plaisir de recevoir il y a quelques mois, et qui viendra nous tenir au fait des nouveautés très savoureuses de Spring Boot 3.2.
+Pour cette occasion nous serons de retour chez Epitech, à Toulouse.
+Ne vous fiez pas au descriptif en anglais, la présentation se fera bel et bien dans la langue de Molière.
+Hitting the “refresh” button on your Spring web application - par Stéphane Nicoll If you’re maintaining an existing web application, upgrading to the latest Spring version is not just about maintenance: it’s also an opportunity to hit that “refresh” button on your web stack and bring meaningful improvements to your developer experience and new value to your users.</description>
+    </item>
     
     <item>
       <title>Soirée Pattern Matching &amp; Amazing PostgreSQL</title>
@@ -1122,6 +1176,15 @@ Java de la région Toulousaine.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Articles, soirée, événements, tout y est !</title>
+      <link>https://www.toulousejug.org/page/articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/page/articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Code of Conduct</title>
       <link>https://www.toulousejug.org/page/coc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1138,7 +1201,7 @@ Nous voulons être très clairs pour tous les participants, conférenciers et sp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.toulousejug.org/page/sponsors/</guid>
-      <description>Choisissez le format qui vous convient : # Sponsoring annuel # Sponsoring soirée (dit &amp;ldquo;occasionnel&amp;rdquo;) </description>
+      <description></description>
     </item>
     
     <item>
@@ -1158,18 +1221,6 @@ Nous voulons être très clairs pour tous les participants, conférenciers et sp
       <guid>https://www.toulousejug.org/page/about/</guid>
       <description>Le Toulouse JUG est un groupe d’utilisateurs Java ayant pour but de réunir des acteurs (professionnels, communautés open source, institutions, étudiants, enseignants…) afin d’échanger des idées et de discuter des avancées technologiques de la plateforme Java.
 Nous nous rencontrons une fois par mois. Les réunions sont gratuites, ouvertes à tous et consistent le plus souvent en une présentation technique, une démonstration d’un produit, ou une table ronde. Après la rencontre, nous nous retrouvons généralement pour discuter autour d’un verre et d’un mini-buffet.</description>
-    </item>
-    
-    <item>
-      <title>À venir &amp; À revoir</title>
-      <link>https://www.toulousejug.org/page/events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.toulousejug.org/page/events/</guid>
-      <description>Évènements Les évènements passés sont répertoriés sur la page d&amp;rsquo;accueil de ce site.
-Les évènements à venir sont organisés via Meetup.
-Les vidéos Tous (ou presque) les évènements organisés par le JUG sont enregistrés.
-Retrouvez toutes les vidéos des précédentes soirées sur Youtube.</description>
     </item>
     
   </channel>
