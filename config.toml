@@ -13,7 +13,7 @@ pygmentCodeFences = true
 #disqusShortname = "XXX"
 
 [Params]
-  tagline = "Toulousains et passionnés des technos de la plateforme Java/JVM"
+  tagline = "Toulousains et passionnés des technos de la plateforme Java/JVM."
   logo = "images/logo.jpg"
   favicon = "images/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -21,11 +21,16 @@ pygmentCodeFences = true
   rss = true
   comments = true
   lookingForSponsors = true
+#  next = "Soirée sécurité"
+#  nextDate = 2024-12-10
+#  nextFlyer = "images/2024-10-08-soiree-kotlin+glitchage/promo.png"
+#  nextEvent = "https://www.meetup.com/toulouse-java-user-group/events/303600904"
 
 [Author]
   name = "Toulouse JUG"
   googlegroup = "toulouse-jug"
   github = "toulousejug"
   twitter = "toulousejug"
+  linkedin = "toulousejug"
   youtube = "channel/UCTqj9i8UpCNXRMcPNuWhocQ"
   meetup = "Toulouse-Java-User-Group"

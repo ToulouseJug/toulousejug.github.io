@@ -6,6 +6,13 @@ logo = "/images/promotions/eyrolles.svg"
 current = false
 
 [[temporary_promotion_data]]
+id = "digitalocean"
+url = "https://www.digitalocean.com/"
+title = "Digital Ocean"
+logo = "/images/partners/digitalocean.png"
+current = false
+
+[[temporary_promotion_data]]
 id = "devoxxfr2025"
 url = "https://www.devoxx.fr/"
 title = "Devoxx France 2025"

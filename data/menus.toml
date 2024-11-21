@@ -1,6 +1,6 @@
 [[menu_data]]
-    name = "Accueil"
-    url = "/"
+    name = "Articles"
+    url = "page/articles/"
     internal = "true"
 
 [[menu_data]]
@@ -14,13 +14,8 @@
     internal = "true"
 
 [[menu_data]]
-    name = "Team"
+    name = "La Team"
     url = "team/team/"
-    internal = "true"
-
-[[menu_data]]
-    name = "Évènements & Vidéos"
-    url = "page/events/"
     internal = "true"
 
 [[menu_data]]
@@ -29,6 +24,6 @@
     internal = "true"
 
 [[menu_data]]
-    name = "CFP"
+    name = "Call For Paper"
     url = "https://github.com/toulousejug/call-for-paper"
     internal = "false"

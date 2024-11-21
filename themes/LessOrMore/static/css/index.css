@@ -6509,6 +6509,11 @@ hr {
   margin-top: 10px;
   max-width: 200px;
 }
+.sponsor-index-logo {
+  margin-top: 10px;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
 .sponsors.affix {
   position: static;
 }
@@ -7209,7 +7214,6 @@ td.visible-print {
     height: 100px;
   }
 }
-
 .sponsor-big {
   padding-bottom: 1px;
   display: flex;
@@ -7217,9 +7221,21 @@ td.visible-print {
   height: 150px;
   align-items: center;
 }
-
 .post-anchor {
   display: inline-block;
   height: 80px;
   margin-top: -80px;
+}
+.nav-item {
+  font-size: 15px;
+  margin-left: 20px;
+}
+li.social {
+  list-style-type: none;
+}
+li.social > a {
+  color: black;
+}
+li.social > a:hover {
+  color: #dc1416;
 }

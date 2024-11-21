@@ -1,4 +1,10 @@
 [[social_icons]]
+id = "linkedin"
+url = "https://linkedin.com/company/%s"
+title = "LinkedIn"
+icon = "fab fa-linkedin"
+
+[[social_icons]]
 id = "meetup"
 url = "https://www.meetup.com/%s/"
 title = "Meetup"
@@ -51,12 +57,6 @@ id = "reddit"
 url = "https://reddit.com/u/%s"
 title = "Reddit"
 icon = "fab fa-reddit-alien"
-
-[[social_icons]]
-id = "linkedin"
-url = "https://linkedin.com/in/%s"
-title = "LinkedIn"
-icon = "fab fa-linkedin"
 
 [[social_icons]]
 id = "xing"

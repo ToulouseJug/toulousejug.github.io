@@ -1,0 +1,173 @@
+{{ define "header" }}
+<img src="/{{ "images/juggy-Capitole.jpg" }}" style="max-width: 100%; height: auto; padding-top: 10px;">
+{{ end }}
+
+{{ define "main" }}
+
+<div class="panel docs-content" style="padding-bottom: 20px;">
+<!--<div class="container docs-container">-->
+  <div class="row">
+  </div>
+  <div class="row" style="margin: 100px 0 80px 0;">
+<!--    <div class="col-md-2"></div>-->
+    <div class="col-md-12" style="margin-top: 20px; text-align: center;">
+      <p style="font-size: xxx-large; font-style: oblique">
+        <span style="padding: 10px;display: inline-block;">
+          <span style="font-weight: bold;background-color: #222222;display: inline-block;margin:0;color:transparent;rotate: -2deg;padding: 5px;">Toulousains</span>
+          <span style="font-weight: bold;display:block;margin-top: -74px;rotate:0deg;color: #dc1416;">Toulousains</span>
+        </span>et passionnés<br/>
+        des technos <strong>Java/JVM</strong></span>
+      </p>
+      <br/>
+      <p style="font-size: large;">
+        Rejoignez gratuitement notre communauté. Tous les mois, venez partager
+        notre passion : des talks et des débats, autour d'un apéro et de pizzas.
+      </p>
+    </div>
+  </div>
+</div>
+<!--<div class="panel docs-content" style="padding-top: 20px;padding-bottom: 20px;">-->
+<div class="container docs-container">
+<!--  <p style="text-align: center; font-size: xx-large">-->
+<!--    Bienvenue sur le site du <span style="color: #dc1416;">Toulouse Java User Group</span>.-->
+<!--  </p>-->
+  <div class="row">
+    <div class="col-md-2"></div>
+<!--    <div class="col-md-4" style="text-align: center;">-->
+<!--      <h3>Suivez nous sur les réseaux</h3>-->
+<!--      <ul style="-->
+<!--        display: inline-block;-->
+<!--        text-align: left;-->
+<!--      ">-->
+<!--        {{ range .Site.Data.LessOrMore.social.social_icons }}-->
+<!--        {{- if isset $.Site.Author .id }}-->
+<!--        <li class="social">-->
+<!--          <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}" rel="nofollow" target="_blank">-->
+<!--            <span class="fa-stack fa-lg">-->
+<!--              <i class="fa fa-circle fa-stack-2x"></i>-->
+<!--              <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>-->
+<!--            </span>&nbsp;-->
+<!--            {{ .title }}-->
+<!--          </a>-->
+<!--        </li>-->
+<!--        {{- end -}}-->
+<!--        {{ end }}-->
+<!--        <li class="social">-->
+<!--          <a href="/index.xml" title="RSS" rel="nofollow" target="_blank">-->
+<!--            <span class="fa-stack fa-lg">-->
+<!--              <i class="fa fa-circle fa-stack-2x"></i>-->
+<!--              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>-->
+<!--            </span>&nbsp;-->
+<!--            RSS-->
+<!--          </a>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </div>-->
+    <div class="col-md-4" style="text-align: center;">
+      {{ range where .Site.Pages.ByPublishDate "Dir" "post/" | last 1 }}
+      <h3>Dernier événement &raquo; <span style="color: #dc1416;">{{ index $.Site.Data.LessOrMore.days.days (sub (int (printf "%d" .Date.Weekday)) 1) }} {{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" .Date.Month)) 1) }} {{ .Date.Year }}</span></h3>
+      <a href="{{ .URL }}" style="font-size: large; color: black;">
+        <span style="display: block;height: 52px;text-decoration: underline;">{{ .Title }}</span>
+        <img src="/{{ .Params.flyer }}" style="max-width: 100%; height: auto; padding-top: 10px;">
+      </a>
+      {{ end }}
+    </div>
+    <div class="col-md-4" style="text-align: center;">
+      {{ if $.Site.Params.next }}
+      <h3>Prochain événement &raquo; <span style="color: #dc1416;">{{ index $.Site.Data.LessOrMore.days.days (sub (int (printf "%d" $.Site.Params.nextDate.Weekday)) 1) }} {{ $.Site.Params.nextDate.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $.Site.Params.nextDate.Month)) 1) }} {{ $.Site.Params.nextDate.Year }}</span></h3>
+      <a href="{{ $.Site.Params.nextEvent }}" style="font-size: large; color: black;">
+        <span style="display: block;height: 52px;text-decoration: underline;">{{ $.Site.Params.next }}</span>
+        <img src="/{{ $.Site.Params.nextFlyer }}" style="max-width: 100%; height: auto; padding-top: 10px;">
+      </a>
+      {{ else }}
+      <h3>Prochain événement <span style="color: #dc1416;">en cours de préparation.</span></h3>
+      {{ end }}
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+<div class="panel docs-content" style="margin: 100px 0 0 0; text-align: center;">
+  <h3>Suivez nous sur les réseaux</h3>
+  <br/>
+  <ul style="
+    display: inline-block;
+    text-align: left;
+  ">
+    {{ range .Site.Data.LessOrMore.social.social_icons }}
+    {{- if isset $.Site.Author .id }}
+    <li class="social">
+      <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}" rel="nofollow" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
+        </span>&nbsp;
+        {{ .title }}
+      </a>
+    </li>
+    {{- end -}}
+    {{ end }}
+    <li class="social">
+      <a href="/index.xml" title="RSS" rel="nofollow" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>&nbsp;
+        RSS
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="container docs-container">
+  <div class="row" style="margin-top: 40px;">
+    <div class="col-md-12" role="main">
+      <div class="hidden-print" role="complementary"><!--sponsors-->
+        {{ if or (gt (len (where .Site.Data.sponsors.sponsor_data "current" "eq" true)) 0) $.Site.Params.lookingForSponsors }}
+        <div id="sponsors" style="text-align: center;">
+          <h2>Nos sponsors</h2>
+          <div>
+            {{ range (where .Site.Data.sponsors.sponsor_data "current" "eq" true) }}
+            {{ partial "sponsor_index_logo.html" . }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 40px;">
+    <div class="col-md-6">
+      <div class="hidden-print" role="complementary">
+        {{ if (gt (len .Site.Data.hosts.host_data) 0) }}
+        <div id="hosts" style="text-align: center;">
+          <h2>Nos hôtes</h2>
+          <div>
+            {{ range .Site.Data.hosts.host_data }}
+            {{ partial "partner_index_logo.html" . }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="hidden-print" role="complementary">
+        {{ end }}
+        {{ if or (gt (len (where .Site.Data.partners.partner_data "current" "eq" true)) 0) (gt (len (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true)) 0)}}
+        <div id="partners" style="text-align: center;">
+          <h2>Nos partenaires</h2>
+          <div>
+            {{ range .Site.Data.partners.partner_data }}
+            {{ partial "partner_index_logo.html" . }}
+            {{ end }}
+            {{ if (gt (len (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true)) 0) }}
+            {{ range (where .Site.Data.promotions.temporary_promotion_data "current" "eq" true) }}
+            {{ partial "partner_index_logo.html" . }}
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

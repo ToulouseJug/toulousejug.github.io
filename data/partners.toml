@@ -1,10 +1,4 @@
 [[partner_data]]
-id = "digitalocean"
-url = "https://www.digitalocean.com/"
-title = "Digital Ocean"
-logo = "/images/partners/digitalocean.png"
-
-[[partner_data]]
 id = "jetbrains"
 url = "https://www.jetbrains.com/"
 title = "JetBrains"

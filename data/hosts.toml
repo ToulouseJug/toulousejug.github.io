@@ -3,7 +3,7 @@ id = "epitech"
 url = "http://www.epitech.eu/"
 title = "Epitech"
 logo = "/images/sponsors/epitech.png"
-current = false
+current = true
 
 [[host_data]]
 id = "jakartaee"
@@ -17,11 +17,18 @@ id = "onepoint"
 url = "https://www.groupeonepoint.com/"
 title = "onepoint"
 logo = "/images/sponsors/onepoint_site.png"
-current = true
+current = false
 
 [[host_data]]
 id = "eurecia"
 url = "https://www.eurecia.com/"
 title = "Eurécia"
 logo = "/images/sponsors/eurecia_logo.png"
+current = false
+
+[[host_data]]
+id = "lyra"
+url = "https://www.lyra.com/fr/"
+title = "Lyra"
+logo = "/images/sponsors/lyra.png"
 current = false

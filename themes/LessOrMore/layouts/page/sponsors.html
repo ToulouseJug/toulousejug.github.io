@@ -7,13 +7,13 @@
     <div class="col-md-10" role="main">
       <div class="panel docs-content" style="padding: 1px 60px 1px 60px;">
         <div class="sponsor-big">
+<!--             style="cursor: pointer;"-->
           <a title="{{ .title }}"
              {{ if isset . "description" }}
              data-toggle="collapse"
              data-target="#{{ .id }}-collapse"
              aria-expanded="false"
              aria-controls="{{ .id }}-collapse"
-             style="cursor: pointer;"
              {{ else }}
              href="{{ .url }}"
              target="_blank"
@@ -23,10 +23,19 @@
           </a>
         </div>
         {{ if isset . "description" }}
-        <div class="collapse" id="{{ .id }}-collapse">
+        <div class="in" id="{{ .id }}-collapse">
           <div class="well">
             {{ .description | safeHTML }}<br/>
-            <a title="{{ .title }}" href="{{ .url }}" target="_blank" style="text-align: center;display: block;width: 100%;">{{ .url }}</a>
+            <a title="{{ .title }}" href="{{ .url }}" target="_blank" style="
+            text-align: center;
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            margin-top: 15px;
+            color: black;
+            text-decoration: underline;">
+              {{ .url }}
+            </a>
           </div>
         </div>
         {{ end }}
