@@ -5,10 +5,23 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Sécurité</title>
+      <link>https://www.toulousejug.org/post/2024-12-10-soiree-securite/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2024-12-10-soiree-securite/</guid>
+      <description>Nouvelle soirée chez Lyra deux talks liés à la sécurité !
+Sensibilisation &amp;amp; Formation des développeurs à la sécurité - par Bruno Marchesson Vous développez une page web&amp;hellip; facile !
+Savez-vous qu&amp;rsquo;avec un simple formulaire, un pirate chevronné peut lancer son code sur votre serveur ? Sans doute&amp;hellip;
+Maintenant, comment faire pour que votre page ne soit pas un porte ouverte sur votre SI ? &amp;hellip;
+Durant ce talk, nous ferons le tour des différentes solutions qui permettent à un développeur d&amp;rsquo;écrire un code plus sûr :</description>
+    </item>
     
     <item>
       <title>Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur</title>
