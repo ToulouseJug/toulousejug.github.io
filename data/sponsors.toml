@@ -27,4 +27,4 @@ url = "https://www.lyra.com/fr/"
 title = "Lyra"
 logo = "/images/sponsors/lyra.png"
 description = "Partenaire de confiance pour l'encaissement de paiement sur votre site e-commerce, click & collect, centre d'appel, livraison, en magasin.<br/>Lyra est avant tout une aventure humaine basée sur un rêve commun : révolutionner l’univers du paiement en mixant de nouvelles technologies et un esprit novateur. Depuis plus de 23 ans, nos équipes s’engagent à bousculer les codes du paiement."
-current = true
+current = false

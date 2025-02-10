@@ -25,3 +25,10 @@ url = "https://www.viseo.com/"
 title = "Viseo"
 logo = "/images/past-sponsors/viseo.png"
 width = 160
+
+[[sponsor_data]]
+id = "lyra"
+url = "https://www.lyra.com/fr/"
+title = "Lyra"
+logo = "/images/sponsors/lyra.png"
+width = 160
