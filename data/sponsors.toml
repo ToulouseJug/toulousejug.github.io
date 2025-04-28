@@ -14,6 +14,14 @@ description = "Ippon est un cabinet de conseil qui accélère les projets innova
 current = false
 
 [[sponsor_data]]
+id = "lyra"
+url = "https://www.lyra.com/fr/"
+title = "Lyra"
+logo = "/images/sponsors/lyra.png"
+description = "Partenaire de confiance pour l'encaissement de paiement sur votre site e-commerce, click & collect, centre d'appel, livraison, en magasin.<br/>Lyra est avant tout une aventure humaine basée sur un rêve commun : révolutionner l’univers du paiement en mixant de nouvelles technologies et un esprit novateur. Depuis plus de 23 ans, nos équipes s’engagent à bousculer les codes du paiement."
+current = false
+
+[[sponsor_data]]
 id = "monkeypatch"
 url = "https://www.monkeypatch.io/"
 title = "MonkeyPatch"
@@ -22,9 +30,9 @@ description = "MonkeyPatch est une équipe constituée d’un mélange unique d'
 current = true
 
 [[sponsor_data]]
-id = "lyra"
-url = "https://www.lyra.com/fr/"
-title = "Lyra"
-logo = "/images/sponsors/lyra.png"
-description = "Partenaire de confiance pour l'encaissement de paiement sur votre site e-commerce, click & collect, centre d'appel, livraison, en magasin.<br/>Lyra est avant tout une aventure humaine basée sur un rêve commun : révolutionner l’univers du paiement en mixant de nouvelles technologies et un esprit novateur. Depuis plus de 23 ans, nos équipes s’engagent à bousculer les codes du paiement."
-current = false
+id = "openairlines"
+url = "https://www.openairlines.com/"
+title = "OpenAirlines"
+logo = "/images/sponsors/openairlines.png"
+description = "The airlines’ preferred AI digital software to save fuel and reach their net zero 2050 goals.<br/>We tackle the challenge to help airlines kick-start the green shift."
+current = true
