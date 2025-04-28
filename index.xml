@@ -5,10 +5,32 @@
     <link>https://www.toulousejug.org/</link>
     <description>Recent content on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée Kafka - Data Contracts &amp; Validation Rules</title>
+      <link>https://www.toulousejug.org/post/2025-03-12-soiree-kafka/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-03-12-soiree-kafka/</guid>
+      <description>Nouvelle soirée du Java User Group Toulousain le mercredi 12 mars.
+Oui oui, un mercredi !
+Nous nous sommes retrouvés chez Epitech Toulouse pour parler de Kafka avec la venue tout spécialement pour vous de Gilles Philippart, Software Practice Lead chez Confluent.
+How To Improve Data Quality with Domain Validation Rules - par Gilles Philippart Gilles est venu nous parler de Kafka, et plus particulièrement de la qualité de la donnée, comment la valider, comment préserver son intégrité et comment mettre en place une politique de &amp;ldquo;Shift-Left&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Soirée SSO (Single Sign-On)</title>
+      <link>https://www.toulousejug.org/post/2025-02-11-soiree-single-sign-on/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-02-11-soiree-single-sign-on/</guid>
+      <description>Encore une soirée du Java User Group Toulousain le mardi 11 février chez Epitech Toulouse.
+Retour aux sources de l&amp;rsquo;authentification unique : Kerberos - par Frédéric Cabestre Dans l&amp;rsquo;univers du Web les solutions permettant l&amp;rsquo;authentification unique (ou Single Sign On) sont pléthoriques. On pourrait ne retenir que CAS, SAML ou OIDC qui sont les plus fréquemment utilisées. Mais elles on un ancêtre commun dans le domaine des réseaux locaux : Kerberos.</description>
+    </item>
     
     <item>
       <title>Soirée Sécurité</title>

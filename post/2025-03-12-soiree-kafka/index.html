@@ -5,29 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur</title>
-  <meta property="og:title" content="Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur" />
-  <meta name="twitter:title" content="Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur" />
-  <meta name="description" content="Nouvelle soirée chez Epitech avec un retex par Arnaud Giuliani sur la gestion des choix techniques sous contrainte de perf et de volumétrie, en Kotlin. Suivi d&rsquo;une épopée électronique par Fabien Tregan.
-From Zero to Billions : Building a High-Performance Kotlin App in Two Months - par Arnaud Giuliani Join us as we unravel the journey of building a Kotlin app capable of handling billions of events in just two months.">
-  <meta property="og:description" content="Nouvelle soirée chez Epitech avec un retex par Arnaud Giuliani sur la gestion des choix techniques sous contrainte de perf et de volumétrie, en Kotlin. Suivi d&rsquo;une épopée électronique par Fabien Tregan.
-From Zero to Billions : Building a High-Performance Kotlin App in Two Months - par Arnaud Giuliani Join us as we unravel the journey of building a Kotlin app capable of handling billions of events in just two months.">
-  <meta name="twitter:description" content="Nouvelle soirée chez Epitech avec un retex par Arnaud Giuliani sur la gestion des choix techniques sous contrainte de perf et de volumétrie, en Kotlin. Suivi d&rsquo;une épopée électronique par Fabien …">
+  <title>Soirée Kafka - Data Contracts &amp; Validation Rules</title>
+  <meta property="og:title" content="Soirée Kafka - Data Contracts &amp; Validation Rules" />
+  <meta name="twitter:title" content="Soirée Kafka - Data Contracts &amp; Validation Rules" />
+  <meta name="description" content="Nouvelle soirée du Java User Group Toulousain le mercredi 12 mars.
+Oui oui, un mercredi !
+Nous nous sommes retrouvés chez Epitech Toulouse pour parler de Kafka avec la venue tout spécialement pour vous de Gilles Philippart, Software Practice Lead chez Confluent.
+How To Improve Data Quality with Domain Validation Rules - par Gilles Philippart Gilles est venu nous parler de Kafka, et plus particulièrement de la qualité de la donnée, comment la valider, comment préserver son intégrité et comment mettre en place une politique de &ldquo;Shift-Left&rdquo;.">
+  <meta property="og:description" content="Nouvelle soirée du Java User Group Toulousain le mercredi 12 mars.
+Oui oui, un mercredi !
+Nous nous sommes retrouvés chez Epitech Toulouse pour parler de Kafka avec la venue tout spécialement pour vous de Gilles Philippart, Software Practice Lead chez Confluent.
+How To Improve Data Quality with Domain Validation Rules - par Gilles Philippart Gilles est venu nous parler de Kafka, et plus particulièrement de la qualité de la donnée, comment la valider, comment préserver son intégrité et comment mettre en place une politique de &ldquo;Shift-Left&rdquo;.">
+  <meta name="twitter:description" content="Nouvelle soirée du Java User Group Toulousain le mercredi 12 mars.
+Oui oui, un mercredi !
+Nous nous sommes retrouvés chez Epitech Toulouse pour parler de Kafka avec la venue tout spécialement pour …">
   <meta name="author" content="Toulouse JUG"/>
-  <meta name="keywords" content="Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur,Toulouse JUG,Nouvelle soirée chez Epitech avec un retex par Arnaud Giuliani sur la gestion des choix techniques sous contrainte de perf et de volumétrie, en Kotlin. Suivi d&rsquo;une épopée électronique par Fabien Tregan.
-From Zero to Billions : Building a High-Performance Kotlin App in Two Months - par Arnaud Giuliani Join us as we unravel the journey of building a Kotlin app capable of handling billions of events in just two months.">
+  <meta name="keywords" content="Soirée Kafka - Data Contracts &amp; Validation Rules,Toulouse JUG,Nouvelle soirée du Java User Group Toulousain le mercredi 12 mars.
+Oui oui, un mercredi !
+Nous nous sommes retrouvés chez Epitech Toulouse pour parler de Kafka avec la venue tout spécialement pour vous de Gilles Philippart, Software Practice Lead chez Confluent.
+How To Improve Data Quality with Domain Validation Rules - par Gilles Philippart Gilles est venu nous parler de Kafka, et plus particulièrement de la qualité de la donnée, comment la valider, comment préserver son intégrité et comment mettre en place une politique de &ldquo;Shift-Left&rdquo;.">
   <link href='https://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="/images/logo.jpg" />
   <meta name="twitter:image" content="/images/logo.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@toulousejug" />
   <meta name="twitter:creator" content="@toulousejug" />
-  <meta property="og:url" content="https://www.toulousejug.org/post/2024-10-08-soiree-kotlin&#43;glitchage/" />
+  <meta property="og:url" content="https://www.toulousejug.org/post/2025-03-12-soiree-kafka/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Toulouse JUG" />
 
   <meta name="generator" content="Hugo 0.70.0" />
-  <link rel="canonical" href="//post/2024-10-08-soiree-kotlin&#43;glitchage/" />
+  <link rel="canonical" href="//post/2025-03-12-soiree-kafka/" />
   <link rel="alternate" href="https://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
   <link rel="stylesheet" href="https://www.toulousejug.org/css/index.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -231,24 +239,17 @@ From Zero to Billions : Building a High-Performance Kotlin App in Two Months - p
       <div class="panel docs-content">
         <div class="wrapper">
           <header class="post-header">
-            <h1 class="post-title">Soirée High-Performance Kotlin &#43; Glitchage de microcontroleur</h1>
+            <h1 class="post-title">Soirée Kafka - Data Contracts &amp; Validation Rules</h1>
             
             
             
           </header>
           <article class="post-content">
-            <p>Nouvelle soirée chez Epitech avec un retex par Arnaud Giuliani sur la gestion des choix
-techniques sous contrainte de perf et de volumétrie, en Kotlin. Suivi d&rsquo;une épopée électronique
-par Fabien Tregan.</p>
-<h3 id="from-zero-to-billions--building-a-high-performance-kotlin-app-in-two-months---par-arnaud-giuliani">From Zero to Billions : Building a High-Performance Kotlin App in Two Months - par Arnaud Giuliani</h3>
-<p>Join us as we unravel the journey of building a Kotlin app capable of handling billions of events in just two months. Within weeks of our first client using the SDK, we found ourselves analyzing approximately 5 terabytes of data.</p>
-<p>The challenge was immense: how to store this vast amount of data without skyrocketing cloud consumption? Which data to retain and which to discard? How to ensure the frontend performance remains unaffected while loading pages?</p>
-<p>Thanks to the flexibility of the Google Cloud Platform, we were able to design an infrastructure that is as reliable as it is scalable. But the work didn&rsquo;t stop there. We had to simultaneously develop new features.</p>
-<p>In this presentation, we&rsquo;ll share the technology choices we made that enabled us to deliver quickly. We&rsquo;ll delve into our use of Ktor, Exposed, and Koin for our Kotlin web application development.</p>
-<p>Join us to learn how we navigated these (crazy) challenges and successfully delivered a high-performing, data-intensive application.</p>
-<h3 id="mon-premier-test-de-glitchage-de-microcontroleur---par-fabien-trégan">Mon premier test de glitchage de microcontroleur - par Fabien Trégan</h3>
-<p>Un peu dans l&rsquo;idee de la pesentation que j&rsquo;avais donnee au JUG sur de l&rsquo;escalade et exploitation de bug dans Pokemon [non enregistrée, mais disponible en replay sur la chaîne de nos amis du DevFest Touluse ! ; ndlr], cette presentation n&rsquo;a rien a voir avec Java.</p>
-<p>Elle parle de glitchage de microcontroleur (ne pas respecter ses conditions d&rsquo;utilisation pour qu&rsquo;il n&rsquo;ait pas son comportement nominal et par la contourner des protections), et plus specifiquement de comment j&rsquo;ai procede, de ce que j&rsquo;ai appris, de ce qui m&rsquo;a surpris, lors de ma premiere tentative, moi qui fait beaucoup de dev java et de coaching et tres peu de securite et de l&rsquo;electronique.</p>
+            <p>Nouvelle soirée du Java User Group Toulousain le mercredi 12 mars.</p>
+<p>Oui oui, un mercredi !</p>
+<p>Nous nous sommes retrouvés chez Epitech Toulouse pour parler de Kafka avec la venue tout spécialement pour vous de Gilles Philippart, Software Practice Lead chez Confluent.</p>
+<h3 id="how-to-improve-data-quality-with-domain-validation-rules---par-gilles-philippart">How To Improve Data Quality with Domain Validation Rules - par Gilles Philippart</h3>
+<p>Gilles est venu nous parler de Kafka, et plus particulièrement de la qualité de la donnée, comment la valider, comment préserver son intégrité et comment mettre en place une politique de &ldquo;Shift-Left&rdquo;.</p>
 
           </article>
           
@@ -270,12 +271,12 @@ par Fabien Tregan.</p>
           <h2>Sponsors</h2>
           <div>
             
-            <a href="https://www.lyra.com/fr/" title="Lyra" target="_blank">
-    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/lyra.png" alt="Lyra">
-</a>
-            
             <a href="https://www.monkeypatch.io/" title="MonkeyPatch" target="_blank">
     <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/monkeypatch.png" alt="MonkeyPatch">
+</a>
+            
+            <a href="https://www.openairlines.com/" title="OpenAirlines" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/openairlines.png" alt="OpenAirlines">
 </a>
             
           </div>
@@ -286,8 +287,8 @@ par Fabien Tregan.</p>
           <h2>Hôte</h2>
           <div>
             
-            <a href="http://www.epitech.eu/" title="Epitech" target="_blank">
-    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/epitech.png" alt="Epitech">
+            <a href="https://www.lyra.com/fr/" title="Lyra" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/lyra.png" alt="Lyra">
 </a>
             
           </div>
