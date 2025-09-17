@@ -5,10 +5,21 @@
     <link>https://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soirée java.lang avec Rémi Forax</title>
+      <link>https://www.toulousejug.org/post/2025-05-20-soiree-java.lang/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-05-20-soiree-java.lang/</guid>
+      <description>Nouvelle soirée du Java User Group Toulousain le mardi 20 mai à 19h chez Epitech Toulouse.
+Rémi Forax nous a fait le plaisir de revenir dans la ville rose nous parse de Java, des objets et de l&amp;rsquo;histoire du langage !
+Plongée dans l&amp;rsquo;histoire de java.lang - par Rémi Forax Lorsque l&amp;rsquo;on alloue un objet en Java, en plus des champs, la machine virtuelle ajoute un &amp;ldquo;header&amp;rdquo; qui permet de répondre à des questions comme object.</description>
+    </item>
     
     <item>
       <title>Soirée Kafka - Data Contracts &amp; Validation Rules</title>
