@@ -21,10 +21,10 @@ pygmentCodeFences = true
   rss = true
   comments = true
   lookingForSponsors = true
-#  next = "Soirée Java.Lang"
-#  nextDate = 2025-05-20
-#  nextFlyer = "images/2025-05-20-soiree-java-lang/promo.png"
-#  nextEvent = "https://www.meetup.com/toulouse-java-user-group/events/307529722"
+  next = "Soirée LangChain4j"
+  nextDate = 2025-10-21
+  nextFlyer = "images/2025-10-21-soiree-langchain4j/promo.jpg"
+  nextEvent = "https://www.meetup.com/toulouse-java-user-group/events/311127705"
 
 [Author]
   name = "Toulouse JUG"
