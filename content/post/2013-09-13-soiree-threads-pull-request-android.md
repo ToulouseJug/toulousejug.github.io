@@ -13,7 +13,7 @@ Au programme :
 
 * Google Sign-In sur Android par [Mathias Seguy](http://www.android2ee.com/)
 * Back to Basics Partie 1 : Les Threads par [Nicolas Zozol](http://www.robusta.io/)
-* Pull-request GitHub par [Baptiste Mathus](https://twitter.com/bmathus) & [Sylvain Wallez](https://twitter.com/bluxte)
+* Pull-request GitHub par [Baptiste Mathus](https://x.com/bmathus) & [Sylvain Wallez](https://x.com/bluxte)
 
 L'horaire sera un tout petit peu décalé à 18h45 pour commencer les conférences
 à 19h tapante.

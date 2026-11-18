@@ -37,7 +37,7 @@ sessions sur une liste de diffusion exclusivement réservée aux membres.
 
 Pour être tenu au courant des évènements, il suffit de s’abonner à la
 <a href="http://groups.google.com/group/toulouse-jug">liste de diffusion</a> ou
-de suivre le <a href="http://twitter.com/toulousejug">compte Twitter du JUG
+de suivre le <a href="https://x.com/toulousejug">compte X du JUG
 @ToulouseJUG</a>.
 
 Pour les discussions techniques, <a href="http://groups.google.com/group/toulouse-jug">utilisez aussi cette même liste</a>.

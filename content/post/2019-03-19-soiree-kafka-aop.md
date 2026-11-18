@@ -14,7 +14,7 @@ L'un est un sujet relativement récent et à la mode dont tout le monde parle,
 l'autre un sujet qui existe depuis des années et dont on ne parle pas assez. J'espère
 que vous apprécierez.
 
-### Easy Kafka comprendre les concepts et jouer avec facilement - par Mikael KROK ({{< twitter mikaelkrok >}}) & Romain Chartier ({{< twitter romlinch >}})
+### Easy Kafka comprendre les concepts et jouer avec facilement - par Mikael KROK ({{< x mikaelkrok >}}) & Romain Chartier ({{< x romlinch >}})
 
 Kafka Starter Kit : marre de revoir les mêmes conférences et envie de mettre les mains dans le cambouis facilement? On vous propose une révisions des concepts (donc débutant accepté) puis de d'utiliser notre framework pour démarrer kafka en mode test unitaire.
 

@@ -24,4 +24,4 @@ Notre JUG étant partenaire de l'événement, vous bénéficiez d'une réduction
 25% en entrant le **code TOUJUG-25**.
 
 Retrouvez toutes les annonces des speakers et talks sur
-http://whatsnextparis.com/ ou sur Twitter [@WsN_Paris](http://twitter.com/WsN_Paris).
+http://whatsnextparis.com/ ou sur Twitter [@WsN_Paris](https://x.com/WsN_Paris).

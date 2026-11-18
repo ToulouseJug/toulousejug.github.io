@@ -16,7 +16,7 @@ Rust orienté pour les développeurs Java.
 
 Une occasion parfaite de mettre à l'honneur un concept cher à mon coeur : la pollinisation croisée.
 
-### Rust pour les développeurs Java - par Simon Chemouil ({{< twitter simach >}})
+### Rust pour les développeurs Java - par Simon Chemouil ({{< x simach >}})
 
 Rust, tout comme Java, est né de l'objectif de proposer une alternative sûre à C++ (à l'exécution et pour la santé mentale des développeurs), mais avec une approche radicalement différente: du côté de Java, la sûreté résulte de la VM et de son Garbage Collector, alors que Rust est le premier langage mainstream à proposer un mécanisme sûr de gestion automatique de la mémoire "compile-time", tout en générant des binaires natifs. Le Rust atteint ainsi la performance de C/C++ sans les risques associés.
 

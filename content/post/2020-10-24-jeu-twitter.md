@@ -15,12 +15,12 @@ pour des produits JetBrains à offrir en raison de notre partenariat
 
 Sans plus attendre, les gagnants sont :
 
-* {{< twitter JBaptiste_31 >}}
-* {{< twitter 19emtuck >}}
-* {{< twitter Olivier_M_31 >}}
-* {{< twitter ClergueCh34 >}}
-* {{< twitter lidodo >}}
-* {{< twitter jpbolatre >}}
+* {{< x JBaptiste_31 >}}
+* {{< x 19emtuck >}}
+* {{< x Olivier_M_31 >}}
+* {{< x ClergueCh34 >}}
+* {{< x lidodo >}}
+* {{< x jpbolatre >}}
 
 Félicitations ! 🥳 Vos coupons vous ont déjà été envoyés via Direct Message sur Twitter.
 
@@ -65,7 +65,7 @@ C'est tellement un excité de Twitter que comme source de
 valeurs aléatoires, c'est effectivement bien choisi.
 
 Je me suis donc basé sur le premier Tweet du 45° président des États-Unis à partir
-de la fin du jeu, c'est-à-dire [celui-ci](https://twitter.com/realDonaldTrump/status/1319761576996573186)
+de la fin du jeu, c'est-à-dire [celui-ci](https://x.com/realDonaldTrump/status/1319761576996573186)
 (qui n'a rien d'amusant malheureusement, j'aurais bien aimé un petit Covfefe).
 
 Et pour le reste, j'ai utilisé Clojure, et plus particulièrement [Babashka](https://github.com/borkdude/babashka).  

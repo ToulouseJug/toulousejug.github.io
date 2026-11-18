@@ -12,7 +12,7 @@ Une nouvelle soirée en remote pour clôturer l'année malgré la pandémie.
 Un énorme merci à la fondation Eclipse de nous permettre d'utiliser leur compte
 "Jakarta EE for JUGs" sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
 
-### Le web décentralisé, comment ça marche ? - par Antoine Cailly ({{< twitter AntoineCailly >}})
+### Le web décentralisé, comment ça marche ? - par Antoine Cailly ({{< x AntoineCailly >}})
 
 Aujourd’hui l’inquiétude monte devant l’emprise qu’ont certaines entreprises ou gouvernement sur notre utilisation d’internet.
 

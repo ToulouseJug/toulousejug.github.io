@@ -15,7 +15,7 @@ arrivés !
 
 Après un démarrage en trombe à prés de 80 entrées dans les 3 premiers jours, les réponses se sont faites rares
 jusqu'à un petit sursaut lors de la dernière soirée d'avril qui nous a permis d'atteindre les 101 soumissions.  
-Le sondage ayant été communiqué pendant les soirée, sur [Twitter](https://twitter.com/toulousejug/status/1108074689405075457)
+Le sondage ayant été communiqué pendant les soirée, sur [Twitter](https://x.com/toulousejug/status/1108074689405075457)
 et même sur le [groupe Meetup](https://www.meetup.com/fr-FR/Toulouse-Java-User-Group/) qui compte plus de
 1300 inscrits, on est en dessous des 8% de réponses, mais c'est cohérent avec le taux d'inscriptions par soirée.
 
@@ -201,7 +201,7 @@ décider pour une typologie en particulier :
 
 Dans les remarques sur un hypothétique futur lieu, HarryCow, IoT Valley et l'N7 ont été mentionnés.  
 Un petit rigolo a proposé la Salle des Illustres... Si cette personne a des contacts bien placés à la mairie, elle peut
-me contacter via [Twitter](https://twitter.com/arnaud_bos) !
+me contacter via [Twitter](https://x.com/arnaud_bos) !
 
 Et enfin le récurrent *"une teleconference?"* : je n'ai pas vérifié si c'était la même personne à chaque fois,
 mais, encore une fois, on en parlera plus bas.

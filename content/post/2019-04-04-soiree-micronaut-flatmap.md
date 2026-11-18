@@ -31,7 +31,7 @@ Le point positif, c'est que si la qualité de ces vidéos est en dessous de cell
 * Olivier présentera Micronaut dans un Tools in Action à [Devoxx France](https://cfp.devoxx.fr/2019/talk/WPM-6585/Micronaut,_le_framework_JVM_ultra-light_du_futur)
 * Igor reparlera des boucles `for` et de `flatMap` [à SunnyTech](https://sunny-tech.io/schedule/2019-06-27?sessionId=45)
 
-### Micronaut, le framework JVM ultra-light du futur - par Olivier Revial ({{< twitter pommeDouze >}})
+### Micronaut, le framework JVM ultra-light du futur - par Olivier Revial ({{< x pommeDouze >}})
 
 Temps de démarrage proche de la seconde, empreinte mémoire de 10MB, pas de réflection, approche "cloud native" : autant de caractéristiques qui font du framework Micronaut le compagnon idéal de développement de vos microservices Java/Kotlin.
 
@@ -47,7 +47,7 @@ Vidéo : {{< youtube wzGD7ThQ64o >}}
 
 Référence CfP : https://github.com/ToulouseJug/call-for-paper/issues/32
 
-### 🏋️‍️ Refactoring sans les `for` - par Igor Laborie ({{< twitter ilaborie >}})
+### 🏋️‍️ Refactoring sans les `for` - par Igor Laborie ({{< x ilaborie >}})
 
 Peut-on se passer de la bonne vieille boucle for ?
 Il est toujours intéressant de creuser les alternatives comme les Stream, ou d'autres options.

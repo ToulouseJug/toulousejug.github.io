@@ -12,7 +12,7 @@ Nouvelle soirée en présentiel chez OnePoint, avec un format un peu différent 
 * un quick-talk pour nous présenter un outil qui peut nous faciliter la vie
 * une présentation plus longue sur un sujet d'architecture
 
-### SDKMan : The Software Development Kit Manager - par Rémi Navarro ({{< twitter NavarroRemi >}})
+### SDKMan : The Software Development Kit Manager - par Rémi Navarro ({{< x NavarroRemi >}})
 
 SDKMan est un outil qui facilite l'installation et le switch de version de certain langage et framework.
 

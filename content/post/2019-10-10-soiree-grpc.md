@@ -28,7 +28,7 @@ Les participants ont donc pu choisir, par ordre de classement au résultat du qu
 Et en libre accès : de nombreux stickers ([Eclipse Vert.x](https://vertx.io/), [Elastic](https://www.elastic.co/),
 [DigitalOcean](https://www.digitalocean.com/), [Github](https://github.myshopify.com/collections/stickers/products/octodex-sticker-packs)).
 
-### API Web Moderne avec GRPC - par Florian Bernard ({{< twitter fbe64 >}})
+### API Web Moderne avec GRPC - par Florian Bernard ({{< x fbe64 >}})
 
 La plupart des projets logiciels utilisent ou exposent des Api Web. Ces APIs sont souvent bâties sur des standards
 (HTTP 1.X / JSON / XML …) qui n’ont pas évolué depuis plusieurs années.  

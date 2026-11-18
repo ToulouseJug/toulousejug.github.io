@@ -24,7 +24,7 @@ Voici la description du workshop et un lien vers le contenu à la fin 😉
 
 {{< centeredimage local="true" alt="Testcontainers" src="testcontainers.jpeg" width="650" >}}
 
-### Testcontainers - par Victor GALLET ({{< twitter GalletVictor >}}) et Antoine ROUX ({{< twitter _wziko_ >}})
+### Testcontainers - par Victor GALLET ({{< x GalletVictor >}}) et Antoine ROUX ({{< x _wziko_ >}})
 
 Avec de plus en plus d'applications "dockerisées", Testcontainers est une librairie qui mérite que l'on s'y intéresse et va révolutionner la manière dont sont écrits les tests d'intégration.
 

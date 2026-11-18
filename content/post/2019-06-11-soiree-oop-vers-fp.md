@@ -13,7 +13,7 @@ Pour la dernière soirée de la saison 2018-2019 le thème était "de la program
 Pour ce faire, une première vidéo où l'on revient aux sources et où l'on présente les grands concepts, suivi
 d'une présentation d'un cas concret pour lequel des concepts de programmation fonctionnelle peuvent nous aider.
 
-### La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre ({{< twitter fcabestre >}})
+### La programmation fonctionnelle sans céder à la mode - par Frédéric Cabestre ({{< x fcabestre >}})
 
 Aujourd'hui, pour être à la mode, il faut parler de programmation fonctionnelle. Et de suite on convoque les mots en vogue: « Immutabilité », « Monade » ou « Catamorphisme ». Au mieux le message est brouillé, mal reçu. Au pire la salle se vide !
 
@@ -27,7 +27,7 @@ Référence CfP : https://github.com/ToulouseJug/call-for-paper/issues/20
 
 Vidéo : {{< youtube pBHCHF2JMfg >}}
 
-### De l'OOP à la FP : l'affaire de la validation - par Emmanuel Nhan ({{< twitter nhanmanu >}})
+### De l'OOP à la FP : l'affaire de la validation - par Emmanuel Nhan ({{< x nhanmanu >}})
 
 On est tous tombé au moins une fois dans cette boucle en remplissant un formulaire web :
 

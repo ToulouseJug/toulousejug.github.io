@@ -16,7 +16,7 @@ Voici les vidéos de la soirée de mai où nous avons eu la chance de recevoir d
 > matériel de captation. Un prochain article détaillera nos nouvelles acquisitions mais en attendant:  
 > merci Ippon, merci MonkeyPatch ! 🥳
 
-### Présentation JHipster - par Hippolyte Durix ({{< twitter hdurix >}})
+### Présentation JHipster - par Hippolyte Durix ({{< x hdurix >}})
 
 JHipster est une plateforme de développement Open Source permettant de générer, développer et déployer des applications web :
 * Spring boot et Angular ou React ou depuis peu Vue.js
@@ -28,7 +28,7 @@ JHipster porte une attention toute particulière à l'expérience du développeu
 
 Vidéo : {{< youtube l3x3CutQktM >}}
 
-### Blueprint: Un JHipster à votre image - par Anthony Viard ({{< twitter avdev4j >}})
+### Blueprint: Un JHipster à votre image - par Anthony Viard ({{< x avdev4j >}})
 
 Vous connaissez tous Sam ? Vous savez Sam est celui qui conduit et qui ne boit pas. Et bien figurez-vous que Sam
 est aussi celui qui ne code pas.

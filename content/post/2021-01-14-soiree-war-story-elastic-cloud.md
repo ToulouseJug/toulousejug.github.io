@@ -12,7 +12,7 @@ Encore une soirée en remote.
 Un énorme merci à la fondation Eclipse de nous permettre d'utiliser leur compte
 "Jakarta EE for JUGs" sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
 
-### War story : comment les pauses du GC ont pété la prod - par Sylvain Wallez ({{< twitter bluxte >}})
+### War story : comment les pauses du GC ont pété la prod - par Sylvain Wallez ({{< x bluxte >}})
 
 Nous avons eu un [incident récent sur Elastic Cloud](https://www.elastic.co/blog/elastic-cloud-january-18-2019-incident-report) dont une des causes est des pauses longues du garbage collector de ZooKeeper.
 

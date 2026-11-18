@@ -8,7 +8,7 @@ description = "Software Developer. Mirror writer 🙃"
 bureau = true
 role = "Président"
 email = "mail@arnaudbos.com"
-twitter = "arnaud_bos"
+x = "arnaud_bos"
 
 [[member_data]]
 id = "jzanon"
@@ -19,7 +19,7 @@ image = "/images/members/jzanon.jpg"
 description = "Senior Software Engineer - Freelance"
 bureau = true
 role = "Trésorier"
-twitter = "jullienzan"
+x = "jullienzan"
 
 [[member_data]]
 id = "you"

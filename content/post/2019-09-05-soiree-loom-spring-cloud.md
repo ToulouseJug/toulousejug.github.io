@@ -15,7 +15,7 @@ Malheureusement, étant speaker lors de cette soirée, il m'a été impossible d
 la présentation sur Spring Cloud a été enregistrée sans micro-cravate sur la caméra n°2, d'où une qualité d'image et de son
 inférieures à d'habitude.
 
-### La concurrence sans s’emmêler les ficelles avec Project Loom - par Arnaud Bos ({{< twitter abos >}})
+### La concurrence sans s’emmêler les ficelles avec Project Loom - par Arnaud Bos ({{< x abos >}})
 
 Le domaine de la programmation concurrente utilise le champ lexical de la filature et nous met les nerfs en pelote avec des concepts qui s'entrelacent : fibers, threads, lightweight-threads, green threads, loom...
 Peut-être avez vous également entendu parler de coroutines ? Rassurez-vous, tout est lié.
@@ -28,7 +28,7 @@ Et en attendant la révolution, sans tirer trop sur la corde, vous verrez commen
 
 Référence CfP : https://github.com/ToulouseJug/call-for-paper/issues/39
 
-### Microservices avec Spring Cloud - par Florian Beaufumé ({{< twitter fbeaufume >}})
+### Microservices avec Spring Cloud - par Florian Beaufumé ({{< x fbeaufume >}})
 
 Une architecture en microservices apporte de nombreux bénéfices mais pose plusieurs difficultés à cause de la nature distribuée de l'application.
 

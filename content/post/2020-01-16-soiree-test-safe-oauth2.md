@@ -12,7 +12,7 @@ Bonne année 2020 à tous les Juggers (c'est comme ça qu'on dit ?) !
 Pour débuter l'année on va se faire un peu peur 👻 avec un sujet expérimental "Test-Safe",
 suivi d'un tour d'oauth2.
 
-### Programmation Test-Safe - par Adrien Piquerez ({{< twitter adrien_piquerez >}})
+### Programmation Test-Safe - par Adrien Piquerez ({{< x adrien_piquerez >}})
 
 La programmation test-safe est une méthode de programmation centrée sur les tests.  
 C'est du TDD, mais natif, du TDD par design !
@@ -27,7 +27,7 @@ Référence CFP : https://github.com/ToulouseJug/call-for-paper/issues/37
 
 Vidéo : {{< youtube P_M49IQpcgc >}}
 
-### Oauth2 est effrayant ? Non ! Voyons comment bien s'en servir - par Mathieu Passenaud ({{< twitter mathieupassenau >}})
+### Oauth2 est effrayant ? Non ! Voyons comment bien s'en servir - par Mathieu Passenaud ({{< x mathieupassenau >}})
 
 `client_id` et `client_secret`, tout le monde connait.  
 Par contre, on met quoi dans `redirect_uri`, `x-frame-options`, `Content-Security-Policy` ou `Web origins` ?  

@@ -7,7 +7,7 @@ authors: [abos]
 
 On termine l'année 2018 en beauté avec deux sujets sur le thème d'Apache Camel :
 
-### Apache Camel - par Emmanuel Vinel ({{< twitter EmmanuelVinel >}})
+### Apache Camel - par Emmanuel Vinel ({{< x EmmanuelVinel >}})
 
 Interconnecter des applications , des services tiers ou des processus au sein
 d'un SI est un besoin récurrent et pas nouveau.  
@@ -25,7 +25,7 @@ Vidéo : {{< youtube k5SC7bmGQlU >}}
 
 Référence CfP: https://github.com/ToulouseJug/call-for-paper/issues/15
 
-###  Outils pour le développement de Projet d'intégration Apache Camel/Red Hat Fuse : du profil technique au profil business - par Aurélien Pupier ({{< twitter apupier >}})
+###  Outils pour le développement de Projet d'intégration Apache Camel/Red Hat Fuse : du profil technique au profil business - par Aurélien Pupier ({{< x apupier >}})
 
 Nous verrons l'ensemble des outils de développement existant pour développer des
 projets d'intégration basé sur [Apache Camel](http://camel.apache.org/).

@@ -24,7 +24,7 @@ Référence CFP : https://github.com/ToulouseJug/call-for-paper/issues/25
 
 Vidéo : {{< youtube v06LVOOCmSI >}}
 
-### Des codes review pour un code S.O.L.I.D - par Rémi Navarro ({{< twitter NavarroRemi >}})
+### Des codes review pour un code S.O.L.I.D - par Rémi Navarro ({{< x NavarroRemi >}})
 
 On fait presque tous des codes review sur nos projets, mais sur quoi s'accorde notre communauté pour les définir ?  
 Qu'est ce qu'une code review, pourquoi, quand, que faut il regarder ?  

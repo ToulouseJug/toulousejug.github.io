@@ -104,10 +104,7 @@
 <div class="panel docs-content" style="margin: 100px 0 0 0; text-align: center;">
   <h3>Suivez nous sur les réseaux</h3>
   <br/>
-  <ul style="
-    display: inline-block;
-    text-align: left;
-  ">
+  <ul class="social-list">
     {{ range .Site.Data.LessOrMore.social.social_icons }}
     {{- if isset $.Site.Author .id }}
     <li class="social">

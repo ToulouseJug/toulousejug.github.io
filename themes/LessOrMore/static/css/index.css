@@ -7239,3 +7239,20 @@ li.social > a {
 li.social > a:hover {
   color: #dc1416;
 }
+/* Home page "Suivez nous sur les réseaux": 3 columns, 2 on narrow screens */
+.social-list {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 56px;
+  row-gap: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .social-list {
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 36px;
+  }
+}

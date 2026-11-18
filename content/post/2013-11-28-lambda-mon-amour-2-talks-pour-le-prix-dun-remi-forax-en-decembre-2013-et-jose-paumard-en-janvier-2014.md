@@ -64,6 +64,6 @@ sera montrée dans des exemples réels, qui monteront comment Java 8 va pouvoir
 nous aider à écrire simplement du code efficace et performant.
 
 Les inscriptions ne sont pas encore ouvertes, mais surveillez bien le compte
-Twitter [@toulousejug](https://twitter.com/toulousejug) ou
+Twitter [@toulousejug](https://x.com/toulousejug) ou
 [la liste du JUG](https://groups.google.com/forum/#!forum/toulouse-jug), nous
 allons l'ouvrir probablement d'ici mi-décembre.

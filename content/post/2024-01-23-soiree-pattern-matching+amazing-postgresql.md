@@ -25,7 +25,7 @@ pour nous parler de ce petit bijou de SGBD qu'est PostgreSQL ❤️
 Dans cette présentation, on va explorer le filtrage par motif et comment il peut permettre de simplifier son code Java.
 En prenant comme exemple la modernisation et le remaniement d’un vieux code Java, on va voir comment les différents ajouts au langage permettent de rendre le code plus expressif, plus concis et, surtout, intrinsèquement plus robuste.
 
-### SELECT 'amazing_features' FROM "postgresql" - par Kevin DAVIN ({{< twitter davinkevin >}})
+### SELECT 'amazing_features' FROM "postgresql" - par Kevin DAVIN ({{< x davinkevin >}})
 
 C'est unanime, `PostgreSQL` devient le Linux de la base de données pour le bien de tous 🚀!
 Et cela parce que ce moteur de BDD contient des fonctionnalités fantastiques permettant de résoudre des problèmes complexes très simplement!

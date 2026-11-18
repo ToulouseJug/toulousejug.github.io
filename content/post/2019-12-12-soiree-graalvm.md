@@ -12,7 +12,7 @@ Si c'est votre cas, il va falloir songer à venir plus souvent au JUG !
 
 Pour la dernière soirée de l'année 2019 nous vous avions proposé deux présentations sur ce thème.
 
-### GraalVM : les applications natives en Java - par Sylvain Wallez ({{< twitter bluxte >}})
+### GraalVM : les applications natives en Java - par Sylvain Wallez ({{< x bluxte >}})
 
 GraalVM est une JVM nouvelle génération qui a plusieurs aspects intéressants :
 
@@ -25,7 +25,7 @@ Référence CfP : https://github.com/ToulouseJug/call-for-paper/issues/22
 
 Vidéo : {{< youtube qyx21kTon9Q >}}
 
-### GraalVM: la JVM polyglotte - par Pascal Gillet ({{< twitter psclgllt >}})
+### GraalVM: la JVM polyglotte - par Pascal Gillet ({{< x psclgllt >}})
 
 “Cette librairie n'est pas disponible dans mon langage de programmation. Je dois la réécrire."
 

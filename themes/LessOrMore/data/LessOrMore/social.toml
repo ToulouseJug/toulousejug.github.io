@@ -17,10 +17,22 @@ title = "Youtube"
 icon = "fab fa-youtube"
 
 [[social_icons]]
-id = "twitter"
-url = "https://twitter.com/%s"
-title = "Twitter"
-icon = "fab fa-twitter"
+id = "x"
+url = "https://x.com/%s"
+title = "X"
+icon = "fab fa-x-twitter"
+
+[[social_icons]]
+id = "bluesky"
+url = "https://bsky.app/profile/%s"
+title = "Bluesky"
+icon = "fab fa-bluesky"
+
+[[social_icons]]
+id = "instagram"
+url = "https://www.instagram.com/%s"
+title = "Instagram"
+icon = "fab fa-instagram"
 
 [[social_icons]]
 id = "googlegroup"
@@ -75,12 +87,6 @@ id = "snapchat"
 url = "https://www.snapchat.com/add/%s"
 title = "Snapchat"
 icon = "fab fa-snapchat-ghost"
-
-[[social_icons]]
-id = "instagram"
-url = "https://www.instagram.com/%s"
-title = "Instagram"
-icon = "fab fa-instagram"
 
 [[social_icons]]
 id = "soundcloud"

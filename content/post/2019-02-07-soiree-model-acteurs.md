@@ -12,7 +12,7 @@ c'est largement dû aux multiples sessions de Q&A (ou "breakpoints") qui ont eu 
 pendant la présentation afin de permettre au public présent de mieux suivre, ou de
 raccrocher les wagons ^_^
 
-### Acteur, un modèle élégant pour le calcul concurrentiel et distribué - par Didier Plaindoux ({{< twitter dplaindoux >}}) & Alessio Coltellacci ({{< twitter lightplay8 >}})
+### Acteur, un modèle élégant pour le calcul concurrentiel et distribué - par Didier Plaindoux ({{< x dplaindoux >}}) & Alessio Coltellacci ({{< x lightplay8 >}})
 
 Avec l’avènement des architectures multi-cœurs, nous avons besoin de moyens pour les
 exploiter. Généralement, cela se fait à l'aide des threads natifs et de primitives de

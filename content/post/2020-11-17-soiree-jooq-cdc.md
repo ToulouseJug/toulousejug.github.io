@@ -12,7 +12,7 @@ Encore une soirée en remote.
 Un énorme merci à la fondation Eclipse de nous permettre d'utiliser leur compte
 "Jakarta EE for JUGs" sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
 
-### JOOQ, joy of SQL - par Kevin Davin ({{< twitter davinkevin >}})
+### JOOQ, joy of SQL - par Kevin Davin ({{< x davinkevin >}})
 
 Et si l'on reprenait le contrôle de nos interactions avec notre base de données préférée? Car en vrai, nos BDD sont des monstres de puissance qui sont souvent sous exploités sweat. Nous verrons, avec JOOQ, comment écrire des requêtes SQL simples ou évolués, le tout facilement et de manière type-safe !
 
@@ -24,7 +24,7 @@ Référence CFP : https://github.com/ToulouseJug/call-for-paper/issues/49
 
 Vidéo : {{< youtube id="iXup-CqXdvc?start=484" >}}
 
-### A Change-Data-Capture use-case: designing an evergreen cache - par Nicolas Frankel ({{< twitter nicolas_frankel >}})
+### A Change-Data-Capture use-case: designing an evergreen cache - par Nicolas Frankel ({{< x nicolas_frankel >}})
 
 When one’s app is challenged with poor performances, it’s easy to set up a cache in front of one’s SQL database. It doesn’t fix the root cause (e.g. bad schema design, bad SQL query, etc.) but it gets the job done. If the app is the only component that writes to the underlying database, it’s a no-brainer to update the cache accordingly, so the cache is always up-to-date with the data in the database.
 

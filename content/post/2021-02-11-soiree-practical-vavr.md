@@ -12,7 +12,7 @@ Encore une soirée en remote.
 Un énorme merci à la fondation Eclipse de nous permettre d'utiliser leur compte
 "Jakarta EE for JUGs" sur la plateforme [crowdcast.io](https://www.crowdcast.io/jakarta4jugs).
 
-### Practical Vavr - par Alexandre Grison ({{< twitter algrison >}})
+### Practical Vavr - par Alexandre Grison ({{< x algrison >}})
 
 Practical Vavr is all about making you want to use Vavr in your day to day Java programming.
 

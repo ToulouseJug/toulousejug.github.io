@@ -36,5 +36,5 @@ Toute communication que nous recevons concernant un problème de harcèlement se
 
 ## A qui s'adresser?
 
-Directement à l'un des membres de [la team]({{< ref "/team/team.md" >}}) ou par d'autres réseaux comme Twitter: <a href="http://twitter.com/toulousejug">@ToulouseJUG</a>.
-Les messages directs via mail, Twitter ou autre sont aussi un bon moyen pour nous joindre.
+Directement à l'un des membres de [la team]({{< ref "/team/team.md" >}}) ou par d'autres réseaux comme X: <a href="https://x.com/toulousejug">@ToulouseJUG</a>.
+Les messages directs via mail, X ou autre sont aussi un bon moyen pour nous joindre.

@@ -22,7 +22,7 @@ vue à d'autres conférences, était très intéressante et vallait la peine d'�
 rejouée. Nous remercions chaleureusement Jean-Philippe d'avoir partagé ses
 connaissances avec nous !
 
-### Comprendre les GC sur la JVM : Mode Avancé ! - par Jean-Philippe Bempel ({{< twitter jpbempel >}})
+### Comprendre les GC sur la JVM : Mode Avancé ! - par Jean-Philippe Bempel ({{< x jpbempel >}})
 
 Depuis quelques années, le monde du GC sur la JVM évolue : G1 est par défaut sur le JDK9, Shenandoah est mis à disposition par Red Hat, un nouveau GC entre dans l'OpenJDK depuis le JDK 11: ZGC et Azul C4 est toujours là.
 
