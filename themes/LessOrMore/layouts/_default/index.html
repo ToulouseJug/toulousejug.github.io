@@ -79,15 +79,6 @@
 <!--      </ul>-->
 <!--    </div>-->
     <div class="col-md-4" style="text-align: center;">
-      {{ range where .Site.Pages.ByPublishDate "Dir" "post/" | last 1 }}
-      <h3>Dernier événement &raquo; <span style="color: #dc1416;">{{ index $.Site.Data.LessOrMore.days.days (sub (int (printf "%d" .Date.Weekday)) 1) }} {{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" .Date.Month)) 1) }} {{ .Date.Year }}</span></h3>
-      <a href="{{ .URL }}" style="font-size: large; color: black;">
-        <span style="display: block;height: 52px;text-decoration: underline;">{{ .Title }}</span>
-        <img src="/{{ .Params.flyer }}" style="max-width: 100%; height: auto; padding-top: 10px;">
-      </a>
-      {{ end }}
-    </div>
-    <div class="col-md-4" style="text-align: center;">
       {{ if $.Site.Params.next }}
       <h3>Prochain événement &raquo; <span style="color: #dc1416;">{{ index $.Site.Data.LessOrMore.days.days (sub (int (printf "%d" $.Site.Params.nextDate.Weekday)) 1) }} {{ $.Site.Params.nextDate.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $.Site.Params.nextDate.Month)) 1) }} {{ $.Site.Params.nextDate.Year }}</span></h3>
       <a href="{{ $.Site.Params.nextEvent }}" style="font-size: large; color: black;">
@@ -96,6 +87,15 @@
       </a>
       {{ else }}
       <h3>Prochain événement <span style="color: #dc1416;">en cours de préparation.</span></h3>
+      {{ end }}
+    </div>
+    <div class="col-md-4" style="text-align: center;">
+      {{ range where .Site.Pages.ByPublishDate "Dir" "post/" | last 1 }}
+      <h3>Dernier événement &raquo; <span style="color: #dc1416;">{{ index $.Site.Data.LessOrMore.days.days (sub (int (printf "%d" .Date.Weekday)) 1) }} {{ .Date.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" .Date.Month)) 1) }} {{ .Date.Year }}</span></h3>
+      <a href="{{ .URL }}" style="font-size: large; color: black;">
+        <span style="display: block;height: 52px;text-decoration: underline;">{{ .Title }}</span>
+        <img src="/{{ .Params.flyer }}" style="max-width: 100%; height: auto; padding-top: 10px;">
+      </a>
       {{ end }}
     </div>
     <div class="col-md-2"></div>

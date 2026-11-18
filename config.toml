@@ -14,6 +14,7 @@ pygmentCodeFences = true
 
 [Params]
   tagline = "Toulousains et passionnés des technos de la plateforme Java/JVM."
+  tags = ["java", "jvm", "javaee", "spring", "kotlin", "kotlin-multiplatform", "kotlin-js", "kotlin-native", "langchain4j", "ai", "ml", "nlp", "gpt", "openai", "chatgpt", "llm", "ai-model", "machine-learning", "artificial-intelligence", "deep-learning", "neural"]
   logo = "images/logo.jpg"
   favicon = "images/favicon.ico"
   dateFormat = "January 2, 2006"
