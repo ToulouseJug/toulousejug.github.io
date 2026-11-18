@@ -79,7 +79,12 @@
 <!--      </ul>-->
 <!--    </div>-->
     <div class="col-md-4" style="text-align: center;">
-      {{ if $.Site.Params.next }}
+      {{- /* A past nextDate is never shown as the next event (it is the last event, via its post): fall back to "en cours de préparation". */ -}}
+      {{- $showNext := false -}}
+      {{- with $.Site.Params.nextDate -}}
+        {{- if and $.Site.Params.next (.After now) -}}{{- $showNext = true -}}{{- end -}}
+      {{- end }}
+      {{ if $showNext }}
       <h3>Prochain événement &raquo; <span style="color: #dc1416;">{{ index $.Site.Data.LessOrMore.days.days (sub (int (printf "%d" $.Site.Params.nextDate.Weekday)) 1) }} {{ $.Site.Params.nextDate.Day }} {{ index $.Site.Data.LessOrMore.months.months (sub (int (printf "%d" $.Site.Params.nextDate.Month)) 1) }} {{ $.Site.Params.nextDate.Year }}</span></h3>
       <a href="{{ $.Site.Params.nextEvent }}" style="font-size: large; color: black;">
         <span style="display: block;height: 52px;text-decoration: underline;">{{ $.Site.Params.next }}</span>

@@ -36,7 +36,7 @@ The build prints a few `WARN` lines (deprecated `Page.Dir`, missing section/taxo
 - `data/*.toml`: hosts, sponsors, partners, authors, members, menus, promotions.
 - `static/images/`: copied as-is to the site. Event flyers live in `static/images/<date>-<slug>/`.
 - `themes/LessOrMore/`: the theme, edited in place (it's committed in this repo, not a submodule). The home page is `themes/LessOrMore/layouts/_default/index.html`, the `<head>` / SEO meta tags are in `layouts/partials/head.html`.
-- `config.toml` `[Params]`: site tagline, SEO `tags`, and the upcoming event shown on the home page (`next`, `nextDate`, `nextFlyer`, `nextEvent`). Update these when announcing a new event.
+- `config.toml` `[Params]`: site tagline, SEO `tags`, and the upcoming event shown on the home page (`next`, `nextDate`, `nextFlyer`, `nextEvent`). Update these when announcing a new event. Once an event is past, remove them: it becomes the "last event" (newest post) and the next one is TBD ("en cours de préparation") until a new event is announced. Never leave a past date in `nextDate`. As a safety net the home template ignores a `nextDate` that is not in the future (compared at build time), so a forgotten entry shows TBD instead of a past event, but only once the site is rebuilt.
 
 ## Workflow words
 
@@ -44,8 +44,9 @@ When the user says:
 
 - **"commit"**: commit and push the `source` branch.
 - **"deploy"**: commit and push `source`, build `public/`, then commit and push `public` (`master`).
+- **"update next event"** (or similar: "update events", "new event", "sync meetup"): sync the site with the Meetup group. Creates a post and image dir for every Meetup event without a post, fixes stale drafts and the `next*` params in `config.toml`. It never commits; follow it with "commit" or "deploy".
 
-Follow the `commit-deploy` skill (`.claude/skills/commit-deploy/SKILL.md`) for both.
+Follow the `commit-deploy` skill (`.claude/skills/commit-deploy/SKILL.md`) for the first two, and the `update-next-event` skill (`.claude/skills/update-next-event/SKILL.md`) for the third.
 
 ## Rules
 

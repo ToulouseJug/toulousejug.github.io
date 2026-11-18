@@ -1,8 +1,7 @@
 ---
 title: Soirée LangChain4j avec António Gonçalves
-date: 2025-09-19
+date: 2025-10-21
 host: epitech
-draft: true
 sponsors: [monkeypatch, openairlines]
 partners: [jetbrains]
 authors: [abos]
