@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Soirée Java async/await</title>
+  <meta property="og:title" content="Soirée Java async/await" />
+  <meta name="twitter:title" content="Soirée Java async/await" />
+  <meta name="description" content="Toulousains et passionnés des technos de la plateforme Java/JVM.">
+  <meta property="og:description" content="Toulousains et passionnés des technos de la plateforme Java/JVM.">
+  <meta name="twitter:description" content="Toulousains et passionnés des technos de la plateforme Java/JVM.">
+  <meta name="author" content="Toulouse JUG"/>
+  <meta name="tagline" content="java,jvm,javaee,spring,kotlin,kotlin-multiplatform,kotlin-js,kotlin-native,langchain4j,ai,ml,nlp,gpt,openai,chatgpt,llm,ai-model,machine-learning,artificial-intelligence,deep-learning,neural"/>
+  <meta name="keywords" content="java,jvm,javaee,spring,kotlin,kotlin-multiplatform,kotlin-js,kotlin-native,langchain4j,ai,ml,nlp,gpt,openai,chatgpt,llm,ai-model,machine-learning,artificial-intelligence,deep-learning,neural,Soirée Java async/await,Toulouse JUG,Nouvelle soirée du Java User Group Toulousain le jeudi 11 décembre à 19h, chez Epitech Toulouse.
+Retour d&rsquo;un speaker local habitué des talks pointus autour de la concurrence, de la programmation fonctionnelle et des langages de programmation et de leurs particularités : Didier Plaindoux !
+Async/Await et Java - par Didier Plaindoux Les langages populaires tels que JavaScript, Rust, Swift, Kotlin ou Dart fournissent une construction spécifique pour le style de programmation asynchrone basée sur une extension du language ce qui n&rsquo;est pas la cas pour Java.">
+  <link href='https://www.toulousejug.org/images/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/images/logo.jpg" />
+  <meta name="twitter:image" content="/images/logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toulousejug" />
+  <meta name="twitter:creator" content="@toulousejug" />
+  <meta property="og:url" content="https://www.toulousejug.org/post/2025-12-11-soiree-java-async-await/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Toulouse JUG" />
+
+  <meta name="generator" content="Hugo 0.70.0" />
+  <link rel="canonical" href="//post/2025-12-11-soiree-java-async-await/" />
+  <link rel="alternate" href="https://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
+  <link rel="stylesheet" href="https://www.toulousejug.org/css/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://www.toulousejug.org/css/syntax.css" />
+
+  <script src="https://www.toulousejug.org/js/jquery.min.js"></script>
+  
+  <style type="text/css">
+    .docs-content{
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+  <body class="index">
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="https://www.toulousejug.org/" class="navbar-brand">
+        <img src="https://www.toulousejug.org/images/logo.jpg" height="41">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        <li class="nav-item">
+          
+          <a title="Articles" href="https://www.toulousejug.org/page/articles/">Articles</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="À propos" href="https://www.toulousejug.org/page/about/">À propos</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="Sponsors" href="https://www.toulousejug.org/page/sponsors/">Sponsors</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="La Team" href="https://www.toulousejug.org/team/team/">La Team</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="CoC" href="https://www.toulousejug.org/page/coc/">CoC</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a title="Call For Paper" href="https://github.com/toulousejug/call-for-paper" target="_blank">
+            Call For Paper
+            <i class="fa fa-external-link-alt"></i>
+          </a>
+          
+        </li>
+        
+      </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </nav>
+  </div>
+</header>
+    
+    
+<div class="container docs-container">
+  <div class="row">
+    
+    <div class="col-md-10" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">Soirée Java async/await</h1>
+            
+            
+            
+          </header>
+          <article class="post-content">
+            <p>Nouvelle soirée du Java User Group Toulousain le jeudi 11 décembre à 19h, chez Epitech Toulouse.</p>
+<p>Retour d&rsquo;un speaker local habitué des talks pointus autour de la concurrence, de la programmation fonctionnelle et des langages de programmation et de leurs particularités : <strong>Didier Plaindoux</strong> !</p>
+<h3 id="asyncawait-et-java---par-didier-plaindoux">Async/Await et Java - par Didier Plaindoux</h3>
+<p>Les langages populaires tels que JavaScript, Rust, Swift, Kotlin ou Dart fournissent une construction spécifique pour le style de programmation asynchrone basée sur une extension du language ce qui n&rsquo;est pas la cas pour Java. Cependant, dans la dernière version de Java (21 et plus), le concept de thread virtuel a été introduit afin d&rsquo;opérer une séparation nette avec le thread de la plateforme. Avec de tels threads, les I/O sont gérées différemment, les threads virtuels étant mis en attente afin de libérer ceux de la plateforme. Malheureusement, le style de programmation asynchrone n&rsquo;est pas explicite lors de l&rsquo;écriture de code.</p>
+<p>Au cours de cette présentation, nous concevrons le concept de <strong>Promesse</strong> pour introduire le style de programmation asynchrone. Cependant, cette approche soulève un nouveau problème dans le code conçu : le <em>callback hell</em>.</p>
+<p>La dernière pièce du puzzle sera la conception d&rsquo;un <strong>await</strong> compatible avec les threads grâce aux threads virtuels. Nous serons alors en mesure d&rsquo;écrire du code en utilisant une approche de type async/await sans introduire de nouveau mot-clé dans le langage alliant le meilleur des deux mondes à savoir un language sans méthodes &ldquo;colorées&rdquo; et une expressivité accrue lors de l&rsquo;élaboration de code asynchrone.</p>
+<p>Reference: <a href="https://github.com/Smallibs/hpas">Projet HiPeAS</a></p>
+
+          </article>
+          
+          <hr>
+          <aside>
+              <div>
+                  Auteur(s):
+                  <a href="http://www.arnaudbos.com/" target="_blank">Arnaud Bos</a>
+              </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="sponsors hidden-print" role="complementary">
+        
+        <div id="sponsors" style="text-align: center;">
+          <h2>Sponsors</h2>
+          <div>
+            
+            <a href="https://www.monkeypatch.io/" title="MonkeyPatch" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/monkeypatch.png" alt="MonkeyPatch">
+</a>
+            
+            <a href="https://www.openairlines.com/" title="OpenAirlines" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/openairlines.png" alt="OpenAirlines">
+</a>
+            
+          </div>
+        </div>
+        
+        
+        <div id="hosts" style="text-align: center;">
+          <h2>Hôte</h2>
+          <div>
+            
+            <a href="http://www.epitech.eu/" title="Epitech" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/sponsors/epitech.png" alt="Epitech">
+</a>
+            
+          </div>
+        </div>
+        
+        
+        <div id="partners" style="text-align: center;">
+          <h2>Partenaires</h2>
+          <div>
+            
+            <a href="https://www.jetbrains.com/" title="JetBrains" target="_blank">
+    <img class="sponsor-sidebar-logo" src="https://www.toulousejug.org/images/partners/jetbrains.png" alt="JetBrains">
+</a>
+            
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer" role="contentinfo">
+  <div class="container">
+    <p class="copyright">Copyright &copy; 2009-2026 <code>Toulouse JUG</code>.</p>
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>, adapted from <a href="https://github.com/luoyan35714/LessOrMore">LessOrMore</a></p>
+  </div>
+</footer>
+
+<script src="https://www.toulousejug.org/js/jquery.min.js"></script>
+<script src="https://www.toulousejug.org/js/bootstrap.min.js"></script>
+<script src="https://www.toulousejug.org/js/holder.min.js"></script>
+<script src="https://www.toulousejug.org/js/lessismore.js"></script>
+<script src="https://www.toulousejug.org/js/application.js"></script>
+
+  </body>
+</html>

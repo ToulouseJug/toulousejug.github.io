@@ -5,10 +5,87 @@
     <link>https://www.toulousejug.org/post/</link>
     <description>Recent content in Posts on Toulouse JUG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.toulousejug.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ToulouseJUG - Venez comme vous êtes</title>
+      <link>https://www.toulousejug.org/post/2026-04-07-toulousejug-venez-comme-vous-etes/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2026-04-07-toulousejug-venez-comme-vous-etes/</guid>
+      <description>Nouvelle soirée du Java User Group Toulousain le mardi 7 avril à 19h, chez Epitech Toulouse.
+Comme chaque mois, le Toulouse JUG se réunit pour un nouveau meetup autour des technologies Java/JVM.
+Pour cette fois, pas de programme de présentations établi, juste le plaisir de se retrouver. Il y aura de quoi boire et grignoter, ainsi qu&amp;rsquo;un tableau blanc et un projecteur pour les discussions techniques improvisées ou les démos de coin de table.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Spring AI</title>
+      <link>https://www.toulousejug.org/post/2026-03-12-soiree-spring-ai/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2026-03-12-soiree-spring-ai/</guid>
+      <description>Nouvelle soirée du Java User Group Toulousain le jeudi 12 mars à 19h !
+Pour cette occasion, nous nous retrouverons chez Epitech Toulouse.
+Bien débuter avec Spring AI - par Florian Beaufumé Spring AI est une librairie de la famille Spring servant à simplifier l&amp;rsquo;utilisation des LLM dans nos applications Spring Boot. Elle supporte plusieurs fournisseurs de LLM (OpenAI, Google, Anthropic, Mistral, Ollama, etc) et de nombreuses fonctionnalités dont chatbots, RAG, MCP et agents.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Java async/await</title>
+      <link>https://www.toulousejug.org/post/2025-12-11-soiree-java-async-await/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-12-11-soiree-java-async-await/</guid>
+      <description>Nouvelle soirée du Java User Group Toulousain le jeudi 11 décembre à 19h, chez Epitech Toulouse.
+Retour d&amp;rsquo;un speaker local habitué des talks pointus autour de la concurrence, de la programmation fonctionnelle et des langages de programmation et de leurs particularités : Didier Plaindoux !
+Async/Await et Java - par Didier Plaindoux Les langages populaires tels que JavaScript, Rust, Swift, Kotlin ou Dart fournissent une construction spécifique pour le style de programmation asynchrone basée sur une extension du language ce qui n&amp;rsquo;est pas la cas pour Java.</description>
+    </item>
+    
+    <item>
+      <title>Soirée Spring Boot: Chapitre 4</title>
+      <link>https://www.toulousejug.org/post/2025-11-18-soiree-spring-boot-4/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-11-18-soiree-spring-boot-4/</guid>
+      <description>Le mardi 18 novembre à 19h, Stephane Nicoll reviendra au Toulouse JUG pour nous parler des nouveautés de Spring Boot 4 et ça se passera chez Epitech Toulouse.
+Spring Boot: Chapitre 4 - par Stéphane Nicoll Spring Boot 4.0 est prévu pour novembre prochain. Même si la baseline reste toujours à Java 17, c’est l’occasion idéale de profiter des nouveautés du langage et du framework. Stéphane commencera par mettre à jour une application existante vers Spring Boot 4.</description>
+    </item>
+    
+    <item>
+      <title>JUGxDevFest — Track communautés / Florian Beaufumé — Spring AI</title>
+      <link>https://www.toulousejug.org/post/2025-11-13-jugxdevfest-spring-ai/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-11-13-jugxdevfest-spring-ai/</guid>
+      <description>Événement spécial : le Toulouse JUG vous invite à participer à la track communauté du DevFest le jeudi 13 novembre à 11h55 en salle Occitanie.
+Cette session n&amp;rsquo;est accessible qu&amp;rsquo;aux visiteurs munis d&amp;rsquo;un billet pour le DevFest Toulouse 2025.
+Une superbe initiative de la part des organisateurs du DevFest Toulouse : dédier une salle, toute la journée, pour valoriser les communautés locales et meetups de la région.
+Pour nous, le sujet ce sera Spring AI !</description>
+    </item>
+    
+    <item>
+      <title>Soirée Apache Flink</title>
+      <link>https://www.toulousejug.org/post/2025-11-12-soiree-apache-flink/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-11-12-soiree-apache-flink/</guid>
+      <description>Le mercredi 12 novembre à 19h, veille du DevFest Toulouse 2025, chez Epitech Toulouse, le Toulouse JUG accueillera un nouveau Java Champion, Viktor Gamov de passage en ville pour la conférence !
+Le talk sera en anglais.
+Apache Flink for Java Developers - par Viktor Gamov Stream Processing has evolved quickly in a short time: only a few years ago, it was mostly simple real-time aggregations with limited throughput and consistency.</description>
+    </item>
+    
+    <item>
+      <title>Soirée LangChain4j avec António Gonçalves</title>
+      <link>https://www.toulousejug.org/post/2025-10-21-soiree-langchain4j/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-10-21-soiree-langchain4j/</guid>
+      <description>Regardez, nous aussi on parle IA ! 😅
+Au Java User Group de Toulouse nous aurons le plaisir d&amp;rsquo;accueillir le très renommé António Gonçalves le mardi 21 octobre à 19h chez Epitech Toulouse.
+Développeur, auteur, conférencier, organisateur et Java Champion, António nous a contacté pour nous proposer son dernier sujet suite à la sortie de son livre sur LangChain4j : 1h30 de live coding et quelques slides sur l&amp;rsquo;intégration d&amp;rsquo;IA dans les applications Java d&amp;rsquo;entreprise !</description>
+    </item>
     
     <item>
       <title>Soirée java.lang avec Rémi Forax</title>
@@ -19,6 +96,16 @@
       <description>Nouvelle soirée du Java User Group Toulousain le mardi 20 mai à 19h chez Epitech Toulouse.
 Rémi Forax nous a fait le plaisir de revenir dans la ville rose nous parse de Java, des objets et de l&amp;rsquo;histoire du langage !
 Plongée dans l&amp;rsquo;histoire de java.lang - par Rémi Forax Lorsque l&amp;rsquo;on alloue un objet en Java, en plus des champs, la machine virtuelle ajoute un &amp;ldquo;header&amp;rdquo; qui permet de répondre à des questions comme object.</description>
+    </item>
+    
+    <item>
+      <title>Deviens Conférencier au DevFest</title>
+      <link>https://www.toulousejug.org/post/2025-04-28-deviens-conferencier-au-devfest/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.toulousejug.org/post/2025-04-28-deviens-conferencier-au-devfest/</guid>
+      <description>🤩 Le monde est petit, et il y a finalement assez peu de personnes derrière les évènements tech toulousains. Donc une fois n&amp;rsquo;est pas coutume, nous nous sommes retrouvés et avons décidé d&amp;rsquo;organiser un évènement tous ensemble pour faire venir un maximum de personnes. Les inscriptions se passent sur la page du meetup GDG =&amp;gt; https://www.meetup.com/gdg-toulouse/events/306950448/
+✨ Un meetup un peu particulier pour fêter le lancement du call-for-paper du DevFest Toulouse : comment devenir conférencier dans un évènement ?</description>
     </item>
     
     <item>
