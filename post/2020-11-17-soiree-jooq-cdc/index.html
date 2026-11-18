@@ -30,7 +30,7 @@ JOOQ, joy of SQL - par Kevin Davin (@davinkevin) Et si l&rsquo;on reprenait le c
   <link rel="canonical" href="//post/2020-11-17-soiree-jooq-cdc/" />
   <link rel="alternate" href="https://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
   <link rel="stylesheet" href="https://www.toulousejug.org/css/index.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://www.toulousejug.org/css/syntax.css" />
 
   <script src="https://www.toulousejug.org/js/jquery.min.js"></script>
@@ -219,6 +219,28 @@ JOOQ, joy of SQL - par Kevin Davin (@davinkevin) Et si l&rsquo;on reprenait le c
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </nav>
   </div>
 </header>
@@ -240,7 +262,7 @@ JOOQ, joy of SQL - par Kevin Davin (@davinkevin) Et si l&rsquo;on reprenait le c
             <p>Encore une soirée en remote.</p>
 <p>Un énorme merci à la fondation Eclipse de nous permettre d&rsquo;utiliser leur compte
 &ldquo;Jakarta EE for JUGs&rdquo; sur la plateforme <a href="https://www.crowdcast.io/jakarta4jugs">crowdcast.io</a>.</p>
-<h3 id="jooq-joy-of-sql---par-kevin-davin-hahahugoshortcode-s0-hbhb">JOOQ, joy of SQL - par Kevin Davin (<a href="https://twitter.com/davinkevin" title="davinkevin" target="_blank">@davinkevin</a>)</h3>
+<h3 id="jooq-joy-of-sql---par-kevin-davin-hahahugoshortcode-s0-hbhb">JOOQ, joy of SQL - par Kevin Davin (<a href="https://x.com/davinkevin" title="davinkevin" target="_blank">@davinkevin</a>)</h3>
 <p>Et si l&rsquo;on reprenait le contrôle de nos interactions avec notre base de données préférée? Car en vrai, nos BDD sont des monstres de puissance qui sont souvent sous exploités sweat. Nous verrons, avec JOOQ, comment écrire des requêtes SQL simples ou évolués, le tout facilement et de manière type-safe !</p>
 <p>Venez découvrir cette superbe librairie OpenSource, compatible Java, Kotlin &amp; Scala, qui va vous permettre de vous simplifier la vie et d&rsquo;améliorer votre code… et même de découvrir de super fonctionnalités SQL que vous n&rsquo;imaginiez même pas.</p>
 <p>Lien des slides : <a href="https://docs.google.com/presentation/d/1YKk47FWeQqEIUVRHBKHSx7cigFGfeMV5QBYqe-dnHjE">https://docs.google.com/presentation/d/1YKk47FWeQqEIUVRHBKHSx7cigFGfeMV5QBYqe-dnHjE</a></p>
@@ -250,7 +272,7 @@ JOOQ, joy of SQL - par Kevin Davin (@davinkevin) Et si l&rsquo;on reprenait le c
   <iframe src="https://www.youtube.com/embed/iXup-CqXdvc?start=484" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 </p>
-<h3 id="a-change-data-capture-use-case-designing-an-evergreen-cache---par-nicolas-frankel-hahahugoshortcode-s2-hbhb">A Change-Data-Capture use-case: designing an evergreen cache - par Nicolas Frankel (<a href="https://twitter.com/nicolas_frankel" title="nicolas_frankel" target="_blank">@nicolas_frankel</a>)</h3>
+<h3 id="a-change-data-capture-use-case-designing-an-evergreen-cache---par-nicolas-frankel-hahahugoshortcode-s2-hbhb">A Change-Data-Capture use-case: designing an evergreen cache - par Nicolas Frankel (<a href="https://x.com/nicolas_frankel" title="nicolas_frankel" target="_blank">@nicolas_frankel</a>)</h3>
 <p>When one’s app is challenged with poor performances, it’s easy to set up a cache in front of one’s SQL database. It doesn’t fix the root cause (e.g. bad schema design, bad SQL query, etc.) but it gets the job done. If the app is the only component that writes to the underlying database, it’s a no-brainer to update the cache accordingly, so the cache is always up-to-date with the data in the database.</p>
 <p>Things start to go sour when the app is not the only component writing to the DB. Among other sources of writes, there are batches, other apps (shared databases exist unfortunately), etc. One might think about a couple of ways to keep data in sync i.e. polling the DB every now and then, DB triggers, etc. Unfortunately, they all have issues that make them unreliable and/or fragile.</p>
 <p>You might have read about Change-Data-Capture before. It’s been described by Martin Kleppmann as turning the database inside out: it means the DB can send change events (SELECT, DELETE and UPDATE) that one can register to. Just opposite to Event Sourcing that aggregates events to produce state, CDC is about getting events out of states. Once CDC is implemented, one can subscribe to its events and update the cache accordingly. However, CDC is quite in its early stage, and implementations are quite specific.</p>

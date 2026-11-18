@@ -31,7 +31,7 @@ Avec Julien on a pensé que cette présentation sur les GC concurrents, même si
   <link rel="canonical" href="//post/2020-05-14-soiree-gc-concurrents/" />
   <link rel="alternate" href="https://www.toulousejug.org/index.xml" type="application/rss+xml" title="Toulouse JUG">
   <link rel="stylesheet" href="https://www.toulousejug.org/css/index.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://www.toulousejug.org/css/syntax.css" />
 
   <script src="https://www.toulousejug.org/js/jquery.min.js"></script>
@@ -220,6 +220,28 @@ Avec Julien on a pensé que cette présentation sur les GC concurrents, même si
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </nav>
   </div>
 </header>
@@ -249,7 +271,7 @@ concurrents.</p>
 vue à d&rsquo;autres conférences, était très intéressante et vallait la peine d&rsquo;être
 rejouée. Nous remercions chaleureusement Jean-Philippe d&rsquo;avoir partagé ses
 connaissances avec nous !</p>
-<h3 id="comprendre-les-gc-sur-la-jvm--mode-avancé----par-jean-philippe-bempel-hahahugoshortcode-s0-hbhb">Comprendre les GC sur la JVM : Mode Avancé ! - par Jean-Philippe Bempel (<a href="https://twitter.com/jpbempel" title="jpbempel" target="_blank">@jpbempel</a>)</h3>
+<h3 id="comprendre-les-gc-sur-la-jvm--mode-avancé----par-jean-philippe-bempel-hahahugoshortcode-s0-hbhb">Comprendre les GC sur la JVM : Mode Avancé ! - par Jean-Philippe Bempel (<a href="https://x.com/jpbempel" title="jpbempel" target="_blank">@jpbempel</a>)</h3>
 <p>Depuis quelques années, le monde du GC sur la JVM évolue : G1 est par défaut sur le JDK9, Shenandoah est mis à disposition par Red Hat, un nouveau GC entre dans l&rsquo;OpenJDK depuis le JDK 11: ZGC et Azul C4 est toujours là.</p>
 <p>Comme les GC &ldquo;classiques&rdquo; sont plutôt bien compris maintenant, cette présentation s&rsquo;attardera sur les arcanes des plus récents. Nous allons expliquer le concurrent marking (tri-color marking), les specificités de G1, la Load Value Barrier de C4, les Brooks pointers de Shenandoah et le multi-mapping de ZGC.</p>
 <p>== À propos du speaker</p>
